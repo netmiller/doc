@@ -1,4 +1,6 @@
 doc
 ===
 
-Docs,tips,etc.
+Netmiller public docs etc.
+
+See sub-directories for topics.
