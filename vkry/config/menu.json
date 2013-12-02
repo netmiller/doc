@@ -25,6 +25,7 @@
 			"key": "Sivujen ylläpito",
 			"values": [
                 { "key": "Ylläpitonäkymä", "href": "pages/yllapito-yleista.md" },
+                { "key": "Etusivun tiedot", "href": "pages/etusivun-yllapito.md" },
 				{ "key": "Uutisten lisääminen", "href": "pages/uutisten-lisaaminen.md" },
 				{ "key": "Uutisten otsikointi ja sisältö", "href": "pages/uutisten-otsikointi.md" },
 				{ "key": "Etusivun ylläpito", "href": "pages/etusivun-yllapito.md" },
@@ -50,7 +51,7 @@
         {
             "key": "Muiden tietojen ylläpito",
             "values": [
-                { "key": "Etusivulla olevat tiedot", "href": "pages/etusivun-tiedot.md" }
+                { "key": "Etusivulla olevat tekstit", "href": "pages/etusivun-perustiedot.md" }
             ]
         },
 		{
