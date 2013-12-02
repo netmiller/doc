@@ -44,7 +44,7 @@
         {
             "key": "Valikoiden ylläpito",
             "values": [
-                { "key": "Päävalikon ylläpito", "href": "pages/paavalikon-yllapito.md" }
+                { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" }
             ]
         },
         {
