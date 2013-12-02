@@ -78,9 +78,11 @@ Kuvien käsittelystä on tarkemmin sivulla [Kuvien käyttö artikkeleissa][24].
 </figure>
 
 
-Alareuna "Sivukatko" -nappulalla ei ole paljoakaan käyttöä, se tekee vain tulostusta varten sivukatkon, mutta www-sivut on tarkoitettu ruudulla katseltaviksi joten sillä ei sen takia ole paljon käyttöä.
+Alareuna "Sivukatko" -nappulalla ei ole paljoakaan käyttöä, se tekee vain tulostusta varten sivukatkon,
+mutta www-sivut on tarkoitettu ruudulla katseltaviksi joten sillä ei sen takia ole paljon käyttöä.
 
-PDF-tulosteet on eri asia, siinä tällä nappulalla ei ole mitään merkitystä, koska PDF itse määrittää miten tulostus menee ja missä sivukatkot tehdään.
+PDF-tulosteet on eri asia, siinä tällä nappulalla ei ole mitään merkitystä,
+koska PDF itse määrittää miten tulostus menee ja missä sivukatkot tehdään.
 
 
 ## 5. "Lue lisää" -toiminto
@@ -165,4 +167,4 @@ __Sulje__
 [21]: pages/uutisten-lisaaminen.md
 [22]: pages/sivujen-lisaaminen.md
 [23]: pages/uutisten-otsikointi.md
-[24]: pages/kuvien-kasittely.md
+[24]: pages/kuvien-kaytto.md
