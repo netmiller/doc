@@ -57,9 +57,9 @@
 		{
 			"key": "Tekninen toteutus",
 			"values": [
-				{ "key": "Ohjelmistosta" },
-				{ "key": "Palvelimesta" },
-				{ "key": "Varmistukset" }
+				{ "key": "Ohjelmistosta", "href": "pages/ohjelmistosta.md" },
+				{ "key": "Palvelimesta", "href": "pages/palvelimesta.md" },
+				{ "key": "Varmistukset", "href": "pages/varmistuksista.md" }
 			]
 		}
 	]
