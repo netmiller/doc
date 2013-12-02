@@ -10,7 +10,7 @@
 		<ul>\
 			<% _.each(context, function(parent, index) { %>\
 			<li class="section">\
-				<span class="menu-1"><%= parent.key %><i class="fa fa-chevron-up"></i></span>\
+				<span class="menu-1"><%= parent.key %><i class="glyphicon glyphicon-chevron-up"></i></span>\
 				<% if (options.startCollapsed) { %>\
 				<ul style="display: none;">\
 				<% } else { %>\
@@ -18,7 +18,7 @@
 				<% } %>\
 					<% _.each(parent.values, function(child, index) { %>\
 					<li class="page" id="<%= child.href %>">\
-					    <i class="fa fa-caret-right"></i><%= child.key %>\
+					    <i class="glyphicon glyphicon-edit"></i><%= child.key %>\
 					</li>\
 					<% }); %>\
 				</ul>\
@@ -32,15 +32,15 @@
 
 		// Change the icon.
 		if (jNode.children('ul').is(':visible')) {
-			// tehdaan collapse
+			// tehdään collapse
 			jNode.children('span').children('i')
-                .removeClass('fa-chevron-up')
-				.addClass('fa-chevron-down');
+                .removeClass('glyphicon-chevron-up')
+				.addClass('glyphicon-chevron-down');
 		} else {
-			// tehdaan expand -toiminto
+			// muuten tehdään expand -toiminto
 			jNode.children('span').children('i')
-                .removeClass('fa-chevron-down')
-                .addClass('fa-chevron-up');
+                .removeClass('glyphicon-chevron-down')
+                .addClass('glyphicon-chevron-up');
 		}
 	}
 
