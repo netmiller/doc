@@ -1,0 +1,65 @@
+{
+    "meta": {
+        "versio": "0.7",
+        "author": "Esa.Laitila@netmiller.fi",
+        "desc": "Vakuutuskassat ry - www-dokumentaation valikko",
+        "default_page": "pages/etusivu.md"
+    },
+	"menu": [
+		{
+			"key": "Etusivu",
+			"values": [
+				{ "key": "Etusivulle", "href": "pages/etusivu.md" }
+			]
+		},
+		{
+			"key": "Yleistietoa",
+			"values": [
+				{ "key": "Yleistietoa www-sivuista", "href": "pages/yleistietoa.md" },
+				{ "key": "Termistö/sanasto", "href": "pages/termit.md" },
+				{ "key": "Kirjautuminen", "href": "pages/kirjautuminen.md" },
+				{ "key": "Salasanan vaihtaminen", "href": "pages/salasanan-vaihto.md" }
+			]
+		},
+		{
+			"key": "Sivujen ylläpito",
+			"values": [
+                { "key": "Ylläpitonäkymä", "href": "pages/yllapito-yleista.md" },
+				{ "key": "Uutisten lisääminen", "href": "pages/uutisten-lisaaminen.md" },
+				{ "key": "Uutisten otsikointi ja sisältö", "href": "pages/uutisten-otsikointi.md" },
+				{ "key": "Etusivun ylläpito", "href": "pages/etusivun-yllapito.md" },
+				{ "key": "Muiden sivujen lisääminen", "href": "pages/sivujen-lisaaminen.md" },
+				{ "key": "Sivujen muuttaminen", "href": "pages/sivujen-muuttaminen.md" },
+				{ "key": "Julkaisupäivämäärät", "href": "pages/julkaisupvm.md" },
+				{ "key": "Tekstieditorin käyttäminen", "href": "pages/tekstieditorin-kaytto.md" }
+			]
+		},
+		{
+			"key": "Mediatiedostot",
+			"values": [
+                { "key": "Mediatiedostojen lisääminen", "href": "pages/mediatiedostot.md" },
+                { "key": "Kuvien käyttö artikkeleissa", "href": "pages/kuvien-kaytto.md" }
+			]
+		},
+        {
+            "key": "Valikoiden ylläpito",
+            "values": [
+                { "key": "Päävalikon ylläpito", "href": "pages/paavalikon-yllapito.md" }
+            ]
+        },
+        {
+            "key": "Muiden tietojen ylläpito",
+            "values": [
+                { "key": "Etusivulla olevat tiedot", "href": "pages/etusivun-tiedot.md" }
+            ]
+        },
+		{
+			"key": "Tekninen toteutus",
+			"values": [
+				{ "key": "Ohjelmistosta" },
+				{ "key": "Palvelimesta" },
+				{ "key": "Varmistukset" }
+			]
+		}
+	]
+}
