@@ -30,43 +30,53 @@ Seuraavat kohdat kuitenkin liittyvät sisältöön, ja ovat ylläpidettävissä.
 </figure>
 
 
-__(1) vakuutuskassat-yleista__
+__(1) vakuutuskassat-etusivun-kuva__
+
+*   sisältää etusivulla alussa vas.puolella olevan (ison) kuvan
+
+
+__(2) vakuutuskassat-yleista__
 
 *   tämä moduuli näyttää etusivun alussa kuvan oik.puolella olevan tekstilaatikon.
 
-__(2) etusivun-katko-1__
+__(3) vakuutuskassat-video__
 
-*   tekee pienen varjostetun väliviivan etusivulle (kuvan ja alkutekstin jälkeen).
+*   tämä moduuli näyttää etusivulla olevan linkin esittelyvideoon
 
-__(3) organisaatio__
+__(4) etusivun-katko-1__
 
-*   sisältää tekstin joka muodostaa etusivun vaaleansinisen tekstilaatikon "ORGANISAATIO".
+*   tekee pienen varjostetun väliviivan etusivulle (kuvan ja alkutekstin jälkeen)
 
-__(4) sijainti__
+__(5) organisaatio__
 
-*   sisältää tekstin ja kuvan, josta muodostuu etusivun pieni laatikko "SIJAINTI".
+*   sisältää tekstin joka muodostaa etusivun vaaleansinisen tekstilaatikon "ORGANISAATIO"
 
-__(5) alareuna-valiviiva__
+__(6) sijainti__
 
-*   tekee taas pienen varjostetun väliviivan erottaman Sijainti-laatikon alapuolella olevat osiot ylemmistä.
+*   sisältää tekstin ja kuvan, josta muodostuu etusivun pieni laatikko "SIJAINTI"
 
-__(6) alareuna-osoitetiedot__
+__(7) footer__
 
-*   sisältää tekstin joka näytetään etusivun alareunassa vas.puolella. Tällä hetkellä siellä on Vakuutuskassat ry:n osoitetiedot.
+*   sisältää tekstin joka näytetään jokaisen sivun alareunassa (musta laatikko)
+*   sis. jonkun lauseen tekijänoikeuksien suojaamisesta tai muuta yleistä
 
-__(7) alareuna-kuva__
+__(8) alareuna-valiviiva__
+
+*   tekee taas pienen varjostetun väliviivan erottaman Sijainti-laatikon alapuolella olevat osiot ylemmistä
+
+__(9) alareuna-osoitetiedot__
+
+*   sisältää tekstin joka näytetään etusivun alareunassa vas.puolella
+*   tällä hetkellä siellä on Vakuutuskassat ry:n osoitetiedot
+
+__(10) alareuna-kuva__
 
 *   sisältää pienen kuvan joka näytettän etusivun alareunassa keskellä
 
-__(8) alareuna-toiminnanjohtaja__
+__(11) alareuna-toiminnanjohtaja__
 
-*   sisältää tekstin joka näytetään etusivun alareunassa oik.puolella. Tällä hetkellä siellä on toiminnanjohtajan yhteystiedot.
-
-__(9) footer__
-
-*   sisältää tekstin joka näytetään jokaisen sivun alareunassa (musta laatikko).
-*   sis. jonkun lauseen tekijänoikeuksien suojaamisesta tai muuta yleistä
-
+*   sisältää tekstin joka näytetään etusivun alareunassa oik.puolella
+*   tällä hetkellä siellä on toiminnanjohtajan yhteystiedot
 
 
 
@@ -76,15 +86,15 @@ Kaikki moduulit avataan valitsemalla nimi-tieto.
 
 Jokaisessa on myös muutamia perustietoja, joihin ei kannata tehdä muutoksia.
 
-Sensijaan alareunassa näkyy tekstieditori, jolla sisältöä voidaan tarvittaessa muuttaa. Muutosten tekeminen noudattaa samoja ohjeita jotka löytyy sivulta [wiki:TekstieditorinKaytto Tekstieditorin käyttäminen].
+Sensijaan alareunassa näkyy tekstieditori, jolla sisältöä voidaan tarvittaessa muuttaa.
 
-----
+Muutosten tekeminen noudattaa samoja ohjeita jotka löytyy sivulta [Tekstieditorin käyttäminen][10].
 
-??????
 
 
 
 [1]: kuvat/kuva57.png "Ruutumalli"
 [2]: kuvat/kuva58.png "Ruutumalli"
+[10]: pages/tekstieditorin-kaytto.md
 
 
