@@ -28,7 +28,6 @@
                 { "key": "Etusivun uutiset", "href": "pages/etusivun-uutiset.md" },
 				{ "key": "Uutisten lisääminen", "href": "pages/uutisten-lisaaminen.md" },
 				{ "key": "Uutisten otsikointi ja sisältö", "href": "pages/uutisten-otsikointi.md" },
-				{ "key": "Etusivun ylläpito", "href": "pages/etusivun-uutiset.md" },
 				{ "key": "Muiden sivujen lisääminen", "href": "pages/sivujen-lisaaminen.md" },
 				{ "key": "Sivujen muuttaminen", "href": "pages/sivujen-muuttaminen.md" },
 				{ "key": "Julkaisupäivämäärät", "href": "pages/julkaisupvm.md" },
