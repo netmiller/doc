@@ -1,0 +1,155 @@
+
+//- ------------------------------------------------------------
+//- Esa.Laitila@netmiller.fi
+//- 2013-12-01
+//- ------------------------------------------------------------
+
+//- @import url("http://fonts.googleapis.com/css?family=Varela\+Round")
+
+body
+    margin: 0
+    background-color: #F4F4F4
+    /*background-color: #FCFCFC;*/
+
+#header
+    height: 50px
+    margin: 0 0 2px 0
+    padding: 2px 0 0 10px
+    //- font-family: 'Varela Round', Arial, helvetica, sans-serif
+    font-family: 'Geneva', Arial, helvetica, sans-serif
+    //- font-family: 'Helvetica Neue', Arial, helvetica, sans-serif
+    font-size: 18px
+    font-weight: 300
+    color: #FFF
+    //- background: #686868 url(css/img/hdr_bg_2.png) repeat-x top left
+    background: #4F4F4F url(img/hdr_bg_2.png) repeat-x top left
+
+#header #netmiller
+    float: left
+    //height: 30px
+    margin: 12px 0 0 5px
+    padding: 5px 0 0 40px
+    background: transparent url(img/folder_32.png) no-repeat top left
+
+#header #customer
+    float: left
+    margin: 15px 0 0 120px
+
+#wrapper
+    position:relative
+    width: 960px
+    margin: 0 auto !important
+    margin-top: 0
+
+#right-bg
+    float: right
+    background: #FFF
+    width: 700px
+    border-left: 1px solid lightgray
+
+#left-bg
+    float: left
+    background: #FFF
+    width: 260px
+    margin-left: -262px
+
+#over-both
+    margin-top: 0
+    float: left
+    width: 960px
+    min-height: 1100px
+    border: 1px solid lightgray
+    -webkit-border-radius-radius: 4px
+    -moz-border-radius: 4px
+    border-radius: 4px
+
+#leftcol
+    float: left
+    width: 260px
+    padding: 10px
+
+#rightcol
+    float: left
+    width: 690px
+    padding: 0
+
+#page
+  padding: 0 0 0 20px
+
+#nappulat
+  margin: 0 0 10px 10px
+  font-size: 12px
+  button
+    //- background-color: #D0D0D0
+  span.glyphicon
+    font-size: 12px
+    color: green
+
+//- li
+//-   height: auto
+
+#listTree
+  font-family: 'Arial','Helvetica Neue',helvetica,sans-serif
+  font-size: 13px
+
+  ul
+    margin: 0
+    padding: 0
+
+  li.section
+    span
+      padding-left: 10px
+      font-weight: 600
+      border-top: 1px solid #D0D0D0
+    i
+      float: right
+      margin: 3px 5px 0 0
+      font-size: 10px
+
+  li.page
+    display: inline-block
+    width: 100%
+    padding: 3px
+    font-weight: 400
+    padding-left: 15px
+    i
+      float: left
+      margin: 3px 5px 0 0
+      color: green
+
+  li
+    list-style-type: none
+    cursor: pointer
+
+  & > ul > li
+    background-color: #F1F1F1
+    span i.fa
+      color: gray
+
+  span
+    display: inline-block
+    width: 100%
+    padding: 3px
+
+  //- span.page a
+  //-   color: #000
+  //-   text-decoration: none
+
+  & > ul > li > ul > li
+    background-color: #fff
+    border-width: 1px 0 0 0
+    border-style: solid
+    border-color: #ddd
+    padding-left: 10px
+
+  & > ul > li > ul > li:first-child
+    border-width: 1px 0 0 0
+
+  & > ul > li > ul > li:last-child
+    border-width: 1px 0 0 0
+
+//- Todo: ei onnistunut niin että myös strong olisi sama kuin body eli 'Varela Round' ????
+//- pikakorjaus tällä tavalla
+strong
+  //- font-family: 'Helvetica Neue', Arial helvetica, sans-serif
+  font-weight: 700

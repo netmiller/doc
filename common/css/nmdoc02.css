@@ -1,0 +1,10 @@
+body{margin:0;padding:0;background-color:#f4f4f4}
+#header{float:left;height:55px;margin:0 0 2px 0;padding:2px 0 0 10px;color:#fff;background:#4f4f4f url("img/hdr_bg_2.png") repeat-x top left;}
+#header div#netmiller{float:left;height:30px;font-size:20px;font-weight:300;font-family:'Century Gothic',Arial,helvetica,sans-serif;margin-top:18px;padding:0 100px 0 40px;background:transparent url("img/folder_32.png") no-repeat top left}
+#header div#customer{float:left;height:30px;font-size:20px;font-weight:300;font-family:'helvetica neue',Arial,helvetica,sans-serif;margin-top:18px}
+#wrapper{position:relative;width:960px;margin:0 auto}
+#right-bg{float:right;background:#fff;width:700px;border-left:1px solid #d3d3d3}
+#left-bg{float:left;background:#fff;width:260px;margin-left:-262px}
+#over-both{margin-top:0;float:left;width:960px;min-height:1100px;border:1px solid #d3d3d3;-webkit-border-radius-radius:4px;-moz-border-radius:4px;border-radius:4px}
+#leftcol{float:left;width:240px;padding:10px}
+#rightcol{float:left;width:680px;padding:10px}
