@@ -1,4 +1,4 @@
-# Etusivun hallintanäkymä
+# Etusivun uutiset
 
 Etusivun uutiset ovat artikkeleita, jotka on Joomlassa määritetty termillä __Nostetut artikkelit__.
 
