@@ -7,7 +7,7 @@ ja lisäksi niitä voi käyttää koko ajan menemättä aina ohjauspaneelin kaut
 
 Joihinkin toimintoihin valikoiden kautta pääsee nopeamminkin kuin Ohjauspaneelista.
 
-<figure class="fig-n" style="margin:10px 0 0 0">
+<figure class="fig-n border" style="margin:10px 0 0 0">
 ![1][]
 <figcaption>Kuva05: Ruutumalli ohjauspaneelista</figcaption>
 </figure>
