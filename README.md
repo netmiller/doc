@@ -3,5 +3,5 @@ doc
 
 Netmiller public docs etc.
 
-(no content yet, sorry)
+Contains some project docs (sub-folders)
 
