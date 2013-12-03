@@ -3,7 +3,7 @@ body{font-family:"Lato",Arial,Helvetica,sans-serif;font-size:13px;font-weight:40
 body > *:first-child{margin-top:0 !important}
 body > *:last-child{margin-bottom:0 !important}
 a{color:#4183c4}
-h1,h2,h3,h4,h5,h6{margin:20px 0 10px;padding:0;font-family:"Lato",Arial,Helvetica,sans-serif;font-weight:bold;-webkit-font-smoothing:antialiased;cursor:text;position:relative;clear:both}
+h1,h2,h3,h4,h5,h6{margin:20px 0 10px 0;padding:0;font-family:"Lato",Arial,Helvetica,sans-serif;font-weight:bold;-webkit-font-smoothing:antialiased;cursor:text;position:relative;clear:both}
 h1:hover a.anchor,h2:hover a.anchor,h3:hover a.anchor,h4:hover a.anchor,h5:hover a.anchor,h6:hover a.anchor{text-decoration:none}
 h1 tt,h1 code{font-size:inherit}
 h2 tt,h2 code{font-size:inherit}
@@ -11,7 +11,7 @@ h3 tt,h3 code{font-size:inherit}
 h4 tt,h4 code{font-size:inherit}
 h5 tt,h5 code{font-size:inherit}
 h6 tt,h6 code{font-size:inherit}
-h1{font-size:24px;color:#006400;padding-left:30px;border-bottom:1px solid #ccc;background:transparent url("img/folder_page_white.png") no-repeat left center}
+h1{font-size:24px;color:#006400;margin-top:10px;padding-left:30px;border-bottom:1px solid #ccc;background:transparent url("img/folder_page_white.png") no-repeat left center}
 h2{font-size:18px;border-bottom:1px solid #ccc;padding-left:27px;background:transparent url("img/note.png") no-repeat center left}
 h3{font-size:18px}
 h4{font-size:16px}

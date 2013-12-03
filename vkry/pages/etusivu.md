@@ -4,7 +4,7 @@ Tämä sivusto on tarkoitettu __Vakuutuskassat ry:n www-sivujen ylläpidon ohjei
 
 ----
 
-<figure class="fig-n" style="margin:25px;width:560px;">
+<figure class="fig-n border" style="margin:25px;width:560px">
 ![1][]
 <figcaption>Kuva01: ruutumalli sivuston alusta</figcaption>
 </figure>

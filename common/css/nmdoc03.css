@@ -1,7 +1,7 @@
 body{margin:0;background-color:#f4f4f4}
-#header{height:50px;margin:0 0 2px 0;padding:2px 0 0 10px;font-family:'Geneva',Arial,helvetica,sans-serif;font-size:18px;font-weight:300;color:#fff;background:#4f4f4f url("img/hdr_bg_2.png") repeat-x top left}
-#header #netmiller{float:left;margin:12px 0 0 5px;padding:5px 0 0 40px;background:transparent url("img/folder_32.png") no-repeat top left}
-#header #customer{float:left;margin:15px 0 0 120px}
+#header{height:50px;margin:0 0 1px 0;padding:2px 0 0 10px;font-family:'Geneva',Arial,helvetica,sans-serif;font-size:18px;font-weight:300;color:#fff;background:transparent url("img/bg5.png") repeat-x top left}
+#header #netmiller{float:left;margin:5px 0 0 5px;padding:5px 0 0 40px;background:transparent url("img/folder_32.png") no-repeat top left}
+#header #customer{float:left;margin:5px 0 0 120px;padding:5px 0 0 0}
 #footer{float:left;min-height:10px;background-color:#fff}
 #wrapper{position:relative;width:960px;margin:0 auto !important;margin-top:0}
 #right-bg{float:right;background:#fff;width:700px;border-left:1px solid #d3d3d3}
