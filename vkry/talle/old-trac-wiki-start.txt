@@ -1,0 +1,50 @@
+*******************************************************************************
+2013-12-03 Esa.Laitila@netmiller.fi
+Tässä on vanhan Trac:ssä olleen wiki:n etusivu : WikiStart
+Voimassaolevassa on vaan uudelleenohjaus Github:ssa olevaan uuteen versioon.
+Tämä on vaan varmistuksena mitä siellä on alunperin ollut.
+*******************************************************************************
+
+
+Tämä sivusto on tarkoitettu **Vakuutuskassat ry:n www-sivujen ylläpidon ohjeistamiseen**.
+
+[[TracNav(Toc)]]
+
+[[Image(htdocs:/kuvat/kuva_102.png)]]
+
+Nämä ohjeet on tehty omatoimista www-sivujen ylläpitoa varten, jolloin voidaan itse tehdä kaikki sisältöön vaikuttavat muutokset; esim. uudet tiedotteet ja vanhojen sivujen muutokset tms.
+
+Myös kokonaan uudet sivut  voidaan tehdä näiden ohjeiden mukaan.
+
+== Sivustojen URL-osoitteet ==
+
+- http://www.vakuutuskassat.fi (kaikille avoinna oleva osio, ts. varsinaiset www-sivut)
+- http://www.vakuutuskassat.fi/administrator (VAIN YLLÄPITOON tarkoitettu osio)
+
+Ym. osoitteet ovat siis voimassa sen jälkeen kun sivut on otettu tuotantoon.\\
+Siihen saakka käytetään **testikonetta**, jossa löytyy seuraavat URL-osoitteet
+
+- http://vkry-test.netmiller.fi  (vastaa kaikille avointa osiota)
+- http://vkry-test.netmiller.fi/administrator  (vastaa YLLÄPIDON SIVUJA)
+
+Testikoneella voidaan testata ja harjoitella vapaasti, jolloin saadaan tuntuma sivujen omatoimiseen ylläpitoon.
+
+----
+
+[[Image(htdocs:/kuvat/kuva_103.png)]]
+
+Ylläpitonäkymä tarvitsee  **aina käyttäjätunnuksen ja salasanan**.\\
+Tunnukset saa Netmilleriltä, jos ne on unohtuneet tms.
+
+Lisätietoja kannattaa kysyä:
+http://www.netmiller.fi, Esa Laitila.\\
+Yhteystiedot sivun alareunasta.
+
+----
+
+=== Tiedotteet ===
+
+ 2.1.2012 [Esa Laitila]::
+    Aloitetaan dokumentointi
+
+----
