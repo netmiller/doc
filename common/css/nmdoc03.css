@@ -26,4 +26,4 @@ body{margin:0;background-color:#f4f4f4}
 #listTree > ul > li > ul > li:first-child{border-width:1px 0 0 0}
 #listTree > ul > li > ul > li:last-child{border-width:1px 0 0 0}
 strong{font-weight:700}
-code,kbd,pre,samp{font-size:12px !important}
+#page code,kbd,pre,samp{font-size:12px !important}
