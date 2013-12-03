@@ -26,7 +26,7 @@
 			<% }); %>\
 		</ul>';
 
-    // ----------------------------------------------------
+    // ---
 	// Toggle the collapse icon based on the current state.
 	function _toggleIcon(jNode) {
 
@@ -44,7 +44,14 @@
 		}
 	}
 
-    // ----------------------------------------------
+    // ---
+    function getAbsolutePath() {
+        var loc = window.location;
+        var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
+        return loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
+    }
+
+    // ---
 	var methods = {
 
 		init: function(context, options) {
@@ -73,7 +80,7 @@
 					$(document)
 
                         // .on('click', '#listTree > ul > li > span', function(e) {
-                        .on('click', '#listTree > ul > li, #listTree > ul > li > i.fa', function(e) {
+                        .on('click', '#listTree > ul > li, #listTree > ul > li > i.glyphicon', function(e) {
 						    //var node = $(e.target).parent();
 						    var node = $(e.target).parentsUntil( 'ul' );
 						    // Change the icon.
@@ -87,15 +94,9 @@
                         .on('click', '#listTree li.page', function(e) {
                             var haku = e.target.id || 'sivupuuttuu.md';
                             //console.log(haku);
-                            //console.log($(this));
-                            //$.get( haku, function (data) {
-                            //    console.log(haku);
-                            //    $( "#page" ).html( marked(data) );
-                            //});
-                            // testataan ajax-hakua
+                            // haetaan markdown-tiedosto ja renderöidään se sivulle
                             $.get( haku)
                                 .done(function( data ) {
-                                    //console.log(data);
                                     $( "#page" ).html( marked(data) );
                                 })
                                 .fail(function() {
@@ -105,28 +106,24 @@
                                     $.cookie("currPage", haku);
                                 });
                         })
-                        // testataan saadaanko linkin click-eventti kiinni
+                        // testataan linkin click-eventti
                         .on('click', '#page a', function(e) {
                             //console.log(e);
-
-                            e.preventDefault();
-
-                            console.log('a eventti: ' + e.target.href );
-                            //alert('a eventti: ' + e.target.href );
-                            //$("#page").load( "huu10.html #haku22" );
-
-                            //$.get(e.target.href, function (data) {
-                            //    $( "#page" ).html( marked(data) );
-                            //});
-
-                            $.get( e.target.href)
-                                .done(function( data ) {
-                                    //console.log(data);
-                                    $( "#page" ).html( marked(data) );
-                                })
-                                .fail(function() {
-                                    console.log( "linkki ei onnistu: " + e.target.href );
-                                })
+                            // testataan onko linkki samaan hakemistoon (=markdown)
+                            var ap = new RegExp(getAbsolutePath());
+                            if (e.target.href.search(ap) >= 0) {
+                                e.preventDefault();
+                                $.get( e.target.href)
+                                    .done(function( data ) {
+                                        $( "#page" ).html( marked(data) );
+                                    })
+                                    .fail(function() {
+                                        console.log( "linkki puuttuu: " + e.target.href );
+                                    })
+                            } else {
+                                // avataan aina uuteen ikkunaan
+                                e.target.target = '_blank';
+                            }
 
                         })
 

@@ -125,7 +125,7 @@ Testiympäristössä voi kokeilla kaikkea vapaasti.
 Kaikille artikkeleille (myös uutisille) voidaan lisätä myös kuvia ruudun alaosassa olevalla
 toimintopainikkeella __Kuva__.
 
-Kuvien käsittelystä on tarkemmin sivulla [Kuvien käsittely artikkeleissa][22].
+Kuvien käsittelystä on tarkemmin sivulla [Kuvien käyttö artikkeleissa][22].
 
 Ruudun alareunassa on myös toimintokuvake **Sivukatko**, jolla voisi pakottaa tekstiin sivunvaihdon,
 mutta sillä ei ole vaikutusta eikä merkitystä muualla kuin tulostettaessa. Ei juurikaan kannata käyttää koska nämä
@@ -193,7 +193,7 @@ Siitä on oma ohjeensa, joka löytyy valikosta tai suoraan [tästä linkistä][2
 [7]: kuvat/kuva15.png "Ruutumalli julkaisuasetuksista"
 [20]: pages/uutisten-otsikointi.md
 [21]: pages/tekstieditorin-kaytto.md
-[22]: pages/puuttuu-kuvien-kaytto.md
+[22]: pages/kuvien-kaytto.md
 [23]: pages/julkaisupvm.md
 
 
