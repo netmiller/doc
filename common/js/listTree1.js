@@ -46,9 +46,11 @@
 
     // ---
     function getAbsolutePath() {
-        var loc = window.location;
-        var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
-        return loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
+        //var loc = window.location;
+        //var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
+        //return loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
+        // tehdään sama Regexp:n avulla
+        return new RegExp('[^?]+/').exec(window.location.href);
     }
 
     // ---
@@ -90,38 +92,41 @@
 						    e.stopImmediatePropagation();
 					    })
 
+                        // ONKO TÄMÄ TURHA??? Tarkista tuo click:n kohde
                         // tahan voisi rakentaa oman logiikan href->id -vaihtoehdon tilalle
                         .on('click', '#listTree li.page', function(e) {
-                            var haku = e.target.id || 'sivupuuttuu.md';
+                            var haku = e.target.id || 'sivu-puuttuu.md';
                             //console.log(haku);
                             // haetaan markdown-tiedosto ja renderöidään se sivulle
                             $.get( haku)
                                 .done(function( data ) {
                                     $( "#page" ).html( marked(data) );
+                                    $.cookie("currPage", haku);
                                 })
                                 .fail(function() {
                                     console.log( "sivu puuttuu" );
                                 })
-                                .always(function() {
-                                    $.cookie("currPage", haku);
-                                });
                         })
-                        // testataan linkin click-eventti
+
+                        // testataan sivulla olevan linkin click-eventti
                         .on('click', '#page a', function(e) {
                             //console.log(e);
-                            // testataan onko linkki samaan hakemistoon (=markdown)
+                            var haku = e.target.href || 'sivu-puuttuu.md';
+                            // testataan onko linkki dokumentin sisäinen (=markdown)
                             var ap = new RegExp(getAbsolutePath());
                             if (e.target.href.search(ap) >= 0) {
                                 e.preventDefault();
-                                $.get( e.target.href)
+                                // haetaan markdown-tiedosto ja renderöidään se sivulle
+                                $.get( haku)
                                     .done(function( data ) {
                                         $( "#page" ).html( marked(data) );
+                                        $.cookie("currPage", haku);
                                     })
                                     .fail(function() {
-                                        console.log( "linkki puuttuu: " + e.target.href );
+                                        console.log( "linkki puuttuu: " + haku );
                                     })
+                            // muuten avataan ulkoinen linkki aina omaan ikkunaan
                             } else {
-                                // avataan aina uuteen ikkunaan
                                 e.target.target = '_blank';
                             }
 

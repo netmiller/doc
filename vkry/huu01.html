@@ -121,6 +121,10 @@
             $(document)
                 .on('click', '.menu-expand',function (e) {
                     $('#listTree').listTree('expandAll');
+                    console.log(new RegExp('[^?]+/').exec(location.href));
+                    //console.log(window);
+                    console.log(location);
+                    //console.log(history);
                 })
                 .on('click', '.menu-collapse',function (e) {
                     $('#listTree').listTree('collapseAll');
