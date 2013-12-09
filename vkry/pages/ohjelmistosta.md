@@ -32,5 +32,5 @@ Joomla 2.5  on ns. LTS-Joomla (Long Term Support).
 
 
 
-[1]: https://bitbucket.org/
+[1]: kuvat/kuva03.png "Joomla-tunnus"
 
