@@ -19,7 +19,7 @@ Lisääminen voidaan tehdä ohjauspaneelin painikkeesta: **Lisää uusi artikkel
 
 Toinen vaihtoehto on mennä ylhäällä olevan valikon kautta (Artikkelit) :
 
-(1) **Artikkeli** -> (2) **Artikkeleiden hallinta** -> (3) **Uusi**
+(1) **Artikkeli** -> (2) **Artikkeleiden hallinta** -> (3) **Lisää uusi artikkeli**
 
 <figure class="fig-n border" style="margin:0 0 30px 0">
 ![2][]
