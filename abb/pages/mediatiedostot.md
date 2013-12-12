@@ -7,7 +7,7 @@ Nämä täytyy ensin lisätä "Mediatiedostojen hallinta" -toiminnolla serverill
 ja sen jälkeen niitä on mahdollista poimia mukaan artikkeleihin ja vaikka uutisiin.
 
 
-## 1. Tiedostojen lisääminen ohjauspaneelista
+## Tiedostojen lisääminen ohjauspaneelista
 
 Lisääminen voidaan tehdä ohjauspaneelin painikkeesta: **Mediatiedostojen hallinta**
 
@@ -16,7 +16,7 @@ Lisääminen voidaan tehdä ohjauspaneelin painikkeesta: **Mediatiedostojen hall
 </figure>
 
 
-## 2. Mediatiedostojen hallintaruutu
+## Mediatiedostojen hallintaruutu
 
 Hallintaruutu näyttää seuraavalta :
 
@@ -31,7 +31,7 @@ PDF-tiedostoja varten on toinen alikansio eli __pdf-tiedostot__.
 
 
 
-## 3. Tiedostojen lisääminen
+## Tiedostojen lisääminen
 
 Valitaan ensio alikansio jonne tiedostoja halutaan laittaa mukaan.
 
@@ -56,7 +56,7 @@ Esimerkki :
 
 
 
-## 4. Tiedostojen poistaminen serveriltä
+## Tiedostojen poistaminen serveriltä
 
 Tiedostot voidaan poistaa hallintaikkusta helposti.
 
@@ -71,7 +71,7 @@ lähtee kaikki ruksatut tiedostot pois.
 </figure>
 
 
-## 5. Tiedostojen muuttaminen
+## Tiedostojen muuttaminen
 
 Joomla ei salli tiedostojen päällekirjoittamista (=uusi versio samasta tiedostosta), vaan se täytyy tehdä seuraavasti:
 

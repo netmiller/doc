@@ -2,7 +2,7 @@
 
 ## Sisältö
 
-Joomla-ohjelmistossa kaikki sisältö löytyy tietokannasta __(MySQL-kanta)__.
+Joomla-ohjelmistossa kaikki sisältö löytyy tietokannasta __(MySQL-tietokanta)__.
 
 Tietokanta varmistetaan www-palvelun toimesta niin että levyrikon tai muun vastaavan
 varalta tiedot voidaan aina palauttaa takaisin.
@@ -21,4 +21,3 @@ vain tarvitavat henkilöt (Tällä hetkellä Netmiller ainoastaan).
 
 
 [1]: https://bitbucket.org
-

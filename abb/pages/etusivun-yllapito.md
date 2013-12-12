@@ -6,7 +6,7 @@ Etusivulla on muutama tekstilaatikko, joiden sisältöä voidaan myös ylläpit�
 Niiden muutos tapahtuu kuitenkin hieman eri paikasta, joten tässä hieman ohjeistusta siihen.
 
 
-## 1. Moduulien hallinta
+## Moduulien hallinta
 
 Tietojen ylläpitäminen tehdään ylläpitonäkymän ylävalikosta. Se avataan seuraavasti :
 
@@ -20,7 +20,7 @@ Toiminto avaan näkymän jossa on paljon erilaisia Joomlan moduuleita,
 ja osa niistä on vain teknisessä toteutuksessa tarvittavia, eikä niiden ylläpitoon ole tarvetta.
 
 
-## 2. Muutettavat moduulit
+## Muutettavat moduulit
 
 Seuraavat kohdat kuitenkin liittyvät etusivun sisältöön, ja ovat ylläpidettävissä.
 
@@ -51,7 +51,7 @@ __(5) Alanurkan_kartta_kuvake__
 
 
 
-## 3. Moduulien sisältö
+## Moduulien sisältö
 
 Kaikki moduulit avataan klikkaamalla Otsikko-sarakkeessa näkyvää tekstiä.
 
@@ -67,5 +67,3 @@ muokata oikeaan kokoon yms.
 [2]: kuvat/kuva58.png "Ruutumalli"
 [10]: pages/tekstieditorin-kaytto.md
 [11]: http://www.netmiller.fi
-
-

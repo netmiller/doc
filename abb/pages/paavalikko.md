@@ -3,12 +3,12 @@
 Sivuston vasemmassa reunassa näkyvä ns. __Päävalikko__ on myös muutettavissa.
 
 Sen rakenne ja toiminnot vaikuttavat kuitenkin oleellisesti kaikkeen muuhun,
-joten sen kanssa on oltava tarkempana, ja mielellään kokeiltava ensin tai yhteistyössä Netmillerin kanssa.
+joten sen kanssa on oltava tarkempana, ja mielellään kokeiltava ensin yhteistyössä Netmillerin kanssa.
 
 Tekstien vaihtaminen on kuitenkin helppoa tätä kautta, joten sen ohjeistukseen keskitytään tällä sivulla.
 
 
-## 1. Valikoiden hallintanäkymä
+## Valikoiden hallintanäkymä
 
 Avataan ensin __Valikoiden hallintanäkymä__.
 
@@ -24,7 +24,7 @@ tai ylävalikosta Valikot ->  Valikoiden hallinta
 ![2][]
 </figure>
 
-## 2. Päävalikko
+## Päävalikko
 
 Hallintaikkunassa ei ole toistaiseksi kuin yksi valikko (__Päävalikko__).
 
@@ -33,16 +33,6 @@ Hallintaikkunassa ei ole toistaiseksi kuin yksi valikko (__Päävalikko__).
 </figure>
 
 Klikkaamalla Otsikko-sarakkeen kenttää päästään ruudulle jossa voidaan ylläpitää jokaista valikon riviä.
-
-
-## 3. Valikon rivien ylläpito
-
-Tämä näkymä sisältää kaikki valikon rivit, ja jokaista päästään käsittelemään yksitellen.
-
-<figure class="fig-n border" style="margin:0 0 20px 0">
-![4][]
-<figcaption>Ruutumalli valikon riveistä</figcaption>
-</figure>
 
 
 ## Valikon järjestys
@@ -59,7 +49,18 @@ tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa 
 Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
 
 
-## 4. Valikon perustiedot
+## Valikon rivien ylläpito
+
+Tämä näkymä sisältää kaikki valikon rivit, ja jokaista päästään käsittelemään yksitellen.
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![4][]
+<figcaption>Ruutumalli valikon riveistä</figcaption>
+</figure>
+
+
+
+## Valikon perustiedot
 
 Valikon kaikki tiedot ja toiminnallisuus aukeaa painamalla Otsikko-sarakkeen nimeä.
 
@@ -76,7 +77,7 @@ Jos tuntee Joomlan teknisen toteutuksen perusteet, niin tätä kautta kaikki ole
 </figure>
 
 
-## 5. Tallettaminen
+## Tallettaminen
 
 Tiedot talletetaan oik.ylänurkassa olevilla toiminnoilla.
 
@@ -96,12 +97,7 @@ __Sulje__
 
 *   sulkee ruudun ja jos ei ole erikseen tallennettu, niin hylkää muutokset
 
-
-
-
-
-
-
+----
 
 
 [1]: kuvat/kuva51.png "Ruutumalli"

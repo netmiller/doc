@@ -10,7 +10,7 @@ Teksti kirjoitetaan kuten tekstinkäsittelyssäkin, ja suurin osa muotoiluista o
 Mutta on siinä paljon erojakin, joten sitä kannattaa hieman harjoitella.
 
 
-## 1. Sivun (=artikkelin) perustiedot
+## Sivun (=artikkelin) perustiedot
 
 Perustiedot löytyvät ruudun yläreunasta, ja niille on hieman erilaisia käytäntöjä riippuen mitä
 artikkelia ollaan tekemässä.
@@ -19,7 +19,7 @@ Tarkempaa tietoa sivuilla [Tiedotteiden tekeminen][21] ja [Muiden sivujen lisä�
 
 
 
-## 2. Artikkelin tekstiosa
+## Artikkelin tekstiosa
 
 Varsinainen tekstiosa  (=sisältö) tehdään alempana samassa ikkunassa :
 
@@ -58,7 +58,7 @@ jotain asiaa erityisesti.
 Myös vastaavat listamerkinnät kuin tekstinkäsittelyohjelmistakin (numerot tai pallukat) löytyy valikosta.
 
 
-## 3. Kuvien lisääminen
+## Kuvien lisääminen
 
 Kuvia voi lisätä ruudun alareunassa olevasta "Kuva" -nappulasta.
 
@@ -69,7 +69,7 @@ Kuvia voi lisätä ruudun alareunassa olevasta "Kuva" -nappulasta.
 Kuvien käsittelystä on tarkemmin sivulla [Kuvien käyttö artikkeleissa][24].
 
 
-## 4. Sivukatko
+## Sivukatko
 
 <figure class="fig-n" style="margin:0 0 20px 0">
 ![3][]
@@ -83,7 +83,7 @@ PDF-tulosteet on eri asia, siinä tällä nappulalla ei ole mitään merkitystä
 koska PDF itse määrittää miten tulostus menee ja missä sivukatkot tehdään.
 
 
-## 5. "Lue lisää" -toiminto
+## "Lue lisää" -toiminto
 
 Mille tahansa artikkelille voidaan antaa tekstiosassa ns. johdanto tai ingressi.
 Se on lyhyt tiivistelmä kuten sanomalehden ingressi, ja myös se näytetään etusivulla (vihreällä värillä).
@@ -102,7 +102,7 @@ kyseisen artikkelin linkistä tms. kokonaan.
 
 
 
-## 6. Editorin tila -toiminto (HTML-muoto)
+## Editorin tila -toiminto (HTML-muoto)
 
 Hieman harvemmin käytetty toiminto on __"Vaihda editorin tilaa"__.
 
@@ -127,7 +127,7 @@ visuaalisessa editorissa.
 Takaisin visuaaliseen editointiin päästään painamalla samaa toimintoa uudelleen.
 
 
-## 7. Artikkelin talletus
+## Artikkelin talletus
 
 Kun artikkeli on valmis ja se halutaan tallettaa, niin käytössä on useitakin vaihtoehtoja.
 

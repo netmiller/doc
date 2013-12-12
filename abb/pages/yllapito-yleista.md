@@ -15,4 +15,3 @@ Joihinkin toimintoihin valikoiden kautta pääsee nopeamminkin kuin Ohjauspaneel
 ----
 
 [1]: kuvat/kuva04.png "Ruutukaappaus ohjauspaneelista"
-

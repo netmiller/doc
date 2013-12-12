@@ -36,5 +36,4 @@ Nyt toistaiseksi ryhmät ovat loogisesti aika selkeitä ja menevät seuraavien s
     toimintoon __Toimintaohjeet__
     - samoin __"Kassan säännöt"__ dokumentti on suoraan kiinnitetty vastaavaan valikon toimintoon jne.
 
-
 ----

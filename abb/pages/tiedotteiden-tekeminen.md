@@ -194,6 +194,3 @@ Siitä on oma ohjeensa, joka löytyy valikosta tai suoraan [tästä linkistä][2
 [21]: pages/tekstieditorin-kaytto.md
 [22]: pages/kuvien-kaytto.md
 [23]: pages/julkaisupvm.md
-
-
-

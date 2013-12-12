@@ -3,7 +3,7 @@
 Sivuston yläreunassa näkyvä valikko on myös muutettavissa.
 
 Sen rakenne ja toiminnot vaikuttavat kuitenkin oleellisesti kaikkeen muuhun,
-joten sen kanssa on oltava tarkempana, ja mielellään kokeiltava ensin tai yhteistyössä Netmillerin kanssa.
+joten sen kanssa on oltava tarkempana, ja mielellään kokeiltava ensin yhteistyössä Netmillerin kanssa.
 
 Tekstien vaihtaminen on kuitenkin helppoa tätä kautta, joten sen ohjeistukseen keskitytään tällä sivulla.
 
