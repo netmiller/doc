@@ -64,7 +64,7 @@
             "key": "Mediatiedostot",
             "values": [
                 { "key": "Mediatiedostojen lisääminen", "href": "pages/mediatiedostot.md" },
-                { "key": "Kuvien käyttö artikkeleissa (kesken)", "href": "pages/kuvien-kaytto.md" }
+                { "key": "Kuvien käyttö artikkeleissa", "href": "pages/kuvien-kaytto.md" }
             ]
         },
         {

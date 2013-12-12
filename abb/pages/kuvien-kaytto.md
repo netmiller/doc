@@ -19,7 +19,7 @@ Kuvien viemisestä serverille on oma ohjeensa sivulla [Mediatiedostojen lisääm
 Kuvia voi lisätä ruudun alareunassa olevasta __"Kuva"__ -painikkeesta.
 
 <figure class="fig-n" style="margin:0 0 20px 0">
-![2][]
+![1][]
 </figure>
 
 
@@ -61,7 +61,7 @@ __(4)__ ruudun oik. ylänurkassa on __"Lisää"__ toiminto, jolla kuva otetaan m
 </figure>
 
 
-__(5)__ poimintaikkunassa on myös mahdollista tuoda uusi kuva palvelimelle, mikäli sitä ei ennestään siellä ole.
+Kuvan poimintaikkunassa on myös mahdollista tuoda uusi kuva palvelimelle, mikäli sitä ei ennestään siellä ole.
 
 Idea on sama kuin ohjeessa jossa kuvat lisätään etukäteen serverille;
 kts. sivulta [Mediatiedostojen lisääminen][21].
@@ -133,10 +133,9 @@ ja kuvan ulkoasun saa yleensä näillä halutunlaiseksi.
 
 
 
-
-[2]: kuvat/kuva32.png "Ruutumalli"
-[3]: kuvat/kuva45.png "Ruutumalli"
-[4]: kuvat/kuva46.png "Ruutumalli"
+[1]: kuvat/kuva32.png "Ruutumalli"
+[3]: kuvat/kuva76.png "Ruutumalli"
+[4]: kuvat/kuva77.png "Ruutumalli"
 [5]: kuvat/kuva47.png "Ruutumalli"
 [6]: kuvat/kuva48.png "Ruutumalli"
 [7]: kuvat/kuva49.png "Ruutumalli"
