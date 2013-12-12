@@ -43,8 +43,8 @@ ja auttaa siinä että se käyttää aina sivustolle määriteltyä perusfonttia
 Ja kun muutetaan CSS-asetusten perusfonttia, niin se vaikuttaa heti kaikille sivuille, ja tyylit pysyvät valitussa
 linjassa automaattisesti.
 
-Otsikoille ja väliotsikoille voi ottaa samasta valikosta tyyli "Otsikko 1" tai "Otsikko 2" tai "Otsikko 3" jne.
-Ykkönen on suurin otsikko kirjasinkoko ja siitä alaspäin hieman pienemmällä fontilla.
+Otsikoille ja väliotsikoille voi ottaa samasta valikosta tyylin "Otsikko 1" tai "Otsikko 2" tai "Otsikko 3" jne.
+Otsikko 1 on suurin kirjasinkoko, ja siitä alaspäin hieman pienemmällä fontilla.
 Tässäkin on se etu että ne on yleensä etukäteen määritelty sivuston CSS-asetuksissa, ja näkyvät siis kaikilla
 sivuilla samanlaisina eikä nihin tarvitse niin paljon itse kiinnittää huomiota.
 
@@ -85,7 +85,7 @@ koska PDF itse määrittää miten tulostus menee ja missä sivukatkot tehdään
 
 ## 5. "Lue lisää" -toiminto
 
-Uutiselle voidaan antaa tekstiosassa ns. johdanto tai ingressi.
+Mille tahansa artikkelille voidaan antaa tekstiosassa ns. johdanto tai ingressi.
 Se on lyhyt tiivistelmä kuten sanomalehden ingressi, ja myös se näytetään etusivulla (vihreällä värillä).
 
 Ingressi tehdään ruudun alareunan toiminnolla __"Lue lisää"__.
@@ -94,15 +94,17 @@ Ingressi tehdään ruudun alareunan toiminnolla __"Lue lisää"__.
 ![4][]
 </figure>
 
-Tätä kannattaa käyttää vain **Uutisissa**, koska muualla sitä ei ole hyödynnetty eikä se näy muualla millään tavalla.
+Tällä ei tosin ole __ABB:n käytössä paljon merkitystä__, koska sen käyttämistä ei ole hyödynnetty toistaiseksi.
 
-Asiasta tarkemmin sivulla [Uutisten otsikointi ja sisältö][23].
+Lähinnä sitä voisi käyttää sellaisessa tapauksessa että esim. etusivulle voitaisiin __"nostaa"__ (tuoda)
+jotain artikkeleita joista näytettäisiin vain lyhyt alkuosa, ja koko artikkeli näkyisi sitten kun avaa
+kyseisen artikkelin linkistä tms. kokonaan.
 
 
 
 ## 6. Editorin tila -toiminto (HTML-muoto)
 
-Hieman harvemmin käytetty toiminto joka on "Vaihda editorin tilaa".
+Hieman harvemmin käytetty toiminto on __"Vaihda editorin tilaa"__.
 
 Se näyttää koko sisällön puhtaassa HTML-muodossa.
 
@@ -162,7 +164,6 @@ __Sulje__
 [5]: kuvat/kuva35.png "Ruutumalli"
 [6]: kuvat/kuva37.png "Ruutumalli"
 [7]: kuvat/kuva38.png "Ruutumalli"
-[21]: pages/uutisten-lisaaminen.md
+[21]: pages/tiedotteiden-tekeminen.md
 [22]: pages/sivujen-lisaaminen.md
-[23]: pages/uutisten-otsikointi.md
 [24]: pages/kuvien-kaytto.md
