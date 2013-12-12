@@ -4,7 +4,7 @@
         "author": "Esa.Laitila@netmiller.fi",
         "desc": "ABB:n vakuutuskassa - www-dokumentaation valikko",
         "default_page": "pages/etusivu.md",
-        "last-update": "10.12.2013 Esa.Laitila@netmiller.fi"
+        "last-update": "12.12.2013 Esa.Laitila@netmiller.fi"
     },
 	"menu": [
 		{
@@ -50,14 +50,14 @@
         {
             "key": "Sopimusapteekit ja lääkäriasemat",
             "values": [
-                { "key": "Sopimuspaikkojen ylläpito (kesken)", "href": "pages/sopimuspaikat.md" }
+                { "key": "Sopimuspaikkojen ylläpito", "href": "pages/sopimuspaikat.md" }
             ]
         },
 
         {
             "key": "Valikoiden ylläpito",
             "values": [
-                { "key": "Päävalikon ylläpito (kesken)", "href": "pages/paavalikko.md" }
+                { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" }
             ]
         },
         {
@@ -72,7 +72,7 @@
 			"values": [
 				{ "key": "Ohjelmistosta", "href": "pages/ohjelmistosta.md" },
 				{ "key": "Palvelimesta (kesken)", "href": "pages/palvelimesta.md" },
-				{ "key": "Varmistukset", "href": "pages/varmistuksista.md" },
+				{ "key": "Varmistukset (kesken)", "href": "pages/varmistuksista.md" },
 				{ "key": "Tietoturvapäivitykset", "href": "pages/tietoturvapaivitykset.md" }
 			]
 		}

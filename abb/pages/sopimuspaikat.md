@@ -64,6 +64,7 @@ sitten lisätä uuden apteekin tiedot.
 Rivin poisto menee samalla periaatteella, mutta nyt valitaan "Poista rivi" toiminto.
 
 Muita toimintoja ei yleensä tarvi käyttää kuin rivin lisäyksiä ja poistoja.
+
 Osoitemuutokset tehdään suoraan korjaamalla haluttua solua.
 
 

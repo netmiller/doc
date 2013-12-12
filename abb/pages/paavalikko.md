@@ -1,6 +1,6 @@
-# Päävalikon (=ylävalikko) ylläpitäminen
+# Päävalikon ylläpitäminen
 
-Sivuston yläreunassa näkyvä valikko on myös muutettavissa.
+Sivuston vasemmassa reunassa näkyvä ns. __Päävalikko__ on myös muutettavissa.
 
 Sen rakenne ja toiminnot vaikuttavat kuitenkin oleellisesti kaikkeen muuhun,
 joten sen kanssa on oltava tarkempana, ja mielellään kokeiltava ensin tai yhteistyössä Netmillerin kanssa.
@@ -24,48 +24,55 @@ tai ylävalikosta Valikot ->  Valikoiden hallinta
 ![2][]
 </figure>
 
-## 2. Valikot
+## 2. Päävalikko
 
-Seuraavassa näkymässä on kaksi valikkoa (tällä hetkellä), ja niistä oleellisin on nimetty __" Vakuutuskassat, sivuston ylävalikko"__.
-
-Alussa oleva valikko __"Main Menu"__ ei ole merkityksellinen muuta kuin teknisessa mielessa (Joomla).
+Hallintaikkunassa ei ole toistaiseksi kuin yksi valikko (__Päävalikko__).
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![3][]
 </figure>
 
-Klikkaamalla Hallintanäkyn otsikko-kenttää päästään ruudulle jossa voidaan ylläpitää jokaista ylävalikon kohtaa.
+Klikkaamalla Otsikko-sarakkeen kenttää päästään ruudulle jossa voidaan ylläpitää jokaista valikon riviä.
 
 
-## 3. Ylävalikko ja sen ylläpito
+## 3. Valikon rivien ylläpito
 
-Tämä näkymä sisältää kaikki valikon eri toiminnot, ja jokaista päästään käsittelemään yksitellen.
+Tämä näkymä sisältää kaikki valikon rivit, ja jokaista päästään käsittelemään yksitellen.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![4][]
-<figcaption>Kuva54: ruutumalli valikon riveistä</figcaption>
+<figcaption>Ruutumalli valikon riveistä</figcaption>
 </figure>
 
 
-"Järjestys" -sarakkeen avulla valikon sisäistä järjestystä voidaan tarvittaessa muuttaa.
+## Valikon järjestys
+
+__"Järjestys"__ -sarakkeen avulla valikon sisäistä järjestystä voidaan tarvittaessa muuttaa.
 
 Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
 tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa olevaa talletuskuvaketta.
 
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![5][]
+</figure>
+
+Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
+
 
 ## 4. Valikon perustiedot
 
-Valikon kaikki tiedot ja toiminnallisuus aukeaa painamalla Otsikko-kentän nimeä.
+Valikon kaikki tiedot ja toiminnallisuus aukeaa painamalla Otsikko-sarakkeen nimeä.
 
-Käytännössä ainoa turvallinen asia jota voidaan muuttaa, on "Otsikko".
+Käytännössä ainoa turvallinen asia jota voidaan muuttaa, on __"Otsikko"-teksti__.
 
-Kaikki muut vaikuttavat sivujen toiminnallisuuteen, ja ne täytyy ainakin tässä vaiheessa sopia erikseen,
-ja myös kokeiltava ja testattava jossain. Jos tuntee Joomlan teknisen toteutuksen perusteet,
-niin tätä kautta kaikki oleellinen toiminnallisuus on muutettavissa.
+Kaikki muut vaikuttavat sivujen toiminnallisuuteen, ja ne täytyy ainakin tässä vaiheessa sopia erikseen
+[Netmillerin][10] kanssa, ja myös kokeiltava ja testattava jossain.
+
+Jos tuntee Joomlan teknisen toteutuksen perusteet, niin tätä kautta kaikki oleellinen toiminnallisuus on muutettavissa.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
-![5][]
-<figcaption>Kuva55: ruutumalli valikon muokkausikkunasta</figcaption>
+![6][]
+<figcaption>Ruutumalli valikon muokkausikkunasta</figcaption>
 </figure>
 
 
@@ -74,7 +81,7 @@ niin tätä kautta kaikki oleellinen toiminnallisuus on muutettavissa.
 Tiedot talletetaan oik.ylänurkassa olevilla toiminnoilla.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
-![6][]
+![7][]
 </figure>
 
 __Tallenna__
@@ -99,8 +106,9 @@ __Sulje__
 
 [1]: kuvat/kuva51.png "Ruutumalli"
 [2]: kuvat/kuva52.png "Ruutumalli"
-[3]: kuvat/kuva53.png "Ruutumalli"
-[4]: kuvat/kuva54.png "Ruutumalli"
-[5]: kuvat/kuva55.png "Ruutumalli"
-[6]: kuvat/kuva56.png "Ruutumalli"
-[21]: pages/mediatiedostot.md
+[3]: kuvat/kuva81.png "Ruutumalli"
+[4]: kuvat/kuva82.png "Ruutumalli"
+[5]: kuvat/kuva83.png "Ruutumalli"
+[6]: kuvat/kuva84.png "Ruutumalli"
+[7]: kuvat/kuva56.png "Ruutumalli"
+[10]: http://www.netmiller.fi
