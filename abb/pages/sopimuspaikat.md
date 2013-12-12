@@ -3,6 +3,7 @@
 Sopimuspaikat kattaa tällä hetkellä apteekit, lääkäriasemat, hoitolaitokset, yms.
 
 * luettelo sopimusapteekeista on koottu yhdeksi sivuksi, jossa tietoja voidaan ylläpitää taulukkomuodossa.
+
 * toiselle sivulle on koottu sopimuksen tehneet lääkäriasemat ja hoitolaitokset.
 Myös hammaslääkäriasemat on tässä luettelossa.
 
@@ -10,12 +11,13 @@ Myös hammaslääkäriasemat on tässä luettelossa.
 
 Molemmat sivut löytyvät Artikkelien hallinta -näkymän kautta, ja sieltä ne voidaan ottaa ylläpidettäviksi.
 
-Kts. kuvaruutumallin kohta (1).
-
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
 <figcaption>Ruutumalli artikkelien hallintaruudusta (sopimuspaikat)</figcaption>
 </figure>
+
+Hallintanäkymässä voidaan valita kategoriaksi pelkästään __"Sopimuspaikat"__ niin
+saadaan vain ao.dokumentit esiin ja löytyy nopeammin.
 
 ## Luettelon ylläpito
 
