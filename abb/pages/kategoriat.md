@@ -19,8 +19,6 @@ koska ryhmistä sinänsä ei ole apua ellei sitä ole jotenkin kytketty valikkoj
 
 ## Käyttötarkoitus
 
-<div id="tiivistetty">
-
 Nyt toistaiseksi ryhmät ovat loogisesti aika selkeitä ja menevät seuraavien sääntöjen mukaan :
 
 * __Etusivu__
@@ -36,7 +34,7 @@ Nyt toistaiseksi ryhmät ovat loogisesti aika selkeitä ja menevät seuraavien s
     - nämä ovat yksittäisiä artikkeleita/dokumentteja, ja on kytketty valikon toimintoihin suoraan
     - esim. __"Toimintaohjeita"__ -niminen dokumentti on suoraan ja yksistään kytketty valikon
     toimintoon __Toimintaohjeet__
+    - samoin __"Kassan säännöt"__ dokumentti on suoraan kiinnitetty vastaavaan valikon toimintoon jne.
 
-</div>
 
 ----

@@ -45,8 +45,8 @@ ja auttaa siinä että se käyttää aina sivustolle määriteltyä perusfonttia
 Ja kun muutetaan CSS-asetusten perusfonttia, niin se vaikuttaa heti kaikille sivuille, ja tyylit pysyvät valitussa
 linjassa automaattisesti.
 
-Otsikoille ja väliotsikoille voi ottaa samasta valikosta tyyli "Otsikko 1" tai "Otsikko 2" tai "Otsikko 3" jne.
-Ykkönen on suurin otsikko kirjasinkoko ja siitä alaspäin hieman pienemmällä fontilla.
+Otsikoille ja väliotsikoille voi ottaa samasta valikosta tyylin "Otsikko 1" tai "Otsikko 2" tai "Otsikko 3" jne.
+Otsikko 1 on suurin kirjasinkoko, ja siitä alaspäin hieman pienemmällä fontilla.
 Tässäkin on se etu että ne on yleensä etukäteen määritelty sivuston CSS-asetuksissa, ja näkyvät siis kaikilla
 sivuilla samanlaisina eikä nihin tarvitse niin paljon itse kiinnittää huomiota.
 
@@ -104,7 +104,7 @@ Asiasta tarkemmin sivulla [Uutisten otsikointi ja sisältö][23].
 
 ## 6. Editorin tila -toiminto (HTML-muoto)
 
-Hieman harvemmin käytetty toiminto joka on "Vaihda editorin tilaa".
+Hieman harvemmin käytetty toiminto on __"Vaihda editorin tilaa"__.
 
 Se näyttää koko sisällön puhtaassa HTML-muodossa.
 
