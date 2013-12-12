@@ -13,6 +13,8 @@ Tässä kuitenkin joitain termejä jotka kaipaavat selitystä yleisellä tasolla
 
 Artikkelit on Joomlan perusasioita, joiden avulla sivuston sisältö kasataan.
 
+Artikkelin voi myös ymmärtää tekstinkäsittelyn terminä __"dokumentti"__.
+
 Periaatteessa artikkeli on joko kokonainen oma sivu (esim. __"Korvattavat kustannukset"__ tai __"Toimintaohjeita"__)
 jolloin artikkeli avautuu valikosta omalle sivulleen.
 
