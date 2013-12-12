@@ -14,10 +14,9 @@ __"Lisäosat" --> "Moduulien hallinta"__
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
-<figcaption></figcaption>
 </figure>
 
-Toiminto avaan näkymän jossa on paljon erilaisia Jomlan moduuleita,
+Toiminto avaan näkymän jossa on paljon erilaisia Joomlan moduuleita,
 ja osa niistä on vain teknisessä toteutuksessa tarvittavia, eikä niiden ylläpitoon ole tarvetta.
 
 Seuraavat kohdat kuitenkin liittyvät sisältöön, ja ovat ylläpidettävissä.
@@ -26,7 +25,6 @@ Seuraavat kohdat kuitenkin liittyvät sisältöön, ja ovat ylläpidettävissä.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![2][]
-<figcaption></figcaption>
 </figure>
 
 

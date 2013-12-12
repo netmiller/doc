@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>doc.netmiller.fi - ABB:n vakuutuskassa</title>
+
+    <meta charset="utf-8">
+
+    <!-- Bootstrap, latest minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+
+    <!-- app CSS -->
+    <!-- link rel="stylesheet" href="../common/css/gh_styles.css" type="text/css" -->
+    <link rel="stylesheet" href="../common/css/nmdoc01.css" type="text/css">
+    <link rel="stylesheet" href="../common/css/nmdoc03.css" type="text/css">
+
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <div id="header">
+          <div id="netmiller">doc.netmiller.fi</div>
+          <div id="customer">ABB:n vakuutuskassa - www-sivujen ohjeistus</div>
+    </div>
+
+    <div id="right-bg">
+        <div id="left-bg">
+
+            <div id="over-both">
+
+                <div id="leftcol">
+
+                    <div id="nappulat">
+
+                        <button type="button" class="menu-expand btn btn-default btn-xs">
+                            Näytä <span class="glyphicon glyphicon-save"></span>
+                        </button>
+                        <button type="button" class="menu-collapse btn btn-default btn-xs">
+                            Piilota <span class="glyphicon glyphicon-open"></span>
+                        </button>
+                        <!-- button class="btn btn-info">Expand All</button -->
+                        <!-- button class="btn btn-warning">Collapse All</button -->
+
+                    </div>
+
+                    <div id="listTree">
+                        Haetaan valikkoa ....
+                    </div>
+
+                </div>
+
+                <div id="rightcol">
+                    <div id="page"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-- JQuery 1.x.x, latest minified JavaScript -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- Bootstrap 3.x minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<!-- Underscore minified JavaScript -->
+<script src="../common/js/underscore-min.js"></script>
+<!-- local marked JavaScript -->
+<script src="../common/js/marked.min.js"></script>
+<!-- local JQuery cookie plugin -->
+<script src="../common/js/jquery.cookie.js"></script>
+
+
+<!-- app main script -->
+<script src="../common/js/listTree1.min.js"></script>
+
+<script type="text/javascript">
+
+    $( document ).ready(function() {
+
+        var data = [];
+        var dp = '';
+
+        // asetetaan JQuery ajax cache:n oletus
+        $.ajaxSetup({ cache:false });
+
+        // haetaan menutiedosto
+        var m = 'config/menu.json';
+
+        $.getJSON(m, function (d) {
+
+            //console.log(d.meta);
+
+            data = d.menu;
+            dp = d.meta.default_page;
+
+            $('#listTree').listTree(data, { "startCollapsed": false });
+
+            // haetaan toistaiseksi meta-tietojen perusteella default_page
+            $.get( dp)
+                    .done(function( data ) {
+                        $( "#page" ).html( marked(data) );
+                    })
+                    .fail(function() {
+                        console.log( "sivu puuttuu" );
+                    })
+                    .always(function() {
+                        $.cookie("currPage", dp);
+                    });
+
+            $(document)
+                .on('click', '.menu-expand',function (e) {
+                    $('#listTree').listTree('expandAll');
+                })
+                .on('click', '.menu-collapse',function (e) {
+                    $('#listTree').listTree('collapseAll');
+                });
+
+        });
+
+    });
+
+</script>
+
+</body>
+</html>

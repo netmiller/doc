@@ -31,41 +31,47 @@
 				{ "key": "Muiden sivujen lisääminen", "href": "pages/sivujen-lisaaminen.md" },
 				{ "key": "Sivujen muuttaminen", "href": "pages/sivujen-muuttaminen.md" },
 				{ "key": "Julkaisupäivämäärät", "href": "pages/julkaisupvm.md" },
-				{ "key": "Tekstieditorin käyttäminen", "href": "pages/tekstieditorin-kaytto.md" },
-                { "key": "Etusivun ylläpitäminen", "href": "pages/etusivun-yllapito.md" }
+				{ "key": "Tekstieditorin käyttäminen", "href": "pages/tekstieditorin-kaytto.md" }
 			]
 		},
         {
+            "key": "Muiden tietojen ylläpito",
+            "values": [
+                { "key": "Etusivun tekstilaatikot", "href": "pages/etusivun-yllapito.md" }
+            ]
+        },
+        {
             "key": "Lomakkeet",
             "values": [
-                { "key": "Lomakkeiden ylläpito", "href": "pages/lomakkeet.md" }
+                { "key": "Lomakkeiden ylläpito", "href": "pages/lomakkeet.md" },
+                { "key": "KELA:n lomakkeiden linkit", "href": "pages/kela-linkit-lomakkeissa.md" }
             ]
         },
         {
             "key": "Sopimusapteekit ja lääkäriasemat",
             "values": [
-                { "key": "Sopimuspaikkojen ylläpito", "href": "pages/sopimuspaikat.md" }
+                { "key": "Sopimuspaikkojen ylläpito (kesken)", "href": "pages/sopimuspaikat.md" }
             ]
         },
 
         {
             "key": "Valikoiden ylläpito",
             "values": [
-                { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" }
+                { "key": "Päävalikon ylläpito (kesken)", "href": "pages/paavalikko.md" }
             ]
         },
         {
             "key": "Mediatiedostot",
             "values": [
                 { "key": "Mediatiedostojen lisääminen", "href": "pages/mediatiedostot.md" },
-                { "key": "Kuvien käyttö artikkeleissa", "href": "pages/kuvien-kaytto.md" }
+                { "key": "Kuvien käyttö artikkeleissa (kesken)", "href": "pages/kuvien-kaytto.md" }
             ]
         },
         {
 			"key": "Tekninen toteutus",
 			"values": [
 				{ "key": "Ohjelmistosta", "href": "pages/ohjelmistosta.md" },
-				{ "key": "Palvelimesta", "href": "pages/palvelimesta.md" },
+				{ "key": "Palvelimesta (kesken)", "href": "pages/palvelimesta.md" },
 				{ "key": "Varmistukset", "href": "pages/varmistuksista.md" },
 				{ "key": "Tietoturvapäivitykset", "href": "pages/tietoturvapaivitykset.md" }
 			]

@@ -22,14 +22,12 @@ Hallintaruutu näyttää seuraavalta :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![2][]
-<figcaption>Kuva41: ruutumalli mediatiedostojen hallinnasta</figcaption>
+<figcaption>Ruutumalli mediatiedostojen hallinnasta</figcaption>
 </figure>
 
 Kaikki omat kuvat kannattaa lisätä alikansioon joka tällä hetkellä on nimeltään __kuvat__.
 
 PDF-tiedostoja varten on toinen alikansio eli __pdf-tiedostot__.
-
-Videotiedostoille on myös oma alikansio __videot__.
 
 
 
@@ -69,13 +67,13 @@ lähtee kaikki ruksatut tiedostot pois.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![5][]
-<figcaption>Kuva44: ruutumalli tiedostojen oistosta</figcaption>
+<figcaption>Ruutumalli tiedostojen poistosta</figcaption>
 </figure>
 
 
 ## 5. Tiedostojen muuttaminen
 
-Joomla ei salli tiedostojen päällekirjoittamista (=uusi versio samasta tiedostosta), vaan se täytyy tehdä seuraavasti :
+Joomla ei salli tiedostojen päällekirjoittamista (=uusi versio samasta tiedostosta), vaan se täytyy tehdä seuraavasti:
 
 * __poistetaan__ ensin vanha tiedosto serveriltä
 * __lisätään__ sama tiedosto samalla nimellä uutena
@@ -83,7 +81,7 @@ Joomla ei salli tiedostojen päällekirjoittamista (=uusi versio samasta tiedost
 
 
 [1]: kuvat/kuva40.png "Ruutumalli"
-[2]: kuvat/kuva41.png "Ruutumalli"
+[2]: kuvat/kuva74.png "Ruutumalli"
 [3]: kuvat/kuva42.png "Ruutumalli"
 [4]: kuvat/kuva43.png "Ruutumalli"
-[5]: kuvat/kuva44.png "Ruutumalli"
+[5]: kuvat/kuva75.png "Ruutumalli"

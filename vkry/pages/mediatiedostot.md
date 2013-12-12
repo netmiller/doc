@@ -69,7 +69,7 @@ lähtee kaikki ruksatut tiedostot pois.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![5][]
-<figcaption>Kuva44: ruutumalli tiedostojen oistosta</figcaption>
+<figcaption>Kuva44: ruutumalli tiedostojen poistosta</figcaption>
 </figure>
 
 

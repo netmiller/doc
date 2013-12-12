@@ -121,6 +121,9 @@ mutta muuten ei kannata käyttää.
 
 HTML-muodossa voi myös tehdä muutoksia, mikäli tuntee hallitsevansa merkinnät riittävän hyvin.
 
+Joskus on myös hyvä tarkistaa HTML-muodosta jos joku asia ei näytä toimivan halutulla tavalla
+visuaalisessa editorissa.
+
 Takaisin visuaaliseen editointiin päästään painamalla samaa toimintoa uudelleen.
 
 
