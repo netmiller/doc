@@ -9,6 +9,9 @@ Siten käyttäjän ei tarvitse itse etsiä niitä KELA:n sivustolta, vaan tuleva
 
 Linkit voidaan muuttaa jos KELA vaihtaa esim. niiden nimeä tai jos ne muuttuvat jollain muulla tavalla.
 
+Mahdollisesti muuttuneet KELA:n lomakkeiden linkit täytyy ensin käydä tarkistamassa suoraan
+KELA:n sivuilta, ja ottaa URL-osoite sieltä talteen (esim. copy/paste -toiminnoilla) tai vaikka kirjoittaa itse.
+
 Muutos onnistuu tekstieditorissa, mutta on hieman hankalampi tehdä kuin  muut asiat, joten
 siitä on tässä hieman tarkennuksia.
 

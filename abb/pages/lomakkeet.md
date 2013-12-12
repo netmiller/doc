@@ -32,6 +32,7 @@ lomakkeet saadaan näkymään peräkkäin.
 
 Tai vaihtoehtoisesti valita __vain Lomakkeet-kategoria__ näkymään ruudulla.
 
+
 ## Lomakkeiden järjestys
 
 Jos halutaan vaihtaa lomakkiden järjestystä (miten ne näkyvät varsinaisella sivulla), niin
@@ -53,10 +54,40 @@ __Huom!__  Jörjestyksen muuttamisen yhteydessä täytyy aina muistaa tallettaa 
 yläreunassa näkyvällä pienellä kuvakkeella   (sarakeotsikon oik.puolella).
 
 
+## Lomakkeiden sisältö
+
+Tällä hetkellä kaikki lomakkeet on tehty suurin piirtein samalla tavalla, eli niihin liittyy pieni selitys,
+ja sen jälkeen rivi josta löytyy linkki lomakkeen hakemiseen. Voi myös sisältää enemmänkin tietoa tarvittaessa.
+
+Lomakkeen otsikko tulee aina artikkelin perustiedoissa olevasta "Otsikko" -kentästä, ja se tulee mukaan
+www-sivulle sitä kautta automaattisesti. Siten tekstieditorissa voidaan mennä suoraan asiaan.
+
+Rivit on tällä hetkellä muotoiltu käyttäen tekstieditorin "pallukkalistaa" joka löytyy työkalupalkista.
+Se toimii samalla tavalla kuin yleensä tekstinkäsittelyssä muutenkin.
+
+Muotoilu on kuitenkin mahdollista tehdä kaikilla editorin keinoilla, joten ulkoasun ei tarvi rajoittua tähän.
+Kuitenkin on hyvä pitää eri lomakkeet tyyliltään samantapaisina, koska niistä muodostetaan varsinaiselle
+sivustolle yksi kokonaisuus, jossa ko.artikkelit ovat varsinaisena sisältönä.
+
+Tekstien muuttaminen ja lisääminen on helppo tehdä tässä editori-tilassa,
+ja "Tallenna" toiminnolla se menee tietokantaan, ja näkyy heti www-sivuilla.
+
+## Linkit KELA:n lomakkeisiin
+
+Linkkien ylläpitämisestä on tarkemmin selitystä sivulla [KELA:n lomakkeiden linkit][12].
+
+## Kassan omat lomakkeet
+
+Myös kassan omia lomakkeita voidaan tarvittaessa ottaa mukaan __Lomakkeet__-ryhmään.
+
+Ne voidaan laittaa mukaan [Mediatiedostojen lisäämisen][13] kautta, ja niiden sijoituspaikka voisi
+olla esim. __pdf-tiedostot__ niminen kansio.
+
+__Toistaiseksi kassan omia lomakkeita ei vielä ole käytössä__.
+
+
 
 ----
-
-
 
 
 [1]: kuvat/kuva68.png "Ruutumalli"
@@ -64,5 +95,7 @@ yläreunassa näkyvällä pienellä kuvakkeella   (sarakeotsikon oik.puolella).
 [3]: kuvat/kuva70.png "Ruutumalli"
 [10]: pages/tekstieditorin-kaytto.md
 [11]: pages/sivujen-muuttaminen.md
+[12]: pages/kela-linkit-lomakkeissa.md
+[13]: pages/mediatiedostot.md
 
 
