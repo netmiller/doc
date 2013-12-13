@@ -8,7 +8,7 @@ joten sen kanssa on oltava tarkempana, ja mielellään kokeiltava ensin yhteisty
 Tekstien vaihtaminen on kuitenkin helppoa tätä kautta, joten sen ohjeistukseen keskitytään tällä sivulla.
 
 
-## Valikoiden hallintanäkymä
+## 1. Valikoiden hallintanäkymä
 
 Avataan ensin __Valikoiden hallintanäkymä__.
 
@@ -24,7 +24,7 @@ tai ylävalikosta Valikot ->  Valikoiden hallinta
 ![2][]
 </figure>
 
-## Päävalikko
+## 2. Päävalikko
 
 Hallintaikkunassa ei ole toistaiseksi kuin yksi valikko (__Päävalikko__).
 
@@ -35,7 +35,7 @@ Hallintaikkunassa ei ole toistaiseksi kuin yksi valikko (__Päävalikko__).
 Klikkaamalla Otsikko-sarakkeen kenttää päästään ruudulle jossa voidaan ylläpitää jokaista valikon riviä.
 
 
-## Valikon järjestys
+## 3. Valikon järjestys
 
 __"Järjestys"__ -sarakkeen avulla valikon sisäistä järjestystä voidaan tarvittaessa muuttaa.
 
@@ -49,7 +49,7 @@ tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa 
 Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
 
 
-## Valikon rivien ylläpito
+## 4. Valikon rivien ylläpito
 
 Tämä näkymä sisältää kaikki valikon rivit, ja jokaista päästään käsittelemään yksitellen.
 
@@ -60,7 +60,7 @@ Tämä näkymä sisältää kaikki valikon rivit, ja jokaista päästään käsi
 
 
 
-## Valikon perustiedot
+## 5. Valikon perustiedot
 
 Valikon kaikki tiedot ja toiminnallisuus aukeaa painamalla Otsikko-sarakkeen nimeä.
 
@@ -77,7 +77,7 @@ Jos tuntee Joomlan teknisen toteutuksen perusteet, niin tätä kautta kaikki ole
 </figure>
 
 
-## Tallettaminen
+## 6. Tallettaminen
 
 Tiedot talletetaan oik.ylänurkassa olevilla toiminnoilla.
 

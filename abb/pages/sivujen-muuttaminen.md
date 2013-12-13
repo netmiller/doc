@@ -9,7 +9,7 @@ Näistä lisää tietoa sivuilla [Tiedotteiden tekeminen][21] ja [Muiden sivujen
 Muuten toiminnot ovat yhtenäiset ja muutosten tekemiseen mennään samaa reittiä.
 
 
-## Artikkelien hallintanäkymä
+## 1. Artikkelien hallintanäkymä
 
 Avataan ensin Artikkelien hallintanäkymä.
 
@@ -26,7 +26,7 @@ tai ylävalikosta __Artikkeli__  ->  __Artikkelien hallinta__
 </figure>
 
 
-## Hallintanäkymän käyttö
+## 2. Hallintanäkymän käyttö
 
 Hallintanäkymä näyttää kaikki artikkelit ja uutiset luettelona.
 
@@ -37,7 +37,7 @@ Hallintanäkymä näyttää kaikki artikkelit ja uutiset luettelona.
 Luettelosta voidaan valita haluttu artikkeli ja avataan se tekstieditoriin otsikkoa klikkaamalla.
 
 
-## Valinnat
+## 3. Valinnat
 
 Hallintanäkymää voidaan lajitella ja järjestää halutulla tavalla, jolloin löydetään tarvittavat
 artikkelit nopeammin ja helpommin.
@@ -56,7 +56,7 @@ tahansa __Kategoria__, jota halutaan katsoa tarkemmin; esim. "Lomakkeet".
 Myös __Tila__-koodin avulla voidaan tehdä valintoja, jolloin saadaan näkymään esim. kaikki
 artikkelit jotka on vielä tilakoodilla __Julkaisematon__.
 
-## Järjestäminen
+## 4. Järjestäminen
 
 Hallintanäkymä kannattaa myös järjestää haluttuun järjestykseen (valintojen lisäksi),
 jolloin siitä saadaan paremmin esille halutut tiedot ja myös muuttaa tiettyjen asioiden
@@ -85,7 +85,7 @@ Esimerkissä luettelo on järjestetty __Kategorian__ mukaan nousevaan aakkosjär
 Hyviä apuvälineitä on käyttää myös __Päiväys__-saraketta lajittelussa, tai __Järjestys__-saraketta.
 
 
-## Artikkelin sisällön muuttaminen
+## 5. Artikkelin sisällön muuttaminen
 
 Varsinainen artikkelin sisältö saadaan työn alle klikkaamalla artikkelin otsikkoa.
 

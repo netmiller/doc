@@ -6,7 +6,7 @@ Mutta koska kuvien käsittely HTML-pohjaisessa dokumentissa on hieman erilaista 
 niin sitä hieman käsitellään tässä.
 
 
-## Kuvat serverille valmiiksi
+## 1. Kuvat serverille valmiiksi
 
 Kuvat on ensin vietävä serverille, jolloin ne voidaan liittää mukaan artikkeliin.
 Pelkkä "copy/paste" ei riitä kuten tekstinkäsittelyssä.
@@ -14,7 +14,7 @@ Pelkkä "copy/paste" ei riitä kuten tekstinkäsittelyssä.
 Kuvien viemisestä serverille on oma ohjeensa sivulla [Mediatiedostojen lisääminen][21].
 
 
-## Kuvan lisääminen tekstieditorissa
+## 2. Kuvan lisääminen tekstieditorissa
 
 Kuvia voi lisätä ruudun alareunassa olevasta __"Kuva"__ -painikkeesta.
 
@@ -23,7 +23,7 @@ Kuvia voi lisätä ruudun alareunassa olevasta __"Kuva"__ -painikkeesta.
 </figure>
 
 
-## Kuvan poiminta mediatiedostoista
+## 3. Kuvan poiminta mediatiedostoista
 
 Toiminto avaa ikkunan, jossa näytetään serverillä olevat kuvat, ja niistä voidaan valita tarvittava kuva mukaan.
 
@@ -67,7 +67,7 @@ Idea on sama kuin ohjeessa jossa kuvat lisätään etukäteen serverille;
 kts. sivulta [Mediatiedostojen lisääminen][21].
 
 
-## Kuvan asetukset
+## 4. Kuvan asetukset
 
 Kuva sijoitetaan sille riville, jolla tekstieditorin kursori oli poimintaa aloitettaessa,
 ja se viedään oletuksena vasempaan reunaan sivua.
@@ -76,7 +76,7 @@ Poiminnassa on kuitenkin valinta jolla se voidaan sijoittaa esim oikeaan reunaan
 
 
 
-## Kuvan poistaminen
+## 5. Kuvan poistaminen
 
 Kuva voidaan poistaa tekstieditorissa valitsemalla se aktiiviseksi ja painamalla "Del" -näppäintä.
 
@@ -84,7 +84,7 @@ Jos kuva halutaan vaihtaa, niin suoraviivaisin tapa on poistaa vanha kuva, ja li
 Vaihtoehto on tehdä se kuvan lisäasetusten kautta.
 
 
-## Kuvan asetusten muokkaaminen
+## 6. Kuvan asetusten muokkaaminen
 
 Kuvalle voidaan tehdä myös hieman enemmän muotoilua, ja varsinkin pienentää kokoa tarvittaessa.
 

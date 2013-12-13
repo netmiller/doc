@@ -7,7 +7,7 @@ Sopimuspaikat kattaa tällä hetkellä apteekit, lääkäriasemat, hoitolaitokse
 * toiselle sivulle on koottu sopimuksen tehneet lääkäriasemat ja hoitolaitokset.
 Myös hammaslääkäriasemat on tässä luettelossa.
 
-## Artikkelien hallintanäkymä
+## 1. Artikkelien hallintanäkymä
 
 Molemmat sivut löytyvät Artikkelien hallinta -näkymän kautta, ja sieltä ne voidaan ottaa ylläpidettäviksi.
 
@@ -19,7 +19,7 @@ Molemmat sivut löytyvät Artikkelien hallinta -näkymän kautta, ja sieltä ne 
 Hallintanäkymässä voidaan valita kategoriaksi pelkästään __"Sopimuspaikat"__ niin
 saadaan vain ao.dokumentit esiin ja löytyy nopeammin.
 
-## Luettelon ylläpito
+## 2. Luettelon ylläpito
 
 Sivu avataan ylläpitoon otsikkoa klikkaamalla.
 
@@ -38,7 +38,7 @@ Se pitää sisällään muutaman HTML-määrityksen, jonka avulla saadaan lopull
 
 Muuten sivun tietoja voidaan vapaasti muokata sopivaksi.
 
-## Taulukon ylläpito
+## 3. Taulukon ylläpito
 
 Sopimuspaikkojen luettelo on editorin taulukkomuodossa, joka on aika pitkälti samanlainen kuin
 esim. tekstinkäsittelyohjelmissa tehtävät taulukot.
@@ -70,7 +70,7 @@ Muita toimintoja ei yleensä tarvi käyttää kuin rivin lisäyksiä ja poistoja
 Osoitemuutokset tehdään suoraan korjaamalla haluttua solua.
 
 
-## Taulukon ulkoasu
+## 4. Taulukon ulkoasu
 
 Taulukon ulkoasu määräytyy sivuston omien CSS-asetusten avulla, joten ylläpidossa keskitytään
 vain että tiedot ovat oikein.

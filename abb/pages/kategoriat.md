@@ -3,7 +3,7 @@
 Kategoria on eräänlainen ryhmittely, jolla voidaan järjestää artikkelit loogisiksi kokonaisuuksiksi,
 ja niiden avulla voidaan myös poimia valikkoihin kaikki ko.toimintoon liittyvät artikkelit (esim. __Tiedotteet__).
 
-## Voimassa oleva ryhmittely
+## 1. Voimassa oleva ryhmittely
 
 Olen avannut toistaiseksi neljä kategoriaa (=ryhmää) joiden alle artikkelit sijoitetaan.
 
@@ -17,7 +17,7 @@ Kategoriat ovat :
 Näitä voidaan avata enemmänkin, mutta silloin täytyy miettiä myös valikkorakennetta uudestaan
 koska ryhmistä sinänsä ei ole apua ellei sitä ole jotenkin kytketty valikkojen kautta toimintoihin.
 
-## Käyttötarkoitus
+## 2. Käyttötarkoitus
 
 Nyt toistaiseksi ryhmät ovat loogisesti aika selkeitä ja menevät seuraavien sääntöjen mukaan :
 

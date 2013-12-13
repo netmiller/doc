@@ -1,11 +1,12 @@
 # Varmistukset
 
-## Sisältö
+## Sisällön varmistaminen
 
 Joomla-ohjelmistossa kaikki sisältö löytyy tietokannasta __(MySQL-tietokanta)__.
 
 Tietokanta varmistetaan www-palvelun toimesta niin että levyrikon tai muun vastaavan
 varalta tiedot voidaan aina palauttaa takaisin.
+
 
 ## Ulkoasu ja layout
 

@@ -9,7 +9,7 @@ Joihinkin toimintoihin valikoiden kautta pääsee nopeamminkin kuin Ohjauspaneel
 
 <figure class="fig-n border" style="margin:10px 0 0 0">
 ![1][]
-<figcaption>Kuva05: Ruutumalli ohjauspaneelista</figcaption>
+<figcaption>Ruutumalli ohjauspaneelista</figcaption>
 </figure>
 
 ----

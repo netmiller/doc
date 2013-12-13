@@ -5,7 +5,7 @@ __KELA:n pdf-lomakkeet__ linkataan suoraan KELA:n sivuilta käyttöön.
 
 Siten käyttäjän ei tarvitse itse etsiä niitä KELA:n sivustolta, vaan tulevat suoraan tätä kautta.
 
-## Linkkien vaihtaminen
+## 1. Linkkien vaihtaminen
 
 Linkit voidaan muuttaa jos KELA vaihtaa esim. niiden nimeä tai jos ne muuttuvat jollain muulla tavalla.
 
@@ -15,7 +15,7 @@ KELA:n sivuilta, ja ottaa URL-osoite sieltä talteen (esim. copy/paste -toiminno
 Muutos onnistuu tekstieditorissa, mutta on hieman hankalampi tehdä kuin  muut asiat, joten
 siitä on tässä hieman tarkennuksia.
 
-## Linkit tekstieditorissa
+## 2. Linkit tekstieditorissa
 
 Tekstieditorissa linkit eivät näy suoraan, vaan niiden URL-osoite löytyy seuraavasti.
 
@@ -32,7 +32,7 @@ ilmaisee että sanan takana olevaa linkkiä voidaan ylläpitää
 * työkaluista oik.puolella oleva "katkennut linkki" näköinen toiminto poistaa koko linkin,
 mutta vas.puolella oleva toiminto avaa linkin ylläpitotilaan (oma ikkuna)
 
-## Linkin ylläpitoikkuna
+## 3. Linkin ylläpitoikkuna
 
 Yllä oleva toiminto avaa oman ikkunan tekstiedorin päälle, ja siinä voidaan muuttaa linkin
 ominaisuuksia; myös URL-osoitetta.
@@ -49,7 +49,7 @@ Ruudun alareunassa oleva __"Päivitä"__ nappula korjaa nyt linkin paikalleen, j
 dokumentti, niin se pitäisi tulla voimaan sivustolle heti.
 
 
-## Korjaaminen suoraan HTML-tekstiin
+## 4. Korjaaminen suoraan HTML-tekstiin
 
 Hyvin suoraviivainen tapa korjata muuttunut linkki, on editoida se suoraan HTML-tekstiin (ns. raakamuodossa).
 
