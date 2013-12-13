@@ -23,7 +23,7 @@ tai vaihtoehtoisesti ylävalikosta __Artikkeli__ -> __Nostetut artikkelit__
 </figure>
 
 
-## Nostetut artikkelit
+## 2. Nostetut artikkelit
 
 Tätä ruutua ei välttämättä tarvitse useinkaan käyttää, koska "Uutisten lisääminen" kohdassa
 olevan ohjeen mukaan etusivun uutiset menevät yleensä oikein (tuorein uutinen ylimmäisenä)
@@ -40,7 +40,7 @@ Ruutu on seuraavannäköinen:
 
 Ruudulla näkyy vain ne uutiset, jotka on merkattu näkymään etusivulle eli tila on __Nostettu__.
 
-## Järjestys
+## 3. Järjestys
 
 Sarake __Järjestys__ on hyödyllinen, koska sen avulla voidaan määrätä missä järjestyksessä uutiset
 etusivulla ovat (ylimmästä alimpaan eli numero 1 on ylimpänä ja muut seuraavat numerojärjestyksessä).
@@ -54,7 +54,7 @@ pikkunuolien avulla artikkelia voidaan siirtää alaspäin tai ylöspäin.
 Kun ne on saatu oikeaan/haluttuun järjestykseen, niin täytyy vielä painaa "talleta" -kuvaketta,
 joka on "Järjestys" otsikon oikealla puolella tai alapuolella (=pieni levykkeen näköinen kuvake).
 
-## Tila
+## 4. Tila
 
 __Tila__ -sarakkeen avulla voi myös nopeasti ottaa pois näkyvistä uutisia tekemällä ne EI_JULKAISTUKSI.
 
@@ -65,7 +65,7 @@ Painamalla uudelleen niin se muuttuu takaisin JULKISEKSI.
 
 EI-JULKAISTUN kohdalla on pieni punainen kuvake, muuten toisenlainen vihreä kuvake.
 
-## Muutokset
+## 5. Muutokset
 
 Tältä sivulta pääsee myös nopeasti muuttamaan uutista, jos huomaa että sinne jäi kirjoitusvirhe
 tai jotain puuttuu tms.
@@ -73,7 +73,7 @@ tai jotain puuttuu tms.
 Napautetaan uutisen __Otsikko__ -kenttää, jolloin saadaan se auki [tekstieditoriin][11].
 
 
-## Muut tiedot
+## 6. Muut tiedot
 
 __Pääsy__ -sarake kertoo kenelle ko.artikkeli näytetään, mutta koska tässä vaiheessa sivustoa pidetään
 kaikille avoimena, niin kannattaa varmistaa että sarakkeessa on tieto "Public" eli näytetään kaikille.
@@ -90,5 +90,3 @@ vaan ne astuvat heti voimaan kun muutos on tehty.
 [3]: kuvat/kuva20.png "Ruutumalli "Nostetut artikkelit"
 [10]: pages/termit.md
 [11]: pages/tekstieditorin-kaytto.md
-
-

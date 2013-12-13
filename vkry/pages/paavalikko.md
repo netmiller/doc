@@ -91,12 +91,6 @@ __Sulje__
 
 
 
-
-
-
-
-
-
 [1]: kuvat/kuva51.png "Ruutumalli"
 [2]: kuvat/kuva52.png "Ruutumalli"
 [3]: kuvat/kuva53.png "Ruutumalli"

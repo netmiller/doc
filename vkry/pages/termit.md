@@ -9,7 +9,7 @@ joten siinä tapauksessa näkyy englanninkielinen termi mukana.
 Tässä kuitenkin joitain termejä jotka kaipaavat selitystä yleisellä tasolla:
 
 
-## Artikkeli
+## 1. Artikkeli
 
 Artikkelit on Joomlan perusasioita, joiden avulla sivuston sisältö kasataan.
 
@@ -23,7 +23,7 @@ lyhyenä otsikkona/ingressinä etusivulle sekä myöskin **Ajankohtaista** -vali
 
 Etusivun hallinnasta on oma lukunsa tässä ohjeistuksessa, ja asiaa sivutaan myös "Uutisten lisääminen" kohdassa.
 
-## Kategoria
+## 2. Kategoria
 
 Olen avannut viisi kategoriaa (=pääryhmää) joiden alle artikkelit sijoitetaan.
 
@@ -38,10 +38,10 @@ Kategoriat ovat :
 
 Pääryhmiä voidaan tarvittaessa avata enemmänkin, jos tulee tarvetta järjestää sisältöä eri tavalla.
 
-## Nostetut artikkelit
+## 3. Nostetut artikkelit
 
 _Nostetut artikkelit_ on Joomlan oma käsite, ja se tarkoittaa semmloista artikkelia joka on
-'__nostettu etusivulle__'.
+__"nostettu etusivulle"__.
 
 Sillä voi olla merkitystä tietynlaisilla koko ajan elävillä sivustoilla (esim. uutissivustot),
 mutta Vakuutuskassojen sivuilla sitä käytetään vain tuomaan __Ajankohtaista__ sivulla olevien
@@ -55,7 +55,7 @@ eli meidän tapauksessa pelkät uutiset. Sitä kautta voi tarkistaa tai myös te
 kuin koko hallintaosiossa.
 
 
-## Mediatiedostot / mediatiedostojen hallinta
+## 4. Mediatiedostot / mediatiedostojen hallinta
 
 Mediatiedostot sisältävät sivuilla/artikkeleilla mahdollisesti käytettävät kuvat ja myös pdf-tiedostot sekä
 videotiedostot.
@@ -65,7 +65,7 @@ Niille on oma hallintaikkuna Ohjauspaneelissa, jossa niitä voi lisätä ja pois
 kansioita tarpeen mukaan.
 
 
-## Artikkeleiden tekstieditori
+## 5. Artikkeleiden tekstieditori
 
 Artikkelien (sivujen ja uutisten) tekemisessä Joomlassa on oma tekstieditori, joka muistuttaa tekstinkäsittelyä.
 Siinä on toki paljon juuri www-sivuilla tarvittavia asioita ja termistöä, mutta tekstinkäsittelykokemuksesta on
@@ -74,7 +74,7 @@ paljon hyötyä ja tässä olevat poikkeukset on helppo oppia.
 [Editorin käytöstä][1] on oma lukunsa, jossa sitä on ohjeistettu.
 
 
-## Valikot
+## 6. Valikot
 
 Vakuutuskassat ry:n sivuston valikko on sivun yläreunassa, ja se on ulkoasua ajatellen suunniteltu aika
 kiinteäksi osaksi sivustoa, jolloin niiden lisääminen saattaa sekoittaa ulkoasua.
@@ -89,7 +89,7 @@ jos siihen tulee tarvetta.
 Myös lisääminen onnistuu, mutta se saattaa sekoittaa ulkoasua kuten aiemmin oli puhetta.
 
 
-## Julkaisupäivät
+## 7. Julkaisupäivät
 
 Artikkeleille (ja uutisille) voidaan haluttaessa asettaa julkaisupäivät (sekä aloitus- että lopetuspäivä).
 
@@ -105,7 +105,7 @@ häviää pois näkyvistä haluttuna hetkenä.
 Lisää aiheesta sivujen laatimisen ohjeissa.
 
 
-## Julkaistu / Julkaisematon
+## 8. Julkaistu / Julkaisematon
 
 Em. julkaisupäivien lisäksi sivuille voidaan asettaa yleisempi ehto eli onko koko sivu yleensä julkinen
 vaiko vielä keskeneräinen tai muuten poissa käytöstä __(=Julkaisematon)__.
@@ -117,7 +117,7 @@ sen voi näyttää kaikille.
 Vasta tämän jälkeen astuvat em. julkaisupäivät mukaan kuvaan.
 
 
-## Etusivu
+## 9. Etusivu
 
 Etusivu on poikkeus muiden sivujen joukossa, koska se koostuu erilaisista komponenteista.
 
@@ -125,7 +125,7 @@ Vakuutuskassat ry:n etusivulle on koottu muutamia perusasioita ja uusimmista tie
 sivun oik.alareunassa.
 
 
-## Komponentit
+## 10. Komponentit
 
 Komponentit -valikon alta löytyvät termit (Linkit, Uudelleenohjaus, Yhteystiedot, Yksityisviestit)
 joilla ei ole toistaiseksi mitään käyttöä tällä sivuilla.
@@ -135,7 +135,7 @@ Niihin ei tarvitse tehdä mitään muutoksia eikä termeistä kannata toistaisek
 Tarpeen mukaan niitä voidaan hyödyntää jos halutaan kehittää jotain asiaa uuteen suuntaan.
 
 
-## Käyttäjät / käyttäjien hallinta
+## 11. Käyttäjät / käyttäjien hallinta
 
 Tässä osassa tehdään tunnukset niille joilla tulee olla oikeus tehdä jotain ylläpitoon liittyviä muutoksia.
 

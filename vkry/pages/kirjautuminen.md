@@ -11,7 +11,7 @@ Lisätietoja saa myös sähköpostilla <Esa.Laitila@netmiller.fi>.<br/>
 Yhteystiedot Netmillerin kotisivun alareunassa.
 
 
-## Kirjautumisruutu
+## 1. Kirjautumisruutu
 
 Kirjautumisruutu näyttää seuraavanlaiselta :
 
@@ -23,7 +23,7 @@ Kirjautumisruutu näyttää seuraavanlaiselta :
 Tunnuksessa ja salasanassa on eroa isoilla ja pienillä kirjaimilla, joten __CapsLock -näppäimen__ jäädessä vahingossa päälle saattaa tulla ongelmia kirjauduttaessa.
 
 
-## Oman salasanan vaihtaminen
+## 2. Oman salasanan vaihtaminen
 
 Salasana kannattaa aina vaihtaa sen jälkeen kun on saanut tunnukset ja kirjautunut ensimmäisen kerran sisälle.
 

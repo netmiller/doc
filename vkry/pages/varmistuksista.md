@@ -1,13 +1,13 @@
 # Varmistukset
 
-## Sisältö
+## 1. Sisällön varmistaminen
 
 Joomla-ohjelmistossa kaikki sisältö löytyy tietokannasta __(MySQL-kanta)__.
 
 Tietokanta varmistetaan www-palvelun toimesta niin että levyrikon tai muun vastaavan
 varalta tiedot voidaan aina palauttaa takaisin.
 
-## Ulkoasu ja layout
+## 2. Ulkoasu ja layout
 
 Sivuston layout ja muut ulkoasuun liittyvät elementit on varmistettu Netmillerin
 toimesta.
@@ -21,4 +21,3 @@ vain tarvitavat henkilöt (Tällä hetkellä Netmiller ainoastaan).
 
 
 [1]: https://bitbucket.org
-

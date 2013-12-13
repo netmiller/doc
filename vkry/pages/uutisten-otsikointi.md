@@ -9,7 +9,7 @@ Ohessa ruutumalli miten uutiset näytetään:
 <figcaption></figcaption>
 </figure>
 
-## Otsikko
+## 1. Otsikko
 
 Uutista tehtäessä annetaan **Otsikko** -kentässä pääotsikko, joka voi olla pelkkä päivämäärä.
 
@@ -31,7 +31,7 @@ Tässä vielä __esimerkkejä uutisotsikoista:__
 * __29.8.2011__ (...ei muuta)
 * __5.7.2011 Ylimääräinen kokous__ (...jos haluaa antaa pienen otsikon johdannon lisäksi)\\
 
-## Johdanto/ingressi
+## 2. Johdanto/ingressi
 
 Uutiselle voidaan sen lisäksi antaa tekstiosassa ns. __johdanto__ tai millä nimellä sitä haluaakaan kutsua.
 
@@ -42,7 +42,7 @@ mutta tarkoitus on että se voisi pysyä maksimissaan muutaman rivin mittaisena,
 jolloin etusivulla uutisille varattu alue pystyy näyttämään useamman uutisen.
 
 
-## Johdannon antaminen tekstissä
+## 3. Johdannon antaminen tekstissä
 
 Varsinaisessa uutistekstissä johdanto annetaan tekstin alussa, ja kun se on laadittu,
 niin tehdään siihen **punainen katkomerkintä** painamalla alareunassa olevaa toimintokuvaketta **Lue lisää**.
