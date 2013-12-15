@@ -1,6 +1,6 @@
 # Yleistiedot
 
-__Vakuutuskassat ry__ :n ww-sivut on uusittu vuoden 2012 alussa, jolloin tehtiin pääasiassa yleisilmeen
+__Vakuutuskassat ry__ :n www-sivut on uusittu vuoden 2012 alussa, jolloin tehtiin pääasiassa yleisilmeen
 parannusta ja uutta graafista ilmettä.
 
 Samalla sivut siirrettiin alustalle, jossa sivujen omatoiminen ylläpito ja sisällön päivittäminen
@@ -11,7 +11,7 @@ on pyritty tekemään helpommaksi ja niin että se voisi vastata muuttuvia ja uu
 </figure>
 
 
-Koko sivusto on toteutettu **Joomla** -nimisellä www-sivujen julkaisujärjestelmällä.
+Koko sivusto on toteutettu __Joomla__ -nimisellä www-sivujen julkaisujärjestelmällä.
 
 Joomla-ohjelmistosta löytyy paljon tietoa verkosta, mutta hyvä aloituspaikka on osoitteessa :
 

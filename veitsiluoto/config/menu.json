@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "versio": "0.9",
+        "author": "Esa.Laitila@netmiller.fi",
+        "desc": "Veitsiluodon sairauskassa - www-dokumentaation valikko",
+        "default_page": "pages/etusivu.md",
+        "last-update": "13.12.2013 Esa.Laitila@netmiller.fi"
+    },
+	"menu": [
+		{
+			"key": "Etusivu",
+			"values": [
+				{ "key": "Etusivulle", "href": "pages/etusivu.md" }
+			]
+		},
+		{
+			"key": "Yleistietoa",
+			"values": [
+				{ "key": "Yleistietoa www-sivuista", "href": "pages/yleistietoa.md" },
+				{ "key": "Termistö/sanasto", "href": "pages/termit.md" },
+				{ "key": "Kategoriat ja niiden käyttö", "href": "pages/kategoriat.md" },
+				{ "key": "Kirjautuminen", "href": "pages/kirjautuminen.md" },
+				{ "key": "Salasanan vaihtaminen", "href": "pages/salasanan-vaihto.md" }
+			]
+		},
+		{
+			"key": "Sivujen ylläpito",
+			"values": [
+                { "key": "Ylläpitonäkymä", "href": "pages/yllapito-yleista.md" },
+				{ "key": "Tiedotteiden tekeminen", "href": "pages/tiedotteiden-tekeminen.md" },
+				{ "key": "Muiden sivujen lisääminen", "href": "pages/sivujen-lisaaminen.md" },
+				{ "key": "Sivujen muuttaminen", "href": "pages/sivujen-muuttaminen.md" },
+				{ "key": "Julkaisupäivämäärät", "href": "pages/julkaisupvm.md" },
+				{ "key": "Tekstieditorin käyttäminen", "href": "pages/tekstieditorin-kaytto.md" }
+			]
+		},
+        {
+            "key": "Muiden tietojen ylläpito",
+            "values": [
+                { "key": "Etusivun ylläpito", "href": "pages/etusivun-yllapito.md" },
+                { "key": "Yhteystiedot", "href": "pages/yhteystiedot.md" }
+            ]
+        },
+        {
+            "key": "Valikoiden ylläpito",
+            "values": [
+                { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" }
+            ]
+        },
+        {
+            "key": "Lomakkeet",
+            "values": [
+                { "key": "Lomakkeiden ylläpito", "href": "pages/lomakkeet.md" },
+                { "key": "Kassan omat lomakkeet", "href": "pages/huu1.md" },
+                { "key": "Lomakkeiden kytkeminen valikkoon", "href": "pages/huu2.md" },
+                { "key": "Muut lomakkeet (KELA)", "href": "pages/huu3.md" }
+            ]
+        },
+        {
+            "key": "Sopimusapteekit ja lääkäriasemat??",
+            "values": [
+                { "key": "Sopimuspaikkojen ylläpito (tarvitaanko??)", "href": "pages/sopimuspaikat.md" }
+            ]
+        },
+        {
+            "key": "Mediatiedostot",
+            "values": [
+                { "key": "Mediatiedostojen lisääminen", "href": "pages/mediatiedostot.md" },
+                { "key": "Kuvien käyttö artikkeleissa", "href": "pages/kuvien-kaytto.md" }
+            ]
+        },
+        {
+			"key": "Tekninen toteutus",
+			"values": [
+				{ "key": "Ohjelmistosta", "href": "pages/ohjelmistosta.md" },
+				{ "key": "Palvelimesta", "href": "pages/palvelimesta.md" },
+				{ "key": "Varmistukset", "href": "pages/varmistuksista.md" },
+				{ "key": "Tietoturvapäivitykset", "href": "pages/tietoturvapaivitykset.md" }
+			]
+		}
+	]
+}

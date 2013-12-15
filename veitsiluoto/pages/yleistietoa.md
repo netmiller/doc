@@ -1,6 +1,6 @@
 # Yleistiedot
 
-__ABB:n vakuutuskassan__ www-sivut on toteutettu __Joomla__ -nimisellä julkaisujärjestelmällä.
+__Veitsiluodon sairauskassan__ www-sivut on toteutettu __Joomla__ -nimisellä julkaisujärjestelmällä.
 
 
 <figure class="fig-r" style="margin:10px">
@@ -28,7 +28,7 @@ tarpeiden ja toimintojen ohjeistukseen, ja osa mahdollisuuksista on hyödyntäm�
 
 Mutta joustavuudella on myös huonona puolena se, että jotkut asiat voivat tuntua monimutkaisilta (ainakin alussa).
 
-__ABB:n vakuutuskassan__  sivusto on pyritty pitämään mahdollisimmat helppona ja suoraviivaisena,
+Sairauskassan  sivusto on pyritty pitämään mahdollisimmat helppona ja suoraviivaisena,
 joten monia varsinkin ylläpitovalikossa olevia asioita ei ole selitetty enempää.
 Niistä kannattaa kysyä jos tulee uusia tarpeita tai joku asia kiinnostaa tarkemmin.
 
