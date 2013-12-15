@@ -1,0 +1,62 @@
+# Valikkojen ylläpitäminen
+
+Sivuston vasemmassa reunassa näkyvät valikot ovat ylläpidettävissä __Valikoiden hallintanäkymän__ kautta.
+
+Valikoiden rakenne ja toiminnot vaikuttavat  oleellisesti kaikkeen muuhun,
+joten sen kanssa on oltava tarkempana, ja mielellään kokeiltava ensin yhteistyössä Netmillerin kanssa
+ja isommissa muutoksissa voidaan avata __testiympäristö__ jossa kokeillaan ensin muutokset.
+
+Tekstien vaihtaminen on kuitenkin helppoa tätä kautta, joten sen ohjeistukseen keskitytään tällä sivulla.
+
+
+## 1. Valikoiden hallintanäkymä
+
+Avataan ensin __Valikoiden hallintanäkymä__.
+
+Hallintanäkymä löytyy joko ohjauspaneelista:
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![1][]
+</figure>
+
+tai ylävalikosta Valikot ->  Valikoiden hallinta
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![2][]
+</figure>
+
+
+## 2. Valikot
+
+Hallintaikkunassa pitäisi näkyä ainakin neljä eri valikkoa, joista sivun vas.reuna on
+muodostettu.
+
+Jokaista noista voidaan ylläpitää erikseen, jolloin niihin saadaan tarvittaessa helposti
+lisää toimintoja.
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![3][]
+</figure>
+
+
+## 3. Ylläpito
+
+Hallintanäkymästä päästään ylläpitämään varsinaisia valikon rivejä
+klikkaamalla __Otsikko__ sarakken tekstiä.
+
+Sieltä aukeaa toinen hallintaruutu, jossa on varsinaiset määritykset.
+
+* __Päävalikko__  - ohje löytyy sivulta [Päävalikon ylläpito][10]
+* __Kassan lomakkeet__  - ohje löytyy sivulta [Kassan lomakkeet ylläpito][11]
+* __Muut lomakkeet__  - ohje löytyy sivulta [Muut lomakkeet ylläpito][12]
+* __Linkit__  - ohje löytyy sivulta [Linkkienlläpito][13]
+
+----
+
+[1]: kuvat/kuva51.png "Ruutumalli"
+[2]: kuvat/kuva52.png "Ruutumalli"
+[3]: kuvat/kuva81.png "Ruutumalli"
+[10]: pages/paavalikko.md
+[11]: pages/pages/kassan-lomakkeet.md
+[12]: pages/pages/muut-lomakkeet.md
+[13]: pages/pages/linkit.md

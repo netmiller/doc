@@ -44,7 +44,11 @@
         {
             "key": "Valikoiden ylläpito",
             "values": [
-                { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" }
+                { "key": "Valikot", "href": "pages/valikot.md" },
+                { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" },
+                { "key": "Kassan lomakkeet ylläpito", "href": "pages/kassan-lomakkeet.md" },
+                { "key": "Muut lomakkeet ylläpito", "href": "pages/muut-lomakkeet.md" },
+                { "key": "Linkkien ylläpito", "href": "pages/linkit.md" }
             ]
         },
         {
