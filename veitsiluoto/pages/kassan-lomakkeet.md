@@ -10,6 +10,7 @@ niin pitäisi avautua seuraavannäköinen ruutu :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
+<figcaption>Ruutumalli "Kassan lomakkeet" valikosta</figcaption>
 </figure>
 
 
