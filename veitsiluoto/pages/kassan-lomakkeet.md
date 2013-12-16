@@ -46,14 +46,14 @@ __(1)__ __Otsikko__ kenttää voidaan helposti muuttaa.
 
 __(2)__ Lomakkeissa valitaan nimikkeen tyypiksi  __URL__
 
-__(3)__  __Haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen linkkin kenttään.
+__(3)__  __haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen linkki ao.kenttään
 
 * lomake tehdään etukäteen esim. tekstinkäsittelyohjelmalla, ja talletetaan PDF-muotoon omalle koneelle,
 mutta joka sitten täytyy tuoda erikseen [Mediatiedostojen hallinnan][11] kautta serverille.
 
 * Mediatiedostoissa se viedään selvyyden vuoksi lomakkeelle varattun kansioon.
 
-* linkki muodostuu tekstistä __"/tiedostot/lomakkeet/\<pdf-tiedoston-nimi\>"__.
+* linkki muodostuu tekstistä __"/tiedostot/lomakkeet/pdf-tiedoston-nimi"__.
 
 * nimessä alkuosa __/tiedostot__ on vakio, ja seuraava osa __/lomakkeet__ on sen kansion nimi jonne lomakkeet on viety.
 Ja loppuosa on tiedoston nimi; esimerkissä siis __"elakejatko.pdf"__.
@@ -71,12 +71,8 @@ varmuuden vuoksi yhteyttä Netmilleriin.
 ````
 
 
-## 4. Lomakkeiden vieminen serverille
 
-??????? tähän jotain tarkennusta vielä ????
-
-
-## 5. Tallettaminen
+## 4. Tallettaminen
 
 Tiedot talletetaan oik.ylänurkassa olevilla toiminnoilla.
 
