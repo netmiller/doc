@@ -38,7 +38,7 @@
             "key": "Muiden tietojen ylläpito",
             "values": [
                 { "key": "Etusivun ylläpito", "href": "pages/etusivun-yllapito.md" },
-                { "key": "Yhteystiedot", "href": "pages/yhteystiedot.md" }
+                { "key": "Yhteystietojen ylläpito", "href": "pages/yhteystiedot.md" }
             ]
         },
         {

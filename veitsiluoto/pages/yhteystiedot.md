@@ -44,7 +44,7 @@ tekstilaatikko avautuu vain etusivulle.
 ![4][]
 </figure>
 
-Varsinkin __Asema__ kohta on tärkeä olla arvossa _right__.
+Varsinkin __Asema__ kohta on tärkeä olla arvossa __Right__.
 
 Myöskin __Näytä otsikko__ saa olla tilassa __Piilota__ koska tarvittavat väliotsikot
 on annettu suoraan sisällössä.
