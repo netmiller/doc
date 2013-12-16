@@ -64,7 +64,7 @@ Linkki kirjoittaan suoraan kenttään (3), eikä sille ole Joomlassa poimintavai
 ja kaikki nimet ja kansiot on kirjoitettu oikein.
 
 
-```
+````
 Valikon muut yksityiskohtaisten määritykset tarvitsevat jonkin verran
 Joomlan teknistä tuntemusta, ja muutosten osalta kannattaa ottaa
 varmuuden vuoksi yhteyttä Netmilleriin.
