@@ -1,0 +1,101 @@
+# Muiden lomakkeiden ylläpitäminen
+
+Muut lomakkeet löytyvät __Valikoiden hallinta__ -ikkunasta, ja niiden
+ylläpito menee seuraavasti. Valikoiden hallintanäkymän ohje löytyy [täältä][10].
+
+Muiden lomakkeiden ylläpito on pääosin samanlaista kuin [Kassan lomakkeiden][12] ylläpito,
+ero on lähinnä siinä miten __URL-osoite annetaan__.
+
+## 1. Muut lomakkeet
+
+Avataan lomakkeet valikoiden hallintaikkunassa (klikkaamalla otsikkoa),
+jolloin pitäisi avautua seuraavannäköinen ruutu :
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![1][]
+</figure>
+
+
+## 2. Valikon järjestys
+
+__"Järjestys"__ -sarakkeen avulla valikon sisäistä järjestystä voidaan tarvittaessa muuttaa.
+
+Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
+tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa olevaa talletuskuvaketta.
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![2][]
+</figure>
+
+Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
+
+
+## 3. Valikon rivien ylläpito
+
+Näkymä sisältää kaikki kyseisen valikon rivit, ja jokaista päästään käsittelemään yksitellen.
+
+Klikkaamalla Otsikko-sarakkeen kenttää päästään ruudulle jossa voidaan ylläpitää valikon riviä.
+
+Esimerkkinä valikon kohta __KELA - sairauspäiväraha__.
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![3][]
+<figcaption>Ruutumalli yhden lomakkeen ylläpidosta</figcaption>
+</figure>
+
+Valikon yksityiskohtaisten määritykset tarvitsevat jonkin verran Joomlan teknistä tuntemusta,
+ja muutosten osalta kannattaa ottaa varmuuden vuoksi yhteyttä [Netmilleriin][10].
+
+__(1)__ __Otsikko__ kenttää voidaan helposti muuttaa.
+
+__(2)__ Lomakkeissa valitaan nimikkeen tyypiksi  __URL__. Kts. kohta 2.
+
+__(3)__  __Haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen linkkin kenttään (kts.kohta 3).
+
+* KELA:n lomakkeiden tapauksessa PDF-tiedostot on jo valmiina KELA:n serverillä, joten ne voidaan
+linkata sieltä suoraan käyttöön kunhan vaan selvitetään tarkka URL-osoite.
+
+* linkki kirjoittaan suoraan kenttään (3).
+
+* tässä voidaan käyttää __"Copy/Paste"__ toimintoa jolla ko.linkki on ehkä helpointa ottaa
+selaimesta talteen, ja liittää se tähän kenttään.
+
+Esimerkissä tarkka URL-osoite on :
+
+http://lomake.kansanelakelaitos.fi/kela/kela.fi/fi/tiedostot/21188/SV8_W.pdf
+
+````
+HUOM! ruudulla Linkki-kenttä on liian lyhyt pitkille osoitteille, mutta kyllä
+se silti sinne mahtuu vaikka ruutu ei näytäkään kokonaan. Loppuosa jää piiloon.
+````
+
+
+## 4. Tallettaminen
+
+Tiedot talletetaan oik.ylänurkassa olevilla toiminnoilla.
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![5][]
+</figure>
+
+__Tallenna__
+
+*   vie muutokset tietokantaan (ei sulje ruutua)
+
+__Tallenna ja Sulje__
+
+*   vie muutokset tietokantaan ja sulkee ruudun.
+
+__Sulje__
+
+*   sulkee ruudun ja jos ei ole erikseen tallennettu, niin hylkää muutokset
+
+----
+
+[1]: kuvat/kuva88.png "Ruutumalli"
+[2]: kuvat/kuva70.png "Ruutumalli"
+[3]: kuvat/kuva89.png "Ruutumalli"
+[5]: kuvat/kuva56.png "Ruutumalli"
+[10]: pages/valikot.md
+[11]: pages/mediatiedostot.md
+[12]: pages/kassan-lomakkeet.md

@@ -1,12 +1,11 @@
-# Päävalikon ylläpitäminen
+# Kassan lomakkeiden ylläpitäminen
 
-Sivuston vasemmassa reunassa ensimmäisenä näkyy ns. __Päävalikko__.
+Kassan omat lomakkeet löytyvät __Valikoiden hallinta__ -ikkunasta, ja niiden
+ylläpito menee seuraavasti. Valikoiden hallintanäkymän ohje löytyy [täältä][10].
 
-Sen ylläpito menee seuraavasti .
+## 1. Kassan lomakkeet
 
-## 1. Päävalikon nimikkeet
-
-Kun avataan valikoiden hallintaikkunassa ao.valikko (klikkaamalla otsikkoa),
+Kun "Kassan lomakkeet" avataan valikoiden hallintaikkunassa (klikkaamalla otsikkoa),
 niin pitäisi avautua seuraavannäköinen ruutu :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
@@ -34,33 +33,36 @@ Näkymä sisältää kaikki kyseisen valikon rivit, ja jokaista päästään kä
 
 Klikkaamalla Otsikko-sarakkeen kenttää päästään ruudulle jossa voidaan ylläpitää valikon riviä.
 
-Esimerkkinä valikon kohta __Lisäetuudet__.
+Esimerkkinä valikon kohta __Eläkeläisjäsenen ilmoitus__.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![3][]
-<figcaption>Ruutumalli valikon rivin ylläpidosta</figcaption>
+<figcaption>Ruutumalli yhden lomakkeen ylläpidosta</figcaption>
 </figure>
 
 Valikon yksityiskohtaisten määritykset tarvitsevat jonkin verran Joomlan teknistä tuntemusta,
 ja muutosten osalta kannattaa ottaa varmuuden vuoksi yhteyttä [Netmilleriin][10].
 
-__(1)__ __Otsikko__ kenttää voidaan hyvin muuttaa, ja myöskin sitä mikä artikkeli valikon takaa haetaan sivulle esiin.
+__(1)__ __Otsikko__ kenttää voidaan helposti muuttaa.
 
-__(2)__ Tietty artikkeli kytketään valikon kohtaan valitsemalla ensin Valikon nimikkeen tyypiksi __Yksittäinen artikkeli__.
-Esimerkissä tietojen ensimmäinen rivi.
+__(2)__ Lomakkeissa valitaan nimikkeen tyypiksi  __URL__. Kts. kohta 2.
 
-__(3)__ Sen jälkeen otetaan ruudun oik.reunasta laatikko __"Pakolliset asetukset"__.
-ja sieltä pitäisi nyt löytyä toiminto jolla __voidaan valita haluttu artikkeli__ joka kytketään tähän valikon kohtaan.
+__(3)__  __Haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen linkkin kenttään (kts.kohta 3).
 
+* lomake tehdään etukäteen esim. tekstinkäsittelyohjelmalla, ja talletetaan PDF-muotoon omalle koneelle,
+mutta joka sitten täytyy tuoda erikseen [Mediatiedostojen hallinnan][11] kautta serverille.
 
-<figure class="fig-n border" style="margin:0 0 20px 0">
-![4][]
-<figcaption>Ruutumalli valikon rivin ylläpidosta</figcaption>
-</figure>
+* Mediatiedostoissa se viedään selvyyden vuoksi lomakkeelle varattun kansioon.
 
+* linkki muodostuu tekstistä __"/tiedostot/lomakkeet/\<pdf-tiedoston-nimi\>"__.
 
-__(4)__ __Valitse/Muuta__ nappula avaa luettelon artikkeleista, ja sieltä voidaan nyt etsiä haluttu artikkeli.
+* nimessä alkuosa __/tiedostot__ on vakio, ja seuraava osa __/lomakkeet__ on sen kansion nimi jonne lomakkeet on viety.
+Ja loppuosa on tiedoston nimi; esimerkissä siis __"elakejatko.pdf"__.
 
+Linkki kirjoittaan suoraan kenttään (3), eikä sille ole Joomlassa poimintavaihtoehtoa.
+
+Jos ei toimi, niin kannattaa tarkistaa että linkki alkaa __kauttaviivalla__ ja kaikki nimet ja kansiot
+on kirjoitettu oikein.
 
 
 ## 4. Tallettaminen
@@ -85,9 +87,9 @@ __Sulje__
 
 ----
 
-[1]: kuvat/kuva68.png "Ruutumalli"
+[1]: kuvat/kuva86.png "Ruutumalli"
 [2]: kuvat/kuva70.png "Ruutumalli"
-[3]: kuvat/kuva69.png "Ruutumalli"
-[4]: kuvat/kuva85.png "Ruutumalli"
+[3]: kuvat/kuva87.png "Ruutumalli"
 [5]: kuvat/kuva56.png "Ruutumalli"
-[10]: http://www.netmiller.fi
+[10]: pages/valikot.md
+[11]: pages/mediatiedostot.md
