@@ -9,6 +9,7 @@ niin sitä hieman käsitellään tässä.
 ## 1. Kuvat serverille valmiiksi
 
 Kuvat on ensin vietävä serverille, jolloin ne voidaan liittää mukaan artikkeliin.
+
 Pelkkä "copy/paste" ei riitä kuten tekstinkäsittelyssä.
 
 Kuvien viemisestä serverille on oma ohjeensa sivulla [Mediatiedostojen lisääminen][21].
@@ -93,7 +94,7 @@ joka on merkattu oheisessa ruutukaappauksessa.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![7][]
-<figcaption>Kuva49: ruutumalli työkalupalkista</figcaption>
+<figcaption>Ruutumalli työkalupalkista</figcaption>
 </figure>
 
 Jos kursori viedään kuvakkeen päälle, niin tekstinä pitäisi näkyä __"Lisää/muokkaa kuvaa"__.
@@ -102,7 +103,7 @@ Toiminnosta aukeaa ikkuna joka on seuraavannäköinen :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![8][]
-<figcaption>Kuva50: ruutumalli kuvan muokkausikkunasta</figcaption>
+<figcaption>Ruutumalli kuvan muokkausikkunasta</figcaption>
 </figure>
 
 

@@ -45,25 +45,22 @@
             "key": "Valikoiden ylläpito",
             "values": [
                 { "key": "Valikot", "href": "pages/valikot.md" },
-                { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" },
+                { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" }
+
+            ]
+        },
+        {
+            "key": "Lomakkeet ja linkit",
+            "values": [
                 { "key": "Kassan lomakkeet ylläpito", "href": "pages/kassan-lomakkeet.md" },
-                { "key": "Muut lomakkeet ylläpito", "href": "pages/muut-lomakkeet.md" },
+                { "key": "Muut lomakkeet ylläpito (KELA)", "href": "pages/muut-lomakkeet.md" },
                 { "key": "Linkkien ylläpito", "href": "pages/linkit.md" }
             ]
         },
         {
-            "key": "Lomakkeet",
+            "key": "Sopimuspaikat",
             "values": [
-                { "key": "Lomakkeiden ylläpito", "href": "pages/lomakkeet.md" },
-                { "key": "Kassan omat lomakkeet", "href": "pages/huu1.md" },
-                { "key": "Lomakkeiden kytkeminen valikkoon", "href": "pages/huu2.md" },
-                { "key": "Muut lomakkeet (KELA)", "href": "pages/huu3.md" }
-            ]
-        },
-        {
-            "key": "Sopimusapteekit ja lääkäriasemat??",
-            "values": [
-                { "key": "Sopimuspaikkojen ylläpito (tarvitaanko??)", "href": "pages/sopimuspaikat.md" }
+                { "key": "Sopimuspaikkojen ylläpito", "href": "pages/sopimuspaikat.md" }
             ]
         },
         {

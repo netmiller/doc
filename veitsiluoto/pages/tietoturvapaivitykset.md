@@ -11,7 +11,7 @@ Ohjauspaneelissa asia voisi näyttää seuraavanlaiselta :
 
 <figure class="fig-n border" style="margin:10px 0 0 0">
 ![1][]
-<figcaption>Kuva66: malli ohjauspaneelista</figcaption>
+<figcaption>Malli ohjauspaneelin ilmoituksista</figcaption>
 </figure>
 
 

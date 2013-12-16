@@ -13,6 +13,7 @@ jolloin pitäisi avautua seuraavannäköinen ruutu :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
+<figcaption>Ruutumalli "Muut lomakkeet" ylläpidosta</figcaption>
 </figure>
 
 
@@ -23,11 +24,11 @@ __"Järjestys"__ -sarakkeen avulla valikon sisäistä järjestystä voidaan tarv
 Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
 tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa olevaa talletuskuvaketta.
 
+Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
+
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![2][]
 </figure>
-
-Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
 
 
 ## 3. Valikon rivien ylläpito
@@ -43,14 +44,11 @@ Esimerkkinä valikon kohta __KELA - sairauspäiväraha__.
 <figcaption>Ruutumalli yhden lomakkeen ylläpidosta</figcaption>
 </figure>
 
-Valikon yksityiskohtaisten määritykset tarvitsevat jonkin verran Joomlan teknistä tuntemusta,
-ja muutosten osalta kannattaa ottaa varmuuden vuoksi yhteyttä [Netmilleriin][10].
+__(1)__ __Otsikko__ kenttää voidaan helposti muuttaa
 
-__(1)__ __Otsikko__ kenttää voidaan helposti muuttaa.
+__(2)__ Lomakkeissa valitaan nimikkeen tyypiksi  __URL__
 
-__(2)__ Lomakkeissa valitaan nimikkeen tyypiksi  __URL__. Kts. kohta 2.
-
-__(3)__  __Haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen linkkin kenttään (kts.kohta 3).
+__(3)__  __Haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen linkkin kenttään.
 
 * KELA:n lomakkeiden tapauksessa PDF-tiedostot on jo valmiina KELA:n serverillä, joten ne voidaan
 linkata sieltä suoraan käyttöön kunhan vaan selvitetään tarkka URL-osoite.
@@ -60,9 +58,7 @@ linkata sieltä suoraan käyttöön kunhan vaan selvitetään tarkka URL-osoite.
 * tässä voidaan käyttää __"Copy/Paste"__ toimintoa jolla ko.linkki on ehkä helpointa ottaa
 selaimesta talteen, ja liittää se tähän kenttään.
 
-Esimerkissä tarkka URL-osoite on :
-
-http://lomake.kansanelakelaitos.fi/kela/kela.fi/fi/tiedostot/21188/SV8_W.pdf
+* esimerkissä tarkka URL-osoite on : </br> http://lomake.kansanelakelaitos.fi/kela/kela.fi/fi/tiedostot/21188/SV8_W.pdf
 
 ````
 HUOM! ruudulla Linkki-kenttä on liian lyhyt pitkille osoitteille, mutta kyllä

@@ -21,11 +21,12 @@ __"Järjestys"__ -sarakkeen avulla valikon sisäistä järjestystä voidaan tarv
 Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
 tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa olevaa talletuskuvaketta.
 
+Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
+
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![2][]
 </figure>
 
-Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
 
 
 ## 3. Valikon rivien ylläpito
@@ -41,10 +42,7 @@ Esimerkkinä valikon kohta __Lisäetuudet__.
 <figcaption>Ruutumalli valikon rivin ylläpidosta</figcaption>
 </figure>
 
-Valikon yksityiskohtaisten määritykset tarvitsevat jonkin verran Joomlan teknistä tuntemusta,
-ja muutosten osalta kannattaa ottaa varmuuden vuoksi yhteyttä [Netmilleriin][10].
-
-__(1)__ __Otsikko__ kenttää voidaan hyvin muuttaa, ja myöskin sitä mikä artikkeli valikon takaa haetaan sivulle esiin.
+__(1)__ __Otsikko__ kenttää voidaan helposti muuttaa
 
 __(2)__ Tietty artikkeli kytketään valikon kohtaan valitsemalla ensin Valikon nimikkeen tyypiksi __Yksittäinen artikkeli__.
 Esimerkissä tietojen ensimmäinen rivi.
@@ -61,6 +59,8 @@ ja sieltä pitäisi nyt löytyä toiminto jolla __voidaan valita haluttu artikke
 
 __(4)__ __Valitse/Muuta__ nappula avaa luettelon artikkeleista, ja sieltä voidaan nyt etsiä haluttu artikkeli.
 
+Valikon muut yksityiskohtaisten määritykset tarvitsevat jonkin verran Joomlan teknistä tuntemusta,
+ja muutosten osalta kannattaa ottaa varmuuden vuoksi yhteyttä [Netmilleriin][10].
 
 
 ## 4. Tallettaminen

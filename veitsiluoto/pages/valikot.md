@@ -53,10 +53,18 @@ Sieltä aukeaa toinen hallintaruutu, jossa on varsinaiset määritykset.
 
 ----
 
+```
+Valikon monet yksityiskohdat tarvitsevat jonkin verran Joomlan teknistä tuntemusta,
+ja muutosten osalta kannattaa ottaa varmuuden vuoksi yhteyttä Netmilleriin.
+Mutta perusasiat voi hyvin tehdä itse.  Kts. tarkemmin yo. valikkojen ohjeita.
+````
+
+
+
 [1]: kuvat/kuva51.png "Ruutumalli"
 [2]: kuvat/kuva52.png "Ruutumalli"
 [3]: kuvat/kuva81.png "Ruutumalli"
 [10]: pages/paavalikko.md
-[11]: pages/pages/kassan-lomakkeet.md
-[12]: pages/pages/muut-lomakkeet.md
-[13]: pages/pages/linkit.md
+[11]: pages/kassan-lomakkeet.md
+[12]: pages/muut-lomakkeet.md
+[13]: pages/linkit.md

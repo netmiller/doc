@@ -17,14 +17,15 @@ niin pitäisi avautua seuraavannäköinen ruutu :
 
 __"Järjestys"__ -sarakkeen avulla valikon sisäistä järjestystä voidaan tarvittaessa muuttaa.
 
-Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
+Sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
 tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa olevaa talletuskuvaketta.
+
+Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![2][]
 </figure>
 
-Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
 
 
 ## 3. Valikon rivien ylläpito
@@ -40,14 +41,11 @@ Esimerkkinä valikon kohta __Eläkeläisjäsenen ilmoitus__.
 <figcaption>Ruutumalli yhden lomakkeen ylläpidosta</figcaption>
 </figure>
 
-Valikon yksityiskohtaisten määritykset tarvitsevat jonkin verran Joomlan teknistä tuntemusta,
-ja muutosten osalta kannattaa ottaa varmuuden vuoksi yhteyttä [Netmilleriin][10].
-
 __(1)__ __Otsikko__ kenttää voidaan helposti muuttaa.
 
-__(2)__ Lomakkeissa valitaan nimikkeen tyypiksi  __URL__. Kts. kohta 2.
+__(2)__ Lomakkeissa valitaan nimikkeen tyypiksi  __URL__
 
-__(3)__  __Haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen linkkin kenttään (kts.kohta 3).
+__(3)__  __Haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen linkkin kenttään.
 
 * lomake tehdään etukäteen esim. tekstinkäsittelyohjelmalla, ja talletetaan PDF-muotoon omalle koneelle,
 mutta joka sitten täytyy tuoda erikseen [Mediatiedostojen hallinnan][11] kautta serverille.
@@ -61,11 +59,23 @@ Ja loppuosa on tiedoston nimi; esimerkissä siis __"elakejatko.pdf"__.
 
 Linkki kirjoittaan suoraan kenttään (3), eikä sille ole Joomlassa poimintavaihtoehtoa.
 
-Jos ei toimi, niin kannattaa tarkistaa että linkki alkaa __kauttaviivalla__ ja kaikki nimet ja kansiot
-on kirjoitettu oikein.
+* jos ei toimi, niin kannattaa tarkistaa että linkki alkaa __kauttaviivalla__
+ja kaikki nimet ja kansiot on kirjoitettu oikein.
 
 
-## 4. Tallettaminen
+```
+Valikon muut yksityiskohtaisten määritykset tarvitsevat jonkin verran
+Joomlan teknistä tuntemusta, ja muutosten osalta kannattaa ottaa
+varmuuden vuoksi yhteyttä Netmilleriin.
+````
+
+
+## 4. Lomakkeiden vieminen serverille
+
+??????? tähän jotain tarkennusta vielä ????
+
+
+## 5. Tallettaminen
 
 Tiedot talletetaan oik.ylänurkassa olevilla toiminnoilla.
 

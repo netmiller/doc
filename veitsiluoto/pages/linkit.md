@@ -4,6 +4,13 @@ Linkit ovat myös osa valikkoa, ja löytyvät __Valikoiden hallinta__ -ikkunasta
 ylläpito menee seuraavasti. Valikoiden hallintanäkymän ohje löytyy [täältä][10].
 
 
+````
+Linkkien tekeminen on lähes samanlaista kuin Lomakkeiden ylläpito, erona
+lähinnä se että URL-osoite on nyt tyypillisesti joku kotisivun osoite eikä
+PDF-lomakkeen osoite kuten Lomakkeissa.
+````
+
+
 ## 1. Linkit
 
 Avataan lomakkeet valikoiden hallintaikkunassa (klikkaamalla otsikkoa),
@@ -21,11 +28,12 @@ __"Järjestys"__ -sarakkeen avulla valikon sisäistä järjestystä voidaan tarv
 Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
 tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa olevaa talletuskuvaketta.
 
+Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
+
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![2][]
 </figure>
 
-Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
 
 
 ## 3. Linkkirivien ylläpito
@@ -41,25 +49,26 @@ Esimerkkinä valikon kohta __Vakuutuskassat ry__.
 <figcaption>Ruutumalli yhden linkin ylläpidosta</figcaption>
 </figure>
 
-__(1)__ __Otsikko__ kenttää voidaan helposti muuttaa.
+__(1)__ __Otsikko__ kenttää voidaan helposti muuttaa
 
-__(2)__ Lomakkeissa valitaan nimikkeen tyypiksi  __URL__. Kts. kohta 2.
+__(2)__ Lomakkeissa valitaan nimikkeen tyypiksi  __URL__
 
-__(3)__  __Haluttu linkki__ kytketään mukaan kirjoittamalla sen suoraan linkki-kenttään (kts.kohta 3).
+* kts. kohta (2).
 
-Tässä voidaan käyttää __"Copy/Paste"__ toimintoa jolla ko.linkki on ehkä helpointa ottaa
+__(3)__  __Haluttu linkki__ kytketään mukaan kirjoittamalla sen suoraan linkki-kenttään
+
+* kts.kohta (3).
+
+* tässä voidaan käyttää __"Copy/Paste"__ toimintoa jolla ko.linkki on ehkä helpointa ottaa
 selaimesta talteen, ja liittää se tähän kenttään.
 
-
-````
-Linkkien tekeminen on lähes samanlaista kuin Lomakkeiden ylläpito, erona
-lähinnä se että URL-osoite on nyt tyypillisesti joku kotisivun osoite eikä
-PDF-lomakkeen osoite kuten Lomakkeissa.
-````
 
 ## 4. Uudet linkit
 
 Uusia linkkejä voidaan tehdä samalla tavalla kuin mallissa oleva esimerkki.
+
+Kohdan 1 ruutumallista näkyy yähääällä toiminto __"Uusi"__, joka avaa uuden linkin
+ja sille voi antaa arvot vastaavasti kuin esim. tässä mallissa.
 
 Niiden järjestäminen haluttuun järjestykseen voidaan tehdä kohdan 2 mukaisesti.
 
