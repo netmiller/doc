@@ -4,7 +4,7 @@ Tämä sivusto on tarkoitettu __Veitsiluodon sairauskassan sivujen ylläpidon oh
 
 ----
 
-<figure class="fig-n border" style="margin:25px">
+<figure class="fig-n" style="margin:25px">
 ![1][]
 <figcaption>Ruutumalli sivuston alusta</figcaption>
 </figure>
@@ -34,7 +34,8 @@ __Testikoneen URL-osoitteet:__
  HUOM! testaus ja testiosoitteet eivät ole normaalisti päällä,
  mutta ne avataan tarpeen mukaan käyttöön.
 ````
-
 ----
 
-[1]: kuvat/kuva01.png "Ruutukaappaus etusivun alusta"
+_Ohjeistus uusittu joulukuu 2013_
+
+[1]: kuvat/kuva01c.png "Ruutukaappaus etusivun alusta"
