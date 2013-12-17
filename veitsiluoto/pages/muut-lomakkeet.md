@@ -1,7 +1,9 @@
 # Muiden lomakkeiden ylläpitäminen
 
 Muut lomakkeet löytyvät __Valikoiden hallinta__ -ikkunasta, ja niiden
-ylläpito menee seuraavasti. Valikoiden hallintanäkymän ohje löytyy [täältä][10].
+ylläpito menee seuraavasti.
+
+Valikoiden hallintanäkymän ohje löytyy [täältä][10].
 
 Muiden lomakkeiden ylläpito on pääosin samanlaista kuin [Kassan lomakkeiden][12] ylläpito,
 ero on lähinnä siinä miten __URL-osoite annetaan__.
@@ -48,7 +50,7 @@ __(1)__ __Otsikko__ kenttää voidaan helposti muuttaa
 
 __(2)__ Lomakkeissa valitaan nimikkeen tyypiksi  __URL__
 
-__(3)__  __Haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen linkkin kenttään.
+__(3)__  __Haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen URL-osoite __Linkki-kenttään__
 
 * KELA:n lomakkeiden tapauksessa PDF-tiedostot on jo valmiina KELA:n serverillä, joten ne voidaan
 linkata sieltä suoraan käyttöön kunhan vaan selvitetään tarkka URL-osoite.
