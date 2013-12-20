@@ -36,6 +36,6 @@ __Testikoneen URL-osoitteet:__
 ````
 ----
 
-_Ohjeistus uusittu joulukuu 2013_
+_Ohjeistus uusittu joulukuu 2013 - Esa.Laitila@netmiller.fi_
 
 [1]: kuvat/kuva01c.png "Ruutukaappaus etusivun alusta"

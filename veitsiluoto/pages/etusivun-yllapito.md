@@ -12,7 +12,7 @@ Kaikkien tietojen ylläpito on mahdollista, mutta muutos tapahtuu kuitenkin hiem
 joten tässä hieman ohjeistusta siihen.
 
 
-## Moduulien hallinta
+## 1. Moduulien hallinta
 
 Tietojen ylläpitäminen tehdään ylläpitonäkymän ylävalikosta. Se avataan seuraavasti :
 
