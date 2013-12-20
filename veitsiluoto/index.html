@@ -79,13 +79,14 @@
 
 <!-- app main script -->
 <script src="../common/js/listTree1.min.js"></script>
+<!-- script src="../common/js/listTree1.js"></script -->
 
 <script type="text/javascript">
 
     $( document ).ready(function() {
 
-        var data = [];
-        var dp = '';
+        var data = [],
+            cPage = '';
 
         // asetetaan JQuery ajax cache:n oletus
         $.ajaxSetup({ cache:false });
@@ -98,20 +99,23 @@
             //console.log(d.meta);
 
             data = d.menu;
-            dp = d.meta.default_page;
 
-            $('#listTree').listTree(data, { "startCollapsed": false });
+            // haetaan viimeksi käsitelty sivu joko Cookiesta tai oletuksesta
+            cPage = $.cookie("currPage") || d.meta.default_page;
 
-            // haetaan toistaiseksi meta-tietojen perusteella default_page
-            $.get( dp)
+            $('#listTree').listTree(data, { "startCollapsed": false, "cptest": cPage });
+
+            $.get( cPage)
                     .done(function( data ) {
-                        $( "#page" ).html( marked(data) );
+                        $( '#page' ).html(marked(data));
+                        //initCurrent();
+                        $('#listTree').listTree('initCurrent');
                     })
                     .fail(function() {
                         console.log( "sivu puuttuu" );
                     })
                     .always(function() {
-                        $.cookie("currPage", dp);
+                        $.cookie("currPage", cPage);
                     });
 
             $(document)

@@ -18,6 +18,8 @@ body{margin:0;background-color:#f4f4f4}
 #listTree li.section i{float:right;margin:3px 5px 0 0;font-size:10px}
 #listTree li.page{display:inline-block;width:100%;padding:3px;font-weight:400;padding-left:15px;}
 #listTree li.page i{float:left;margin:3px 5px 0 0;color:#008000}
+#listTree li.page.curr{background-color:#fffed8;}
+#listTree li.page.curr i{color:#96020e}
 #listTree li{list-style-type:none;cursor:pointer}
 #listTree > ul > li{background-color:#f1f1f1;}
 #listTree > ul > li span i.fa{color:#808080}

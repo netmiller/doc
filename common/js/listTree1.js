@@ -6,7 +6,7 @@
 
 ;(function($) {
 
-	var template = '\
+    var template = '\
 		<ul>\
 			<% _.each(context, function(parent, index) { %>\
 			<li class="section">\
@@ -45,6 +45,18 @@
 	}
 
     // ---
+    // Vaihdetaan current-rivin osoittimen paikkaa
+    function _toggleCurrent(jNode) {
+        //console.log(jNode);
+        // poistetaan kaikilta 'li.page' riveiltä current-luokka
+        $( '#listTree li.page').removeClass('curr');
+        $( '#listTree li.page i').removeClass('glyphicon-log-out');
+        // ja lisätään valitulle riville
+        jNode.addClass('curr');
+        jNode.children('i').addClass('glyphicon-log-out');
+    }
+
+    // ---
     function getAbsolutePath() {
         //var loc = window.location;
         //var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
@@ -59,8 +71,8 @@
 		init: function(context, options) {
 			// Default options
 			var defaults = {
-				"startCollapsed": false,
-				"selected": context
+				'startCollapsed': false,
+				'selected': context
 			};
 			options = $.extend(defaults, options);
 
@@ -92,11 +104,22 @@
 						    e.stopImmediatePropagation();
 					    })
 
-                        // ONKO TÄMÄ TURHA??? Tarkista tuo click:n kohde
-                        // tahan voisi rakentaa oman logiikan href->id -vaihtoehdon tilalle
+                        // otetaan kiinni vas.reunan valikosta klikattu uuden sivun eventti
+                        // (tahan voisi rakentaa toisen logiikan href->id -vaihtoehdon tilalle)
                         .on('click', '#listTree li.page', function(e) {
                             var haku = e.target.id || 'sivu-puuttuu.md';
-                            //console.log(haku);
+                            //console.log('#listTree li.page => ' +haku);
+                            //console.log(e);
+
+                            // poistetaan kaikilta 'li.page' riveiltä current-luokka
+//                            $( '#listTree li.page').removeClass('curr');
+//                            $( '#listTree li.page i').removeClass('glyphicon-log-out');
+                            // ja lisätään valitulle riville
+//                            $(this).addClass('curr');
+//                            $(this).children('i').addClass('glyphicon-log-out');
+
+                            _toggleCurrent($(this));
+
                             // haetaan markdown-tiedosto ja renderöidään se sivulle
                             $.get( haku)
                                 .done(function( data ) {
@@ -114,9 +137,9 @@
                             var haku = e.target.href || 'sivu-puuttuu.md';
                             // testataan onko linkki dokumentin sisäinen (=markdown)
                             var ap = new RegExp(getAbsolutePath());
+                            // jos on, niin haetaan markdown-tiedosto ja renderöidään se sivulle
                             if (e.target.href.search(ap) >= 0) {
                                 e.preventDefault();
-                                // haetaan markdown-tiedosto ja renderöidään se sivulle
                                 $.get( haku)
                                     .done(function( data ) {
                                         $( "#page" ).html( marked(data) );
@@ -161,7 +184,18 @@
 			});
 		},
 
-		update: function(context, options) {
+        initCurrent: function() {
+            var cp = $.cookie('currPage') || '';
+            _.each($( '#listTree li.page' ), function(lp) {
+                //console.log(lp);
+                if (lp.id === cp) {
+                    //_toggleCurrent(lp);
+                    //console.log('OKOKOK:' + lp.id);
+                }
+            });
+        },
+
+        update: function(context, options) {
 			// Default options
 			var defaults = {
 				"startCollapsed": false,
