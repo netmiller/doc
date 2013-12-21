@@ -76,7 +76,7 @@
 
 
 <!-- app functions -->
-<!-- script src="../common/js/MDTree.min.js"></script -->
+<!-- script src="../common/js/MDTree.js"></script -->
 <script src="../common/js/MDTree.min.js"></script>
 
 <!-- app main script -->
@@ -102,7 +102,7 @@
             cPage = $.cookie("currPage") || d.meta.default_page;
 
             // muodostetaan vas.reunan valikkopuu haetun datan perusteella
-            $( '#listTree' ).html(__buildTree(data, { "startCollapsed": false, "cPage": cPage }));
+            $( '#listTree' ).html(__buildTree(data, {"startCollapsed": false, "cPage": cPage}));
 
             // renderöidään viimeksi haettu sivu ruudulle valmiiksi
             $.get( cPage)
@@ -111,10 +111,10 @@
                     })
                     .fail(function() {
                         console.log( "sivu puuttuu" );
-                    })
-                    .always(function() {
-                        $.cookie("currPage", cPage);
                     });
+                    //.always(function() {
+                    //    $.cookie("currPage", cPage);
+                    //});
 
             // lisätään kuuntelijat tarvittaville eventeille
             $(document)

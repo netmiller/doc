@@ -110,16 +110,8 @@
                             var haku = e.target.id || 'sivu-puuttuu.md';
                             //console.log('#listTree li.page => ' +haku);
                             //console.log(e);
-
                             // poistetaan kaikilta 'li.page' riveiltä current-luokka
-//                            $( '#listTree li.page').removeClass('curr');
-//                            $( '#listTree li.page i').removeClass('glyphicon-log-out');
-                            // ja lisätään valitulle riville
-//                            $(this).addClass('curr');
-//                            $(this).children('i').addClass('glyphicon-log-out');
-
                             _toggleCurrent($(this));
-
                             // haetaan markdown-tiedosto ja renderöidään se sivulle
                             $.get( haku)
                                 .done(function( data ) {

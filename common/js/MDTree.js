@@ -94,6 +94,8 @@ function __toggleCurrent(node) {
         $( '#listTree li.page i').removeClass('glyphicon-log-out').addClass('glyphicon-edit');
         node.addClass('curr');
         node.children('i').addClass('glyphicon-log-out');
+    } else {
+        console.log('toggle-current-error');
     }
 }
 
@@ -120,7 +122,7 @@ function __getDoc(node, haku) {
     $.get( haku )
         .done(function( data ) {
             $( "#page" ).html( marked(data) );
-            $.cookie("currPage", haku);
+            $.cookie("currPage", haku, { expires : 120 });
         })
         .fail(function() {
             console.log( "sivu puuttuu" );
@@ -132,21 +134,24 @@ function __getLink(e) {
 
     var haku = e.target.href || 'sivu-puuttuu.md',
         ap = new RegExp(getAbsolutePath()),
-        node, hakuid;
+        node = '';
 
     // testataan onko linkki dokumentin sisäinen (=markdown)
     // jos on, niin haetaan markdown-tiedosto ja renderöidään se sivulle
     if (haku.search(ap) >= 0) {
+
         e.preventDefault();
+
         // haetaan menupuusta kohteen id, jonka avulla se voidaan merkata 'current' luokkaan
         // poistetaan absoluuttinen polku hakuid:n alusta, jolloin saadaan tiedoston 'id'
-        hakuid = haku.replace(ap, '');
+        haku = haku.replace(ap, '');
         // kahlataan kaikki 'li.page' rivit
         _.each($( '#listTree li.page' ), function(lp) {
-            if (lp.id === hakuid) {
+            if (lp.id === haku) {
                 node = $(lp);
             }
         });
+
         // renderöidään sivu __getDoc funktion kautta
         __getDoc(node, haku);
 
