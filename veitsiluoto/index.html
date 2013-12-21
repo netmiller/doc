@@ -22,8 +22,8 @@
 <div id="wrapper">
 
     <div id="header">
-          <div id="netmiller">doc.netmiller.fi</div>
-          <div id="customer">Veitsiluodon sairauskassa - www-sivujen ohjeistus</div>
+        <div id="netmiller">doc.netmiller.fi</div>
+        <div id="customer">Veitsiluodon sairauskassa - www-sivujen ohjeistus</div>
     </div>
 
     <div id="right-bg">
@@ -41,8 +41,6 @@
                         <button type="button" class="menu-collapse btn btn-default btn-xs">
                             Piilota <span class="glyphicon glyphicon-open"></span>
                         </button>
-                        <!-- button class="btn btn-info">Expand All</button -->
-                        <!-- button class="btn btn-warning">Collapse All</button -->
 
                     </div>
 
@@ -77,16 +75,17 @@
 <script src="../common/js/jquery.cookie.js"></script>
 
 
-<!-- app main script -->
-<script src="../common/js/listTree1.min.js"></script>
-<!-- script src="../common/js/listTree1.js"></script -->
+<!-- app functions -->
+<!-- script src="../common/js/MDTree.min.js"></script -->
+<script src="../common/js/MDTree.min.js"></script>
 
+<!-- app main script -->
 <script type="text/javascript">
 
     $( document ).ready(function() {
 
         var data = [],
-            cPage = '';
+                cPage = '';
 
         // asetetaan JQuery ajax cache:n oletus
         $.ajaxSetup({ cache:false });
@@ -95,7 +94,6 @@
         var m = 'config/menu.json';
 
         $.getJSON(m, function (d) {
-
             //console.log(d.meta);
 
             data = d.menu;
@@ -103,13 +101,13 @@
             // haetaan viimeksi käsitelty sivu joko Cookiesta tai oletuksesta
             cPage = $.cookie("currPage") || d.meta.default_page;
 
-            $('#listTree').listTree(data, { "startCollapsed": false, "cptest": cPage });
+            // muodostetaan vas.reunan valikkopuu haetun datan perusteella
+            $( '#listTree' ).html(__buildTree(data, { "startCollapsed": false, "cPage": cPage }));
 
+            // renderöidään viimeksi haettu sivu ruudulle valmiiksi
             $.get( cPage)
                     .done(function( data ) {
                         $( '#page' ).html(marked(data));
-                        //initCurrent();
-                        $('#listTree').listTree('initCurrent');
                     })
                     .fail(function() {
                         console.log( "sivu puuttuu" );
@@ -118,13 +116,32 @@
                         $.cookie("currPage", cPage);
                     });
 
+            // lisätään kuuntelijat tarvittaville eventeille
             $(document)
-                .on('click', '.menu-expand',function (e) {
-                    $('#listTree').listTree('expandAll');
-                })
-                .on('click', '.menu-collapse',function (e) {
-                    $('#listTree').listTree('collapseAll');
-                });
+                    .on('click', '.menu-expand',function (e) {
+                        //$('#listTree').listTree('expandAll');
+                        __expandAll();
+                    })
+                    .on('click', '.menu-collapse',function (e) {
+                        //$('#listTree').listTree('collapseAll');
+                        __collapseAll();
+                    })
+
+                    .on('click', '#listTree > ul > li, #listTree > ul > li > i.glyphicon', function(e) {
+                        __toggleMenu(e);
+                    })
+
+                // otetaan kiinni vas.reunan valikosta klikattu uuden sivun eventti
+                // (tahan voisi rakentaa toisen logiikan href->id -vaihtoehdon tilalle)
+                    .on('click', '#listTree li.page', function(e) {
+                        __getDoc($(e.target), e.target.id);
+                    })
+
+                // testataan sivulla olevan linkin click-eventti
+                    .on('click', '#page a', function(e) {
+                        __getLink(e);
+                    })
+            ;
 
         });
 
