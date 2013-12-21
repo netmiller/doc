@@ -2,6 +2,8 @@
 // -----------------------------------------------------
 function __buildTree( data, options ) {
 
+    // luodaan vas.reunan menupuu Underscoren template:n avulla
+
     var tmpl = '\
     <ul>\
         <% _.each(context, function(parent, index) { %>\
@@ -27,12 +29,7 @@ function __buildTree( data, options ) {
         <% }); %>\
     </ul>';
 
-    // malli
-    //var t1 = _.template("Hello <%=user%>!");  // compile
-    //console.log(t1({ user: "Huu" }));  // insert data
-
-    var tr = _.template( tmpl, { "context": data, "options": options } );
-    return tr;
+    return _.template( tmpl, { "context": data, "options": options } );
 
 }
 
@@ -132,8 +129,6 @@ function __getDoc(node, haku) {
 
 // -----------------------------------------------------
 function __getLink(e) {
-
-    console.log('get-link');
 
     var haku = e.target.href || 'sivu-puuttuu.md',
         ap = new RegExp(getAbsolutePath()),

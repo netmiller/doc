@@ -1,7 +1,9 @@
 # Linkkien ylläpitäminen
 
 Linkit ovat myös osa valikkoa, ja löytyvät __Valikoiden hallinta__ -ikkunasta, ja niiden
-ylläpito menee seuraavasti. Valikoiden hallintanäkymän ohje löytyy [täältä][10].
+ylläpito menee seuraavasti.
+
+Valikoiden hallintanäkymän ohje löytyy [täältä][10].
 
 
 ````
