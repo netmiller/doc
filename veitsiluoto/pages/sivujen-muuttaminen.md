@@ -96,6 +96,6 @@ Editoinnnista on tarkempi ohje sivulla [Tekstieditorin käyttäminen][23].
 [3]: kuvat/kuva25.png "Ruutumalli hallintaikkunasta"
 [4]: kuvat/kuva26.png "Ruutumalli valinnoista"
 [5]: kuvat/kuva28.png "Ruutumalli sarakeotsikoista"
-[21]: pages/uutisten-lisaaminen.md
+[21]: pages/tiedotteiden-tekeminen.md
 [22]: pages/sivujen-lisaaminen.md
 [23]: pages/tekstieditorin-kaytto.md
