@@ -100,7 +100,7 @@ function __toggleCurrent(node) {
 }
 
 // -----------------------------------------------------
-function getAbsolutePath() {
+function __getAbsolutePath() {
     //var loc = window.location;
     //var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
     //return loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
@@ -122,7 +122,7 @@ function __getDoc(node, haku) {
     $.get( haku )
         .done(function( data ) {
             $( "#page" ).html( marked(data) );
-            $.cookie("currPage", haku, { expires : 120 });
+            $.cookie("currPage", haku, { expires : 180 });
         })
         .fail(function() {
             console.log( "sivu puuttuu" );
@@ -133,7 +133,7 @@ function __getDoc(node, haku) {
 function __getLink(e) {
 
     var haku = e.target.href || 'sivu-puuttuu.md',
-        ap = new RegExp(getAbsolutePath()),
+        ap = new RegExp(__getAbsolutePath()),
         node = '';
 
     // testataan onko linkki dokumentin sisäinen (=markdown)
