@@ -42,24 +42,24 @@ lisää toimintoja.
 ## 3. Ylläpito
 
 Hallintanäkymästä päästään ylläpitämään varsinaisia valikon rivejä
-klikkaamalla __Otsikko__ sarakken tekstiä.
+klikkaamalla __Otsikko__ sarakkeen tekstiä.
 
 Sieltä aukeaa toinen hallintaruutu, jossa on varsinaiset määritykset.
 
 * __Päävalikko__  - ohje löytyy sivulta [Päävalikon ylläpito][10]
 * __Kassan lomakkeet__  - ohje löytyy sivulta [Kassan lomakkeet ylläpito][11]
 * __Muut lomakkeet__  - ohje löytyy sivulta [Muut lomakkeet ylläpito][12]
-* __Linkit__  - ohje löytyy sivulta [Linkkienlläpito][13]
+* __Linkit__  - ohje löytyy sivulta [Linkkien ylläpito][13]
 
 ----
 
-```
+````
 Valikon monet yksityiskohdat tarvitsevat jonkin verran Joomlan teknistä tuntemusta,
 ja muutosten osalta kannattaa ottaa varmuuden vuoksi yhteyttä Netmilleriin.
 Mutta perusasiat voi hyvin tehdä itse.  Kts. tarkemmin yo. valikkojen ohjeita.
 ````
 
-
+----
 
 [1]: kuvat/kuva51.png "Ruutumalli"
 [2]: kuvat/kuva52.png "Ruutumalli"

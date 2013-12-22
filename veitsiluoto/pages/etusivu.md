@@ -10,7 +10,7 @@ Tämä sivusto on tarkoitettu __Veitsiluodon sairauskassan sivujen ylläpidon oh
 </figure>
 
 Ohjeet on tehty omatoimista www-sivujen ylläpitoa varten, jolloin voidaan itse tehdä kaikki sisältöön
-vaikuttavat muutokset; esim. uudet tiedotteet, sopimusapteekit ja -lääkäriasemat, sivujen muutokset tms.
+vaikuttavat muutokset; esim. uudet tiedotteet, sivujen muutokset, sopimusapteekit ja hoitopaikat tms.
 
 Myös kokonaan uudet sivut voidaan tehdä näiden ohjeiden mukaan.
 

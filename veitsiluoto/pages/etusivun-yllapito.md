@@ -2,7 +2,7 @@
 
 Etusivulle on koottu seuraavia  asioita :
 
-* valikot sivun vas.reunassa (koottu alekkain)
+* valikot sivun vasemmassa reunassa (koottu alekkain _"välilehdiksi"_)
 * uutiset sivun keskellä
 * aukioloajat ja yhteystiedot sivun oik.reunassa
 * sijaintitiedot oik.reunassa alemmassa laatikossa
