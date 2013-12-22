@@ -51,14 +51,14 @@ __(3)__  __haluttu PDF-tiedosto__ kytketään mukaan kirjoittamalla sen linkki a
 * lomake tehdään etukäteen esim. tekstinkäsittelyohjelmalla, ja talletetaan PDF-muotoon omalle koneelle,
 mutta joka sitten täytyy tuoda erikseen [Mediatiedostojen hallinnan][11] kautta serverille.
 
-* Mediatiedostoissa se viedään selvyyden vuoksi lomakkeelle varattun kansioon.
+* Mediatiedostoissa se viedään selvyyden vuoksi lomakkeille varattuun kansioon.
 
 * linkki muodostuu tekstistä __"/tiedostot/lomakkeet/pdf-tiedoston-nimi"__.
 
-* nimessä alkuosa __/tiedostot__ on vakio, ja seuraava osa __/lomakkeet__ on sen kansion nimi jonne lomakkeet on viety.
-Ja loppuosa on tiedoston nimi; esimerkissä siis __"elakejatko.pdf"__.
+* nimessä alkuosa __/tiedostot__ on vakio, ja seuraava osa __/lomakkeet__ on sen kansion nimi jonne lomakkeet
+ on viety. Ja loppuosa on tiedoston nimi; esimerkissä siis __"elakejatko.pdf"__.
 
-Linkki kirjoittaan suoraan kenttään (3), eikä sille ole Joomlassa poimintavaihtoehtoa.
+Linkki kirjoitetaan suoraan kenttään (3), eikä sille ole Joomlassa poimintatoimintoa.
 
 * jos ei toimi, niin kannattaa tarkistaa että linkki alkaa __kauttaviivalla__
 ja kaikki nimet ja kansiot on kirjoitettu oikein.
