@@ -29,6 +29,10 @@ function __buildTree( data, options ) {
         <% }); %>\
     </ul>';
 
+    // jos halutaan tiivistää whitespace:t pois tagien välistä
+    //var cTmpl = tmpl.replace(/\s\s+/g, '');
+    //console.log(cTmpl);
+
     return _.template( tmpl, { "context": data, "options": options } );
 
 }
