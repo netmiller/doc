@@ -112,7 +112,7 @@ function __getAbsolutePath() {
 function __getDoc(node, haku) {
 
     // otetaan kiinni vas.reunan valikosta klikattu uuden sivun eventti
-    // (tahan voisi rakentaa toisen logiikan href->id -vaihtoehdon tilalle)
+
     //var haku = node.attr('id') || 'sivu-puuttuu.md';
 
     // poistetaan kaikilta 'li.page' riveiltä current-luokka
@@ -121,8 +121,14 @@ function __getDoc(node, haku) {
     // haetaan markdown-tiedosto ja renderöidään se sivulle
     $.get( haku )
         .done(function( data ) {
-            $( "#page" ).html( marked(data) );
-            $.cookie("currPage", haku, { expires : 180 });
+            //$( "#page" ).html(marked(data));
+            $( "#page" ).html(function(index) {
+                //var m1 = marked(data);
+                //console.log('index=' + index);
+                return marked(data);
+            });
+            $( 'html, body' ).animate({ scrollTop: 0 }, 'slow');
+            $.cookie("currPage", haku, { expires : 90 });
         })
         .fail(function() {
             console.log( "sivu puuttuu" );
