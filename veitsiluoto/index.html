@@ -3,17 +3,14 @@
 <head>
 
     <title>doc.netmiller.fi - Veitsiluodon sairauskassa</title>
-
     <meta charset="utf-8">
 
     <!-- Bootstrap, latest minified CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
 
     <!-- app CSS -->
-    <!-- link rel="stylesheet" href="../common/css/gh_styles.css" type="text/css" -->
     <link rel="stylesheet" href="../common/css/nmdoc01.css" type="text/css">
     <link rel="stylesheet" href="../common/css/nmdoc03.css" type="text/css">
-
 
 </head>
 
@@ -83,8 +80,8 @@
 
     $( document ).ready(function() {
 
-        var data = [],
-                cPage = '';
+        var data = [];
+        var cPage = '';
 
         // asetetaan JQuery ajax cache:n oletus
         $.ajaxSetup({ cache:false });
@@ -105,41 +102,41 @@
 
             // renderöidään viimeksi haettu sivu ruudulle valmiiksi
             $.get( cPage)
-                    .done(function( data ) {
-                        $( '#page' ).html(marked(data));
-                    })
-                    .fail(function() {
-                        console.log( "sivu puuttuu" );
-                    });
-                    //.always(function() {
-                    //    $.cookie("currPage", cPage);
-                    //});
+                .done(function( data ) {
+                    $( '#page' ).html(marked(data));
+                })
+                .fail(function() {
+                    console.log( "sivu puuttuu" );
+                });
+                //.always(function() {
+                //    $.cookie("currPage", cPage);
+                //});
 
             // lisätään kuuntelijat tarvittaville eventeille
             $(document)
-                    .on('click', '.menu-expand',function (e) {
-                        //$('#listTree').listTree('expandAll');
-                        __expandAll();
-                    })
-                    .on('click', '.menu-collapse',function (e) {
-                        //$('#listTree').listTree('collapseAll');
-                        __collapseAll();
-                    })
+                .on('click', '.menu-expand',function (e) {
+                    //$('#listTree').listTree('expandAll');
+                    __expandAll();
+                })
+                .on('click', '.menu-collapse',function (e) {
+                    //$('#listTree').listTree('collapseAll');
+                    __collapseAll();
+                })
 
-                    .on('click', '#listTree > ul > li, #listTree > ul > li > i.glyphicon', function(e) {
-                        __toggleMenu(e);
-                    })
+                .on('click', '#listTree > ul > li, #listTree > ul > li > i.glyphicon', function(e) {
+                    __toggleMenu(e);
+                })
 
                 // otetaan kiinni vas.reunan valikosta klikattu uuden sivun eventti
                 // (tahan voisi rakentaa toisen logiikan href->id -vaihtoehdon tilalle)
-                    .on('click', '#listTree li.page', function(e) {
-                        __getDoc($(e.target), e.target.id);
-                    })
+                .on('click', '#listTree li.page', function(e) {
+                    __getDoc($(e.target), e.target.id);
+                })
 
                 // testataan sivulla olevan linkin click-eventti
-                    .on('click', '#page a', function(e) {
-                        __getLink(e);
-                    })
+                .on('click', '#page a', function(e) {
+                    __getLink(e);
+                })
             ;
 
         });
