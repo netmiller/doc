@@ -18,7 +18,7 @@ Tämä dokumentti on vasta työn alla.
 
 Kokeillaan ensin vähän muotoilua ja kuvien laittoa.
 
-<http://www.netmiller.fi.fi/>
+<http://www.netmiller.fi/>
 
 ## Tarvittavien ohjelmien lataus
 
