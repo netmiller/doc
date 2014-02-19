@@ -30,4 +30,4 @@ Kokeillaan ensin vähän muotoilua ja kuvien laittoa.
 
 ----
 
-[1]: kuvat/kuva01.png "Kuvakaappaus"
+[1]: kuvat/testikuva1.png "Kuvakaappaus"
