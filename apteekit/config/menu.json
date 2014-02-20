@@ -1,0 +1,34 @@
+{
+    "meta": {
+        "versio": "1.0",
+        "author": "Esa.Laitila@netmiller.fi",
+        "desc": "Apteekkien ohjeistukset",
+        "default_page": "pages/etusivu.md",
+        "last-update": "20.2.2014 Esa.Laitila@netmiller.fi"
+    },
+	"menu": [
+		{
+			"key": "Etusivu",
+			"values": [
+				{ "key": "Etusivulle", "href": "pages/etusivu.md" }
+			]
+		},
+		{
+			"key": "Office viewer-ohjelmat",
+			"values": [
+				{ "key": "Yleistä ns. viewer-ohjelmista", "href": "pages/viewer-ohjelmat.md" },
+				{ "key": "Asentaminen", "href": "pages/viewer-asennus.md" },
+				{ "key": "Oletusohjelmien määrittäminen", "href": "pages/viewer-oletukset.md" },
+				{ "key": "Muita vaihtoehtoja", "href": "pages/viewer-vaihtoehtoja.md" }
+			]
+		},
+        {
+            "key": "Piazza-käytön vaihtoehdot",
+            "values": [
+                { "key": "Office-dokumenttien avaaminen Piazzassa", "href": "pages/piazza-avaus.md" },
+                { "key": "Vanhemmat doc-formaatit", "href": "pages/piazza-doc-formaatit.md" },
+                { "key": "PDF-käyttö doc-formaatin tukena", "href": "pages/piazza-pdf-kaytto.md" }
+            ]
+        }
+	]
+}
