@@ -62,7 +62,7 @@ Linkki ohjelman sivulle :
 
 ## 3. OpenOffice vaihtoehtona
 
-Jotkut apteekit ovat ottaneet myös käyttöön __avoimen lähdekoodin vaihtoehdon__ eli __Open Office__
+Jotkut apteekit ovat ottaneet myös käyttöön avoimen lähdekoodin vaihtoehdon eli __Open Office__
 ohjelmiston.
 
 Sen käyttö on yleistynyt monessa muussakin paikassa, ja se tarjoaa pitkälti samanlaisen
@@ -71,9 +71,10 @@ tehdyt tiedostot yleensä varsin hyvin, mutta jonkun verran epäyhteensopivuutta
 olla tietyissä muotoiluissa.  OpenOffice osaa myös tallentaa tiedostot paitsi omaan formaattiinsa,
 niin myös Microsoftin Office-paketin formaatteihin.
 
-Apteekkien tapauksessa OpenOffice:a voidaan käyttää myös katseluohjelmana, jos
-sovitaan käytännössä että muutokset pyritään tekemään niillä koneilla joissa on
-hankittuna Microsoftin paketti, ja muille koneille voidaan asentaa OpenOffice.
+Tässä yhteydessä OpenOffice:a voidaan käyttää myös katseluohjelmana, jos
+sovitaan käytäntö että muutokset pyritään tekemään niillä koneilla joissa on
+hankittuna Microsoftin täysi Office-paketti, ja muille koneille voidaan asentaa OpenOffice
+lähinnä katselua varten.
 
 OpenOffice:n kehitys on siirtynyt Apache Software Foundation -yhteisön vastuulle,
 ja tunnetaan nyt virallisesti nimellä __Apache OpenOffice__.
@@ -89,7 +90,7 @@ Ohjelmiston sivut, josta löytyy myös lataus- ja asennusohjeet :
 Vähemmälle huomiolle on jäänyt myös avoimeen lähdekoodiin perustuva __LibreOffice paketti__.
 
 Sen pohja on samassa lähdekoodissa kuin OpenOffice, mutta on irtautunut erilleen 2010 ja
-tekee nyt omaa kehitystään samaan koodiin.
+tekee nyt omaa aktiivista kehitystään ja on samantyyppinen vaihtoehto kuin OpenOffice.
 
 Myös siinä on hyvä tuki Microsof Office -paketin tiedostoformaateille, ja ohjelmisto on
 kasvattanut suosiotaan koko ajan.

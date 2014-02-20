@@ -21,16 +21,18 @@ ohjelmaa ei ole otettu ohjeisiin, koska niitä on kuitenkin paljon vähemmän ku
 
 Tiedostot ovat :
 
-* [FileFormatConverters][1]
-* [Word Viewer][2]
-* [Excel Viewer][3]
+1. [FileFormatConverters.exe][1]
+1. [wordview_en-us.exe][2]
+1. [ExcelViewer.exe][3]
 
-ja ne voidaan ladata yo.linkeistä ensin omalle koneelle.
+ja ne voidaan ladata ylläolevista linkeistä ensin omalle koneelle.
 
 
 ## 2. Asentaminen
 
-__Asennuksessa kannattaa laittaa listan ensimmäinen paketti enn kahta muuta.__
+````
+Asennuksessa kannattaa laittaa listan ensimmäinen paketti ennen kahta muuta
+````
 
 Sen nimi on __FileFormatConverters.exe__, ja muut ohjelmat käyttävät sitä apuna
 muunnettaessa Office-formaattien eri variaatioita esitettävään muotoon.
@@ -51,11 +53,90 @@ Ja yleensä helpointa on siirtää edellä ladatut kolme tiedostoa USB-tikulle, 
 voidaan asentaa kaikille tarvittaville muille koneille. Mutta mikä tahansa tapa käy,
 pääasia että asennusohjelma saadaan käynnistymään sillä koneella johon ne tulevat.
 
+----
 
 ## 4. Asennuksen vaiheet
 
 Seuraavassa muutamia ruutukuvia asennuksen vaiheista (Windows 7 englanninkielinen).
 
+#### vaihe 1 (FileFormatConverters.exe)
+
+<figure class="fig-n border" style="margin:10px">
+![10][]
+</figure>
+
+Tässä täytyy vaan ruksata vas.alanurkassa oleva ruksi päälle (hyväksyminen).
+
+<figure class="fig-n border" style="margin:10px">
+![11][]
+</figure>
+
+
+Asennus menee nopeasti eikä kysele muuta, ja ilmoittaa kun se on valmis.
+
+
+#### vaihe 2 (wordview_en-us.exe)
+
+<figure class="fig-n border" style="margin:10px">
+![12][]
+</figure>
+
+Tässäkin ainoa toimenpide on ruksata vas.alanurkassa ruksi päälle (hyväksyminen)
+
+----
+
+<figure class="fig-n border" style="margin:10px">
+![13][]
+</figure>
+
+Tässä vaiheessa tulee vielä toinenkin kysymys joka täytyy hyväksyä (ruksi).
+
+----
+
+<figure class="fig-n border" style="margin:10px">
+![14][]
+</figure>
+
+Asennus kysyy vielä asennushakemistoa, johon voi laittaa oletuksen ,
+ellei nimenomaan halua sitä eri paikkaan.
+
+__Install__ painikkeella aloitetaan asennus.
+
+----
+
+<figure class="fig-n border" style="margin:10px">
+![15][]
+</figure>
+
+Asennus ilmoittaa kun on valmis. Menee yleensä nopeasti läpi.
+
+----
+
+#### vaihe 3 (ExcelViewer.exe)
+
+<figure class="fig-n border" style="margin:10px">
+![17][]
+</figure>
+
+Ruksataan vas.alanurkassa ruksi päälle (hyväksyminen)
+
+----
+
+<figure class="fig-n border" style="margin:10px">
+![18][]
+</figure>
+
+Asennus kysyy vielä asennushakemistoa, johon voi laittaa oletuksen
+ellei nimenomaan halua sitä eri paikkaan.
+
+----
+
+<figure class="fig-n border" style="margin:10px">
+![19][]
+</figure>
+
+Asennus kysyy vielä asennushakemistoa, johon voi laittaa oletuksen
+ellei nimenomaan halua sitä eri paikkaan.
 
 ----
 
@@ -63,3 +144,13 @@ Seuraavassa muutamia ruutukuvia asennuksen vaiheista (Windows 7 englanninkieline
 [2]: http://fingolfin.netmiller.fi/ms-viewers/wordview_en-us.exe
 [3]: http://fingolfin.netmiller.fi/ms-viewers/ExcelViewer.exe
 [5]: http://www.netmiller.fi
+[10]: kuvat/screenshot-2014-02-20-at-20-43-41.png
+[11]: kuvat/screenshot-2014-02-20-at-20-44-01.png
+[12]: kuvat/screenshot-2014-02-20-at-20-54-19.png
+[13]: kuvat/screenshot-2014-02-20-at-21-24-17.png
+[14]: kuvat/screenshot-2014-02-20-at-21-24-34.png
+[15]: kuvat/screenshot-2014-02-20-at-20-55-20.png
+[17]: kuvat/screenshot-2014-02-20-at-20-53-03.png
+[18]: kuvat/screenshot-2014-02-20-at-20-53-19.png
+[19]: kuvat/screenshot-2014-02-20-at-20-53-36.png
+
