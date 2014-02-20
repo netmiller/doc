@@ -1,7 +1,7 @@
 # Ohjeita apteekkien ohjelmistotarpeisiin
 
 <div class='paivitys'>
-[sivu päivitetty 20.2.2014 esa.laitila@netmiller.fi]
+sivu päivitetty 20.2.2014 - esa.laitila@netmiller.fi
 </div>
 
 ````
