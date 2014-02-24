@@ -5,7 +5,7 @@ sivu päivitetty 20.2.2014 - esa.laitila@netmiller.fi
 </div>
 
 
-Microsoftin Viewer-ohjelmien asentamiseen täytyy hakea kolme asennuspakettia.
+__Microsoftin Viewer-ohjelmien__ asentamiseen täytyy hakea kolme asennuspakettia.
 
 Ne löytyvät myös Microsoftin sivuilta, mutta olen ottanut ne Netmillerin omalle
 palvelimelle, josta ne löytyvät helpommin. Linkkien takana on myös uusimmat versiot,
@@ -31,7 +31,7 @@ ja ne voidaan ladata ylläolevista linkeistä ensin omalle koneelle.
 ## 2. Asentaminen
 
 ````
-Asennuksessa kannattaa laittaa listan ensimmäinen paketti ennen kahta muuta
+Asennuksessa kannattaa laittaa listan ensimmäinen paketti ennen kahta muuta.
 ````
 
 Sen nimi on __FileFormatConverters.exe__, ja muut ohjelmat käyttävät sitä apuna
@@ -140,6 +140,20 @@ ellei nimenomaan halua sitä eri paikkaan.
 
 ----
 
+## 5. Oletusohjelmat kuntoon
+
+Varsinaisen asennuksen jälkeen kannattaa käydä tarkistamassa
+__oletusohjelmien määritykset__.
+
+Usein asennus tekee nuo määritykset itse, mutta ei aina ja joskus ne jäävät
+puutteellisiksi, joten turvallisinta on käydä itse varmistamassa ne kuntoon.
+
+Ohje löytyy sivulta [Oletusohjelmien määrittäminen][20].
+
+----
+
+
+
 [1]: http://fingolfin.netmiller.fi/ms-viewers/FileFormatConverters.exe
 [2]: http://fingolfin.netmiller.fi/ms-viewers/wordview_en-us.exe
 [3]: http://fingolfin.netmiller.fi/ms-viewers/ExcelViewer.exe
@@ -153,4 +167,5 @@ ellei nimenomaan halua sitä eri paikkaan.
 [17]: kuvat/screenshot-2014-02-20-at-20-53-03.png
 [18]: kuvat/screenshot-2014-02-20-at-20-53-19.png
 [19]: kuvat/screenshot-2014-02-20-at-20-53-36.png
+[20]: pages/viewer-oletukset.md
 
