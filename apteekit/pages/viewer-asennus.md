@@ -39,7 +39,6 @@ muunnettaessa Office-formaattien eri variaatioita esitettävään muotoon.
 
 Muut kaksi paketti (__wordview_en-us.exe__  ja __ExcelViewer.exe__) asennetaan sen jälkeen.
 
-----
 
 ## 3. Asennuksen kulku
 
@@ -53,7 +52,6 @@ Ja yleensä helpointa on siirtää edellä ladatut kolme tiedostoa USB-tikulle, 
 voidaan asentaa kaikille tarvittaville muille koneille. Mutta mikä tahansa tapa käy,
 pääasia että asennusohjelma saadaan käynnistymään sillä koneella johon ne tulevat.
 
-----
 
 ## 4. Asennuksen vaiheet
 
@@ -67,13 +65,15 @@ Seuraavassa muutamia ruutukuvia asennuksen vaiheista (Windows 7 englanninkieline
 
 Tässä täytyy vaan ruksata vas.alanurkassa oleva ruksi päälle (hyväksyminen).
 
+----
+
 <figure class="fig-n border" style="margin:10px">
 ![11][]
 </figure>
 
-
 Asennus menee nopeasti eikä kysele muuta, ja ilmoittaa kun se on valmis.
 
+----
 
 #### vaihe 2 (wordview_en-us.exe)
 
@@ -138,7 +138,6 @@ ellei nimenomaan halua sitä eri paikkaan.
 Asennus kysyy vielä asennushakemistoa, johon voi laittaa oletuksen
 ellei nimenomaan halua sitä eri paikkaan.
 
-----
 
 ## 5. Oletusohjelmat kuntoon
 
