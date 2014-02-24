@@ -5,7 +5,7 @@ sivu päivitetty 24.2.2014 - esa.laitila@netmiller.fi
 </div>
 
 
-__Piazza-käytössä__ suurin osa dokumenteista on talletettu jossakin __Office-formaatissa__.
+__Piazza-ohjelmistoa__ käytettäessä suurin osa dokumenteista on talletettu jossakin __Office-formaatissa__.
 
 Dokumentit avautuvat selaimella hyvin, mikäli koneelle on asennettu joko
 __Office-täyspaketti__ tai joku __katseluohjelma__.
@@ -25,8 +25,8 @@ Kaikissa tapauksissa on tärkeä määrittää oikea oletusohjelma, jolla dokume
 
 Selainkäytössä (kuten Piazza) se avautuu silloin halutulla ohjelmalla automaattisesti.
 
-__Office täyspaketti__ yleensä määrittää avaavat oletusohjelmat asennuksen yhteydessä,
-joten niiden kanssa ei pitöisi tulla ongelmaa.
+__Office täyspaketin__ asennus yleensä määrittää oletusohjelmat asennuksen yhteydessä automaattisesti,
+joten niiden kanssa ei pitäisi tulla ongelmaa.
 
 __Katseluohjelmat__ saattavat myös tehdä oletusohjelmien muokkauksen itse asennuksen yhteydessä,
 mutta aina siihen ei kannata luottaa, vaan silloin ne täytyy käydä itse muuttamassa/määrittelemässä.

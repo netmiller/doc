@@ -18,7 +18,7 @@ Toki myöhemminkin voi muuttaa talletusmuodon erilaiseksi, mutta joskus siinä m
 eivät mene oikein, koska vanhempi formaatti ei aina tue kaikkia niitä uudemmilla ohjelmilla tehtyjä.
 
 ````
-Vanhemman .doc formaatin etu on se että se antaa katseluohjelmiin enemmän mahdollisuuksia,
-ja silloin saatetaan pärjätä pelkällä Windows:ssa automaattisesti mukana tulevalla
-Wordpad ohjelmalla.
+Vanhemman .doc formaatin etu on se että se antaa katseluohjelmiin enemmän
+mahdollisuuksia, ja silloin saatetaan pärjätä pelkällä Windows:ssa automaattisesti
+mukana tulevalla Wordpad ohjelmalla.
 ````
