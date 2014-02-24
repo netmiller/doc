@@ -35,7 +35,7 @@ Sisältö avautuu ylläpitoon klikkaamalla otsikkoa.
 
 Sisältö on nyt ylläpidettävissä normaaliin tapaan [Tekstieditorissa][10].
 
-## Otsikkotiedot
+## 3. Otsikkotiedot
 
 Yleensä __otsikkotietoihin__ ei tarvi tehdä mitään muutoksia, koska ne on määritelty siten että
 tekstilaatikko avautuu vain etusivulle.
