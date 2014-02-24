@@ -27,7 +27,6 @@ Kts. mallikuva :
 ![1][]
 </figure>
 
-----
 
 ## 2. Tiedostotyypin kytkeminen ohjelmaan
 
@@ -45,7 +44,6 @@ __Kytke tiedostotyyppi tai protokolla ohjelmaan__.
 Vastaava termi englanninkielisessä on: <br>
 __Associate a file type or protocol to a program__.
 
-----
 
 ## 3. Eri tiedostotyypit
 
@@ -73,7 +71,6 @@ Vaihtamista varten aktivoidaan haluttu rivi (esim .doc -rivi) ja painetaan ruudu
 oik.yläreunassa näkyvää toimintoa <br>
 __Vaihda ohjelma__  tai __Change program__
 
-----
 
 ## 4. Ohjelman määrittäminen
 
