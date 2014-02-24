@@ -55,14 +55,15 @@ tiedostot; mahdollisesti ehkä __.dochtml__ loppuinen.
 
 Noille kaikille täytyy saada määriteltyä ohjelmaksi __Microsoft Word Viewer__.
 
-<figure class="fig-n border" style="margin:10px">
-![4][]
-</figure>
-
 ````
 Usein asennus tekee sen automaattisesti, mutta siihen ei kannata luottaa
 vaan käydä tarkistamassa em.ruudulla ja tarvittaessa vaihtaa se oikeaksi.
 ````
+
+<figure class="fig-n border" style="margin:10px">
+![4][]
+</figure>
+
 
 Mikäli __.doc ja .docx__ tiedostoilla ei ole oikeaa katseluohjelmaa, niin se täytyy
 vaihtaa itse.
