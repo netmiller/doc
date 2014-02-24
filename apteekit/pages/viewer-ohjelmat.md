@@ -123,7 +123,10 @@ Microsoftin ohjeen mukaan sekin osaa näyttää vanhemmat Office-formaatit kohtu
 Jotain muotoiluja se ei osaa, mutta ydinasiat pitäisi dokumentista löytyä hyvin,
 ja se usein riittääkin katseluohjelman tarpeeseen.
 
-Käytännössä tämä saattaa toimia VAIN jos käytetään vanhempaa Office-pakettia tai talletetaan vanhaan .doc formaattiin JA käytössä on Windows 7 koneita.
+````
+Käytännössä tämä saattaa toimia VAIN jos käytetään vanhempaa Office-pakettia
+tai talletetaan vanhaan .doc formaattiin JA käytössä on Windows 7 koneita.
+````
 
 Joten vähän rajallinen käyttö, mutta joskus kannattaa kokeilla.
 
