@@ -39,7 +39,7 @@ on siirtynyt verkossa ja pilvipalvelussa toimivien Office-versioiden markkinoint
 (Office Web Apps / Office 365 / SkyDrive / SharePoint) joten tukea ilmaisille katseluohjelmille
 ei ole jaksettu pitää kovin hyvin yllä.
 
-----
+
 
 ## 2. OpenOffice vaihtoehtona
 
@@ -66,7 +66,7 @@ Ohjelmiston sivut, josta löytyy myös lataus- ja asennusohjeet :
 
 <https://www.openoffice.org/>
 
-----
+
 
 ## 3. LibreOffice vaihtoehtona
 
@@ -85,7 +85,7 @@ Ohjelmiston sivut :
 
 <https://www.libreoffice.org/>
 
-----
+
 
 ## 4. Muita katseluohjelmia
 
@@ -109,7 +109,7 @@ Linkki ohjelman sivulle :
 
 <http://www.foxpdf.com/Word-Viewer/Word-Viewer.html>
 
-----
+
 
 ## 5. Wordpad-ohjelma vaihtoehtona
 
