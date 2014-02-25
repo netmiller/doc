@@ -30,9 +30,9 @@ ja ne voidaan ladata ylläolevista linkeistä ensin omalle koneelle.
 
 ## 2. Asentaminen
 
-````
+<div class='msg msg-warn'>
 Asennuksessa kannattaa laittaa listan ensimmäinen paketti ennen kahta muuta.
-````
+</div>
 
 Sen nimi on __FileFormatConverters.exe__, ja muut ohjelmat käyttävät sitä apuna
 muunnettaessa Office-formaattien eri variaatioita esitettävään muotoon.

@@ -28,11 +28,11 @@ Jonkun verran hankaluutta tuottaa se että Office-ohjelmien (varsinkin Word)
 talletusformaatit ovat muuttuneet aika paljon vuosien kuluessa, ja Office-pakettien
 eri versioita on käytössä varsin paljon.
 
-````
+<div class='msg msg-warn'>
 Varsinkin tällä hetkellä uusin versio Office 2013 tuottaa yhteensopivuusongelmia
 myös näiden Microsoftin omien katseluohjelmien kanssa.
 Siksi on turvallisempaa valita joku muu vaihtoehto mikäli käytössä on Office 2013.
-````
+</div>
 
 Microsoftin omien katseluohjelmien tuki on (ja on ollut) aika heikkoa ja tällä hetkellä Microsoftin painopiste
 on siirtynyt verkossa ja pilvipalvelussa toimivien Office-versioiden markkinointiin
