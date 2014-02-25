@@ -127,7 +127,8 @@ function __getDoc(node, haku) {
         .done(function( data ) {
             //$( "#page" ).html(marked(data));
             $( "#page" ).html(function(index) {
-                //var m1 = marked(data);
+                //var m1 = marked.lexer(data);
+                //console.log(m1);
                 //console.log('index=' + index);
                 return marked(data);
             });

@@ -195,8 +195,6 @@
 			};
 			options = $.extend(defaults, options);
 
-            console.log('huu2');
-
 			return this.each(function() {
 				var $this = $(this),
 					data = $this.data('listTree');

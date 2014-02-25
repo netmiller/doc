@@ -27,5 +27,3 @@ Sivusto löytyy www-osoitteesta :
 <http://doc.netmiller.fi/apteekit>
 
 ----
-
-
