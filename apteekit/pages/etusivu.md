@@ -4,10 +4,10 @@
 sivu päivitetty 20.2.2014 - esa.laitila@netmiller.fi
 </div>
 
-````
-Tämä sivusto on tarkoitettu lähinnä APTEEKKIEN TIETOTEKNIIKKAYMPÄRISTÖSSÄ
+<div class='msg msg-warn'>
+Tämä sivusto on tarkoitettu lähinnä APTEEKKIEN TIETOTEKNIIKKAYMPÄRISTÖSSÄ<br>
 tarvittavien ohjelmistojen käyttöön ja asentamiseen.
-````
+</div>
 
 
 ## Sisällöstä :
