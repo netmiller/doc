@@ -45,11 +45,11 @@ tai **Tallenna & sulje** mikäli haluat sulkea ruudun talletuksen jälkeen.
 
 ----
 
-````
- Jos olet unohtanut salasanan niin Netmiller (eli pääkäyttäjä) pystyy
- pakottamaan uuden salasanan unohtuneen tilalle, ja sitten kun pääsee
- taas sisään niin sen voi vaihtaa haluamakseen.
-````
+<div class='msg msg-warn'>
+Jos olet unohtanut salasanan niin Netmiller (eli pääkäyttäjä) pystyy
+pakottamaan uuden salasanan unohtuneen tilalle, ja sitten kun pääsee
+taas sisään niin sen voi vaihtaa haluamakseen.
+</div>
 
 ----
 

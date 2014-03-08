@@ -4,26 +4,27 @@
         "author": "Esa.Laitila@netmiller.fi",
         "desc": "Apteekkien ohjeistukset",
         "default_page": "pages/etusivu.md",
-        "last-update": "24.2.2014 Esa.Laitila@netmiller.fi"
+        "last-update": "24.2.2014 Esa.Laitila@netmiller.fi",
+        "startCollapsed" : false
     },
 	"menu": [
 		{
 			"key": "Etusivu",
-			"values": [
+			"menu2": [
 				{ "key": "Etusivulle", "href": "pages/etusivu.md" },
                 { "key": "OfficeViewer-ohjelmista", "href": "pages/viewer-ohjelmat.md" }
 			]
 		},
 		{
 			"key": "MS Office viewer-ohjelmat",
-			"values": [
+			"menu2": [
 				{ "key": "Asentaminen", "href": "pages/viewer-asennus.md" },
 				{ "key": "Oletusohjelmien määrittäminen", "href": "pages/viewer-oletukset.md" }
 			]
 		},
         {
             "key": "Piazza-käytön vaihtoehdot",
-            "values": [
+            "menu2": [
                 { "key": "Office-dokumentit Piazzassa", "href": "pages/piazza-kaytto.md" },
                 { "key": "Tallennus .doc-formaatissa", "href": "pages/piazza-doc-formaatti.md" },
                 { "key": "PDF-käyttö doc-formaatin tukena", "href": "pages/piazza-pdf-formaatti.md" }

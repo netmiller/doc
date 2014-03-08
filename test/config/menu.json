@@ -1,0 +1,34 @@
+{
+    "meta": {
+        "versio": "1.0",
+        "author": "Esa.Laitila@netmiller.fi",
+        "desc": "Test folder",
+        "default_page": "pages/etusivu.md",
+        "last-update": "07.03.2014 Esa.Laitila@netmiller.fi",
+        "startCollapsed" : false
+    },
+	"menu": [
+		{
+			"key": "Etusivu",
+			"menu2": [
+				{ "key": "Etusivulle", "href": "pages/etusivu.md" },
+                { "key": "Joku testi 1", "href": "pages/test1.md" }
+			]
+		},
+		{
+			"key": "Seuraava pääkappale",
+			"menu2": [
+                { "key": "Testi 2", "href": "pages/test2.md" },
+                { "key": "Testi 3", "href": "pages/test3.md" },
+				{ "key": "Testi 4", "href": "pages/test4.md" }
+			]
+		},
+        {
+            "key": "Kolmas pääkappale",
+            "menu2": [
+                { "key": "Testi 5", "href": "pages/test5.md" },
+                { "key": "Testi 6", "href": "pages/test6.md" }
+            ]
+        }
+	]
+}

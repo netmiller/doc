@@ -3,18 +3,19 @@
         "versio": "1.0",
         "author": "Esa.Laitila@netmiller.fi",
         "desc": "Vakuutuskassat ry - www-dokumentaation valikko",
-        "default_page": "pages/etusivu.md"
+        "default_page": "pages/etusivu.md",
+        "startCollapsed" : false
     },
 	"menu": [
 		{
 			"key": "Etusivu",
-			"values": [
+			"menu2": [
 				{ "key": "Etusivulle", "href": "pages/etusivu.md" }
 			]
 		},
 		{
 			"key": "Yleistietoa",
-			"values": [
+			"menu2": [
 				{ "key": "Yleistietoa www-sivuista", "href": "pages/yleistietoa.md" },
 				{ "key": "Termistö/sanasto", "href": "pages/termit.md" },
 				{ "key": "Kirjautuminen", "href": "pages/kirjautuminen.md" },
@@ -23,7 +24,7 @@
 		},
 		{
 			"key": "Sivujen ylläpito",
-			"values": [
+			"menu2": [
                 { "key": "Ylläpitonäkymä", "href": "pages/yllapito-yleista.md" },
                 { "key": "Etusivun uutiset", "href": "pages/etusivun-uutiset.md" },
 				{ "key": "Uutisten lisääminen", "href": "pages/uutisten-lisaaminen.md" },
@@ -36,26 +37,26 @@
 		},
 		{
 			"key": "Mediatiedostot",
-			"values": [
+			"menu2": [
                 { "key": "Mediatiedostojen lisääminen", "href": "pages/mediatiedostot.md" },
                 { "key": "Kuvien käyttö artikkeleissa", "href": "pages/kuvien-kaytto.md" }
 			]
 		},
         {
             "key": "Valikoiden ylläpito",
-            "values": [
+            "menu2": [
                 { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" }
             ]
         },
         {
             "key": "Muiden tietojen ylläpito",
-            "values": [
+            "menu2": [
                 { "key": "Etusivulla olevat tekstit", "href": "pages/etusivun-perustiedot.md" }
             ]
         },
 		{
 			"key": "Tekninen toteutus",
-			"values": [
+			"menu2": [
 				{ "key": "Ohjelmistosta", "href": "pages/ohjelmistosta.md" },
 				{ "key": "Palvelimesta", "href": "pages/palvelimesta.md" },
 				{ "key": "Varmistukset", "href": "pages/varmistuksista.md" },

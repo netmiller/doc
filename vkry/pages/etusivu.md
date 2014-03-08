@@ -14,7 +14,7 @@ sisältöön vaikuttavat muutokset; esim. uudet tiedotteet ja vanhojen sivujen m
 
 Myös kokonaan uusia sivuja voidaan tehdä näiden ohjeiden mukaan.
 
-## Sivuston URL-osoitteet 
+## Sivuston URL-osoitteet
 
 Kaikille avoinna oleva osio, ts. varsinaiset www-sivut) :<br/><http://www.vakuutuskassat.fi>
 
@@ -28,14 +28,13 @@ jossa voidaan kokeilla ja testata; sotkematta varsinaisia virallisia sivuja.
 
 __Testikoneen URL-osoitteet:__
 
-<http://vkry-test.netmiller.fi>  (vastaa kaikille avointa osiota)
-
+<http://vkry-test.netmiller.fi>  (vastaa kaikille avointa osiota)<br>
 <http://vkry-test.netmiller.fi/administrator>  (vastaa YLLÄPIDON SIVUJA)
 
-````
- HUOM! testaus ja testiosoitteet eivät ole normaalisti päällä,
- mutta ne avataan tarpeen mukaan käyttöön.
-````
+<div class='msg msg-warn'>
+HUOM! testaus ja testiosoitteet eivät ole normaalisti päällä,
+mutta ne avataan tarpeen mukaan käyttöön.
+</div>
 
 ----
 

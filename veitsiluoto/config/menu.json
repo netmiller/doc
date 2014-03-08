@@ -4,18 +4,19 @@
         "author": "Esa.Laitila@netmiller.fi",
         "desc": "Veitsiluodon sairauskassa - www-dokumentaation valikko",
         "default_page": "pages/etusivu.md",
-        "last-update": "13.12.2013 Esa.Laitila@netmiller.fi"
+        "last-update": "13.12.2013 Esa.Laitila@netmiller.fi",
+        "startCollapsed" : false
     },
 	"menu": [
 		{
 			"key": "Etusivu",
-			"values": [
+			"menu2": [
 				{ "key": "Etusivulle", "href": "pages/etusivu.md" }
 			]
 		},
 		{
 			"key": "Yleistietoa",
-			"values": [
+			"menu2": [
 				{ "key": "Yleistietoa www-sivuista", "href": "pages/yleistietoa.md" },
 				{ "key": "Termistö/sanasto", "href": "pages/termit.md" },
 				{ "key": "Kategoriat ja niiden käyttö", "href": "pages/kategoriat.md" },
@@ -25,7 +26,7 @@
 		},
 		{
 			"key": "Sivujen ylläpito",
-			"values": [
+			"menu2": [
                 { "key": "Ylläpitonäkymä", "href": "pages/yllapito-yleista.md" },
 				{ "key": "Tiedotteiden tekeminen", "href": "pages/tiedotteiden-tekeminen.md" },
 				{ "key": "Muiden sivujen lisääminen", "href": "pages/sivujen-lisaaminen.md" },
@@ -36,14 +37,14 @@
 		},
         {
             "key": "Muiden tietojen ylläpito",
-            "values": [
+            "menu2": [
                 { "key": "Etusivun ylläpito", "href": "pages/etusivun-yllapito.md" },
                 { "key": "Yhteystietojen ylläpito", "href": "pages/yhteystiedot.md" }
             ]
         },
         {
             "key": "Valikoiden ylläpito",
-            "values": [
+            "menu2": [
                 { "key": "Valikot", "href": "pages/valikot.md" },
                 { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" }
 
@@ -51,7 +52,7 @@
         },
         {
             "key": "Lomakkeet ja linkit",
-            "values": [
+            "menu2": [
                 { "key": "Kassan lomakkeet ylläpito", "href": "pages/kassan-lomakkeet.md" },
                 { "key": "Muut lomakkeet ylläpito (KELA)", "href": "pages/muut-lomakkeet.md" },
                 { "key": "Linkkien ylläpito", "href": "pages/linkit.md" }
@@ -59,20 +60,20 @@
         },
         {
             "key": "Sopimuspaikat",
-            "values": [
+            "menu2": [
                 { "key": "Sopimuspaikkojen ylläpito", "href": "pages/sopimuspaikat.md" }
             ]
         },
         {
             "key": "Mediatiedostot",
-            "values": [
+            "menu2": [
                 { "key": "Mediatiedostojen lisääminen", "href": "pages/mediatiedostot.md" },
                 { "key": "Kuvien käyttö artikkeleissa", "href": "pages/kuvien-kaytto.md" }
             ]
         },
         {
 			"key": "Tekninen toteutus",
-			"values": [
+			"menu2": [
 				{ "key": "Ohjelmistosta", "href": "pages/ohjelmistosta.md" },
 				{ "key": "Palvelimesta", "href": "pages/palvelimesta.md" },
 				{ "key": "Varmistukset", "href": "pages/varmistuksista.md" },

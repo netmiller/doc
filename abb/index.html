@@ -1,13 +1,14 @@
 <!DOCTYPE HTML>
-<html>
+
+<html ng-app="doc">
+
 <head>
 
     <title>doc.netmiller.fi - ABB:n vakuutuskassa</title>
     <meta charset="utf-8">
 
-    <!-- Bootstrap, latest minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-
+    <!-- Bootstrap, latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <!-- doc.netmiller CSS -->
     <link rel="stylesheet" href="../common/css/nmdoc.css" type="text/css">
 
@@ -15,7 +16,7 @@
 
 <body>
 
-<div id="wrapper">
+<div id="wrapper" ng-controller="mainCtrl">
 
     <div id="header">
           <div id="netmiller">doc.netmiller.fi</div>
@@ -31,25 +32,51 @@
 
                     <div id="nappulat">
 
-                        <button type="button" class="menu-expand btn btn-default btn-xs">
-                            Näytä <span class="glyphicon glyphicon-save"></span>
+                        <button type="button"
+                            class="menu-expand btn btn-default btn-xs"
+                            ng-click="toggleAll(true)">
+                                Näytä kaikki <span class="glyphicon glyphicon-save"></span>
                         </button>
-                        <button type="button" class="menu-collapse btn btn-default btn-xs">
-                            Piilota <span class="glyphicon glyphicon-open"></span>
+                        <button type="button"
+                            class="menu-collapse btn btn-default btn-xs"
+                            ng-click="toggleAll(false)">
+                                Piilota <span class="glyphicon glyphicon-open"></span>
                         </button>
                         <!-- button class="btn btn-info">Expand All</button -->
                         <!-- button class="btn btn-warning">Collapse All</button -->
 
                     </div>
 
-                    <div id="listTree">
-                        Haetaan valikkoa ....
+                    <div id='listTree'>
+                        <ul>
+                            <li class='section' ng-repeat='menu1 in valikko.menu'>
+                                <span class='menu-1'
+                                    ng-click="toggleMenu(menu1)">
+                                    {{menu1.key}}
+                                    <i ng-if='menu1.visible' class='glyphicon glyphicon-chevron-up'></i>
+                                    <i ng-if='!menu1.visible' class='glyphicon glyphicon-chevron-down'></i>
+                                </span>
+                                <ul ng-if='menu1.visible'
+                                    ng-repeat='submenu in menu1.menu2'>
+                                    <li class="page"
+                                        data={{submenu.href}}
+                                        ng-class="(submenu.isActive) ? 'curr' : ''"
+                                        ng-click='naytaSivu(submenu,$event)'>
+                                        <i class='glyphicon glyphicon-edit'></i>
+                                        {{ submenu.key }}
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
 
                 </div>
 
-                <div id="rightcol">
-                    <div id="page"></div>
+                <div id='rightcol'>
+                    <div id='page'
+                        my-bind-html='page'
+                        ng-click='redirectLink($event)'>
+                    </div>
                 </div>
 
             </div>
@@ -59,91 +86,18 @@
 
 </div>
 
+<!-- AngularJS -->
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+<!-- AngularJS Cookies -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-cookies.min.js"></script>
+<!-- AngularJS Resource -->
+<!-- script src="http://code.angularjs.org/1.2.14/angular-resource.min.js"></script -->
 
-<!-- JQuery 1.x.x, latest minified JavaScript -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<!-- Bootstrap 3.x minified JavaScript -->
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-<!-- Underscore minified JavaScript -->
-<script src="../common/js/underscore-min.js"></script>
 <!-- local marked JavaScript -->
 <script src="../common/js/marked.min.js"></script>
-<!-- local JQuery cookie plugin -->
-<script src="../common/js/jquery.cookie.js"></script>
-
 
 <!-- app functions -->
-<script src="../common/js/MDTree.min.js"></script>
-
-<!-- app main script -->
-<script type="text/javascript">
-
-    $( document ).ready(function() {
-
-        var data = [];
-        var cPage = '';
-
-        // asetetaan JQuery ajax cache:n oletus
-        $.ajaxSetup({ cache:false });
-
-        // haetaan menutiedosto
-        var m = 'config/menu.json';
-
-        $.getJSON(m, function (d) {
-            //console.log(d.meta);
-
-            data = d.menu;
-
-            // haetaan viimeksi käsitelty sivu joko Cookiesta tai oletuksesta
-            cPage = $.cookie("currPage") || d.meta.default_page;
-
-            // muodostetaan vas.reunan valikkopuu haetun datan perusteella
-            $( '#listTree' ).html(__buildTree(data, {"startCollapsed": false, "cPage": cPage}));
-
-            // renderöidään viimeksi haettu sivu ruudulle valmiiksi
-            $.get( cPage)
-                .done(function( data ) {
-                    $( '#page' ).html(marked(data));
-                })
-                .fail(function() {
-                    console.log( "sivu puuttuu" );
-                });
-            //.always(function() {
-            //    $.cookie("currPage", cPage);
-            //});
-
-            // lisätään kuuntelijat tarvittaville eventeille
-            $(document)
-                .on('click', '.menu-expand',function (e) {
-                    //$('#listTree').listTree('expandAll');
-                    __expandAll();
-                })
-                .on('click', '.menu-collapse',function (e) {
-                    //$('#listTree').listTree('collapseAll');
-                    __collapseAll();
-                })
-
-                .on('click', '#listTree > ul > li, #listTree > ul > li > i.glyphicon', function(e) {
-                    __toggleMenu(e);
-                })
-
-                // otetaan kiinni vas.reunan valikosta klikattu uuden sivun eventti
-                // (tahan voisi rakentaa toisen logiikan href->id -vaihtoehdon tilalle)
-                .on('click', '#listTree li.page', function(e) {
-                    __getDoc($(e.target), e.target.id);
-                })
-
-                // testataan sivulla olevan linkin click-eventti
-                .on('click', '#page a', function(e) {
-                    __getLink(e);
-                })
-            ;
-
-        });
-
-    });
-
-</script>
+<script src="../common/js/MDApp.js"></script>
 
 </body>
 </html>
