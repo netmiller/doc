@@ -1,8 +1,8 @@
 # Kirjautuminen
 
-````
- Ylläpito-osioon pääsee sisään vain käyttäjätunnuksilla.
-````
+<div class='msg msg-warn'>
+Ylläpito-osioon pääsee sisään vain käyttäjätunnuksilla.
+</div>
 
 Ylläpitonäkymä tarvitsee  **aina käyttäjätunnuksen ja salasanan**.
 

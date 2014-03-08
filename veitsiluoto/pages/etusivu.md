@@ -30,12 +30,13 @@ __Testikoneen URL-osoitteet:__
 * <http://vsk-test.netmiller.fi/administrator>  (vastaa YLLÄPIDON SIVUJA)
 
 
-````
- HUOM! testaus ja testiosoitteet eivät ole normaalisti päällä,
- mutta ne avataan tarpeen mukaan käyttöön.
-````
+<div class='msg msg-warn'>
+HUOM! testaus ja testiosoitteet eivät ole normaalisti päällä,
+mutta ne avataan tarpeen mukaan käyttöön.
+</div>
+
 ----
 
-_Ohjeistus uusittu joulukuu 2013 - Esa.Laitila@netmiller.fi_
+_Ohjeistus uusittu joulukuu 2013  [Esa.Laitila@netmiller.fi]_
 
 [1]: kuvat/kuva01c.png "Ruutukaappaus etusivun alusta"
