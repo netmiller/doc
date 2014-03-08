@@ -1,4 +1,8 @@
 
+// doc.netmiller.fi [AngularJS app]
+// Copyright 2014 Netmiller [Esa.Laitila@netmiller.fi]
+// License : The MIT License
+
 //var app = angular.module('doc', ['ngResource']);
 var app = angular.module('doc', ['ngCookies']);
 
@@ -57,7 +61,7 @@ app.factory('haeValikko', ['$http', function($http) {
 
 // haetaan markdown-sivu ja renderöidään se 'marked' -modulilla
 // Todo: pitäisi siirtää renderöinti omaan moduliinsa ja tehdä siihen ainakin lang-mukainen customointi
-app.factory('haeSivu', ['$http', '$cookieStore', function($http, $cookieStore) {
+app.factory('haeSivu', ['$window','$http','$cookieStore', function($window,$http,$cookieStore) {
 	//alustetaan 'marked' -modulin optiot
 	var md = marked;
 	md.setOptions({
@@ -93,7 +97,7 @@ app.factory('haeSivu', ['$http', '$cookieStore', function($http, $cookieStore) {
 				cache: false
 			})
 			.success(function(data,status) {
-				//console.log(status);
+				$window.scrollTo(0,0);
 				// talletetaan pyydetty sivu cookie-arvoksi
 				$cookieStore.put('lastPage', sivu);
 				// sivu renderöidään HTML-muotoon marked-modulilla
@@ -107,7 +111,6 @@ app.factory('haeSivu', ['$http', '$cookieStore', function($http, $cookieStore) {
 
 				// tehdään markdown renderöinti asynkronisesti
 				md(data, function(err, text) {
-					//console.log(text);
 					scope.page = text;
 				});
 				//scope.page = md(data, {renderer:rd});
@@ -132,7 +135,8 @@ app.controller('mainCtrl', function($scope,$rootScope,$cookieStore,haeValikko,ha
 
 	haeValikko.get($scope, './config/menu.json', function(r) {
 		// alustetaan [pää]valikon visible true/false metatietojen perusteella
-		for (var i = 0, len = $scope.valikko.menu.length; i < len; i++) {
+		var i = $scope.valikko.menu.length;
+		while (i--) {
 			$scope.valikko.menu[i].visible = ($scope.valikko.meta.startCollapsed) ? false : true;
 		}
 		// haetaan joko cookie-talletettu viimeisin sivu tai oletussivu
