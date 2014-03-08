@@ -79,11 +79,12 @@ app.factory('haeSivu', ['$http', '$cookieStore', function($http, $cookieStore) {
 		get : function(scope, sivu, callback) {
 
 			// merkataan haettava sivu->true, ja muut false:ksi
-			scope.valikko.menu.forEach(function(menu) {
-				menu.menu2.forEach(function(menu2) {
-					menu2.isActive = (menu2.href === sivu) ? true : false;
-				});
-			});
+			for (var i = 0, len = scope.valikko.menu.length; i < len; i++) {
+				for (var j = 0, len2 = scope.valikko.menu[i].menu2.length; j < len2; j++) {
+					scope.valikko.menu[i].menu2[j].isActive =
+						(scope.valikko.menu[i].menu2[j].href === sivu) ? true : false;
+				}
+			}
 
 			// haetaan markdown-dokumentti
 			$http({
@@ -131,10 +132,10 @@ app.controller('mainCtrl', function($scope,$rootScope,$cookieStore,haeValikko,ha
 
 	haeValikko.get($scope, './config/menu.json', function(r) {
 		// alustetaan [pää]valikon visible true/false metatietojen perusteella
-		$scope.valikko.menu.forEach(function(menu1) {
-			menu1.visible = ($scope.valikko.meta.startCollapsed) ? false : true;
-		});
-		// haetaan joko cookie talletettu viimeisin sivu tai oletussivu
+		for (var i = 0, len = $scope.valikko.menu.length; i < len; i++) {
+			$scope.valikko.menu[i].visible = ($scope.valikko.meta.startCollapsed) ? false : true;
+		}
+		// haetaan joko cookie-talletettu viimeisin sivu tai oletussivu
 		$scope.lastPage = ($rootScope.lastPage) ? $rootScope.lastPage : $scope.valikko.meta.default_page;
 		haeSivu.get($scope, $scope.lastPage, function(r) {});
 	});
@@ -160,20 +161,6 @@ app.controller('mainCtrl', function($scope,$rootScope,$cookieStore,haeValikko,ha
 			$scope.valikko.menu[i].visible = value;
 		}
 	}
-
-	//$scope.expandAll = function() {
-	//	var i = $scope.valikko.menu.length;
-	//	while (i--) {
-	//		$scope.valikko.menu[i].visible = true;
-	//	}
-	//}
-
-	//$scope.collapseAll = function() {
-	//	var i = $scope.valikko.menu.length;
-	//	while (i--) {
-	//		$scope.valikko.menu[i].visible = false;
-	//	}
-	//}
 
 	$scope.redirectLink = function(evt) {
 		//console.log(evt);
