@@ -1,6 +1,6 @@
 # doc
 
-Netmiller public docs etc.
+Netmiller public docs.
 
-Contains some project docs (sub-folders)
+Sisältää muutamia ohjeistuksia joille on tehty omat sivustonsa 'gh-pages' ominaisuuden avulla.
 
