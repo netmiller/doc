@@ -1,7 +1,6 @@
 doc
 ===
 
-Netmiller public docs etc.
+Netmiller public docs.
 
-(no content yet, sorry)
-
+Sisältää muutamia ohjeistuksia joille on tehty omat sivustonsa 'gh-pages' ominaisuuden avulla.
