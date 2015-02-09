@@ -1,0 +1,67 @@
+{
+    "meta": {
+        "versio": "1.0",
+        "author": "Esa.Laitila@netmiller.fi",
+        "desc": "Vakuutuskassat ry - www-dokumentaation valikko",
+        "default_page": "pages/etusivu.md",
+        "startCollapsed" : false
+    },
+	"menu": [
+		{
+			"key": "Etusivu",
+			"menu2": [
+				{ "key": "Etusivulle", "href": "pages/etusivu.md" }
+			]
+		},
+		{
+			"key": "Yleistietoa",
+			"menu2": [
+				{ "key": "Yleistietoa www-sivuista", "href": "pages/yleistietoa.md" },
+				{ "key": "Termistö/sanasto", "href": "pages/termit.md" },
+				{ "key": "Kirjautuminen", "href": "pages/kirjautuminen.md" },
+				{ "key": "Salasanan vaihtaminen", "href": "pages/salasanan-vaihto.md" }
+			]
+		},
+		{
+			"key": "Sivujen ylläpito",
+			"menu2": [
+                { "key": "Ylläpitonäkymä", "href": "pages/yllapito-yleista.md" },
+                { "key": "Etusivun uutiset", "href": "pages/etusivun-uutiset.md" },
+				{ "key": "Uutisten lisääminen", "href": "pages/uutisten-lisaaminen.md" },
+				{ "key": "Uutisten otsikointi ja sisältö", "href": "pages/uutisten-otsikointi.md" },
+				{ "key": "Muiden sivujen lisääminen", "href": "pages/sivujen-lisaaminen.md" },
+				{ "key": "Sivujen muuttaminen", "href": "pages/sivujen-muuttaminen.md" },
+				{ "key": "Julkaisupäivämäärät", "href": "pages/julkaisupvm.md" },
+				{ "key": "Tekstieditorin käyttäminen", "href": "pages/tekstieditorin-kaytto.md" }
+			]
+		},
+		{
+			"key": "Mediatiedostot",
+			"menu2": [
+                { "key": "Mediatiedostojen lisääminen", "href": "pages/mediatiedostot.md" },
+                { "key": "Kuvien käyttö artikkeleissa", "href": "pages/kuvien-kaytto.md" }
+			]
+		},
+        {
+            "key": "Valikoiden ylläpito",
+            "menu2": [
+                { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" }
+            ]
+        },
+        {
+            "key": "Muiden tietojen ylläpito",
+            "menu2": [
+                { "key": "Etusivulla olevat tekstit", "href": "pages/etusivun-perustiedot.md" }
+            ]
+        },
+		{
+			"key": "Tekninen toteutus",
+			"menu2": [
+				{ "key": "Ohjelmistosta", "href": "pages/ohjelmistosta.md" },
+				{ "key": "Palvelimesta", "href": "pages/palvelimesta.md" },
+				{ "key": "Varmistukset", "href": "pages/varmistuksista.md" },
+				{ "key": "Tietoturvapäivitykset", "href": "pages/tietoturvapaivitykset.md" }
+			]
+		}
+	]
+}
