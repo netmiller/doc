@@ -13,9 +13,9 @@ sisältöön vaikuttavat muutokset.
 
 ## Sivuston URL-osoitteet
 
-````
-Toistaiseksi vasta testisivut toiminnassa
-````
+<div class='msg msg-warn'>
+HUOM! Toistaiseksi vasta testisivut toiminnassa
+</div>
 
 Jäsenille tarkoitettu osio :
 
