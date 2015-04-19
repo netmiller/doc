@@ -19,6 +19,7 @@ Lisääminen voidaan tehdä ohjauspaneelin painikkeesta: **Mediatiedostojen hall
 </figure>
 
 
+
 ## 2. Mediatiedostojen hallintaruutu
 
 Hallintaruutu näyttää seuraavalta :
@@ -34,13 +35,15 @@ Lomakkeissa käytettävät PDF-tiedostot kannattaa laittaa sille varattuun kansi
 
 Kansiossa __"muut"__ voidaan säilyttää esim. Kassan säännöt, jotka ovat myös .pdf-dokumentti.
 
-Kansiota voidaan tarvittaessa avata uusia mikäli tulee tarvetta järjestää asioita toisella tavalla.
+Lisää kansiota voidaan tarvittaessa avata uusia mikäli tulee tarvetta järjestää asioita toisella tavalla.
+
+
 
 ## 3. Tiedostojen lisääminen
 
 Valitaan ensio alikansio jonne tiedostoja halutaan laittaa mukaan.
 
-Ruudun alareunasta löytyy toiminnot joilla lisääminen tehdään:
+Yläreunan toiminnoista löytyy painike __Vie__ joka avaa ruudulle toiminnot joilla haluttu kuva voidaan siirtää palvelimelle.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![3][]
@@ -48,12 +51,12 @@ Ruudun alareunasta löytyy toiminnot joilla lisääminen tehdään:
 
 
 Aluksi poimitaan omalta koneelta haluttu tiedosto valinnalla __Browse__.
+
 Se antaa ikkunan josta voidaan etsiä ja valita tiedosto.
 
 Varsinainen lisääminen tehdään sitten toiminnolla __Aloita vienti palvelimelle__,
 joka lataa tiedoston mukaan valittuun kansioon.
 
-Esimerkki :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![4][]
@@ -65,15 +68,21 @@ Esimerkki :
 
 Tiedostot voidaan poistaa hallintaikkusta helposti.
 
-Jokaisen tiedoston alapuolella on pieni punainen rastilta näyttävä ikoni. Sitä painamalla tiedosto poistuu.
+Jokaisen tiedoston yläpuolella on pieni rastilta näyttävä ikoni. Sitä painamalla tiedosto poistuu.
 
-Vaihtoehtoisesti voi ruksata halutut tiedostot ja painamalla oik.ylänurkassa olevaa "Poista" -toimintoa,
-lähtee kaikki ruksatut tiedostot pois.
+Vaihtoehtoisesti voi ruksata halutut tiedostot (jok.kuvan yläpuolella vasemmalla paikka ruksille) ja
+painamalla toimintopalkista  "Poista" -toimintoa, lähtee kaikki ruksatut tiedostot pois.
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![6][]
+</figure>
+
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![5][]
-<figcaption>Ruutumalli tiedostojen poistosta</figcaption>
 </figure>
+
+
 
 
 ## 5. Tiedostojen muuttaminen
@@ -85,9 +94,10 @@ Joomla ei salli tiedostojen päällekirjoittamista (=uusi versio samasta tiedost
 
 ----
 
-[1]: kuvat/kuva40.png "Ruutumalli"
-[2]: kuvat/kuva74.png "Ruutumalli"
-[3]: kuvat/kuva42.png "Ruutumalli"
-[4]: kuvat/kuva43.png "Ruutumalli"
-[5]: kuvat/kuva75.png "Ruutumalli"
+[1]: kuvat/kuva165.png "Ruutumalli"
+[2]: kuvat/kuva166.png "Ruutumalli"
+[3]: kuvat/kuva167.png "Ruutumalli"
+[4]: kuvat/kuva168.png "Ruutumalli"
+[5]: kuvat/kuva169.png "Ruutumalli"
+[6]: kuvat/kuva170.png "Ruutumalli"
 [10]: pages/kassan-lomakkeet.md
