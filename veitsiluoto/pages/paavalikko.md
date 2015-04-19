@@ -19,10 +19,10 @@ niin pitäisi avautua seuraavannäköinen ruutu :
 
 __"Järjestys"__ -sarakkeen avulla valikon sisäistä järjestystä voidaan tarvittaessa muuttaa.
 
-Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
-tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa olevaa talletuskuvaketta.
+Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin.
 
-Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
+Siirto tapahtuu hiirellä vetämällä ja pudottamalla oikeaan kohtaan.
+
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![2][]
@@ -46,19 +46,9 @@ Esimerkkinä valikon kohta __Lisäetuudet__.
 __(1)__ __Otsikko__ kenttää voidaan helposti muuttaa
 
 __(2)__ Tietty artikkeli kytketään valikon kohtaan valitsemalla ensin Valikon nimikkeen tyypiksi __Yksittäinen artikkeli__.
-Esimerkissä tietojen ensimmäinen rivi.
 
-__(3)__ Sen jälkeen otetaan ruudun oik.reunasta laatikko __"Pakolliset asetukset"__.
-ja sieltä pitäisi nyt löytyä toiminto jolla __voidaan valita haluttu artikkeli__ joka kytketään tähän valikon kohtaan.
+__(3)__ Sen jälkeen voidaan __valita artikkeli__ joka tässä valikon kohdassa halutaan näyttää.
 
-
-<figure class="fig-n border" style="margin:0 0 20px 0">
-![4][]
-<figcaption>Ruutumalli valikon rivin ylläpidosta</figcaption>
-</figure>
-
-
-__(4)__ __Valitse/Muuta__ nappula avaa luettelon artikkeleista, ja sieltä voidaan nyt etsiä haluttu artikkeli.
 
 Valikon muut yksityiskohtaisten määritykset tarvitsevat jonkin verran Joomlan teknistä tuntemusta,
 ja muutosten osalta kannattaa ottaa varmuuden vuoksi yhteyttä [Netmilleriin][10].
@@ -66,7 +56,7 @@ ja muutosten osalta kannattaa ottaa varmuuden vuoksi yhteyttä [Netmilleriin][10
 
 ## 4. Tallettaminen
 
-Tiedot talletetaan oik.ylänurkassa olevilla toiminnoilla.
+Tiedot talletetaan yläreunan toiminnoilla.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![5][]
@@ -86,9 +76,9 @@ __Sulje__
 
 ----
 
-[1]: kuvat/kuva68.png "Ruutumalli"
-[2]: kuvat/kuva70.png "Ruutumalli"
-[3]: kuvat/kuva69.png "Ruutumalli"
-[4]: kuvat/kuva85.png "Ruutumalli"
-[5]: kuvat/kuva56.png "Ruutumalli"
+[1]: kuvat/kuva150.png "Ruutumalli"
+[2]: kuvat/kuva151.png "Ruutumalli"
+[3]: kuvat/kuva152.png "Ruutumalli"
+[4]: kuvat/kuva153.png "Ruutumalli"
+[5]: kuvat/kuva154.png "Ruutumalli"
 [10]: http://www.netmiller.fi

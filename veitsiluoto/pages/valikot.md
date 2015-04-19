@@ -61,9 +61,9 @@ Mutta perusasiat voi hyvin tehdä itse.  Kts. tarkemmin yo. valikkojen ohjeita.
 
 ----
 
-[1]: kuvat/kuva51.png "Ruutumalli"
-[2]: kuvat/kuva52.png "Ruutumalli"
-[3]: kuvat/kuva81.png "Ruutumalli"
+[1]: kuvat/kuva145.png "Ruutumalli"
+[2]: kuvat/kuva146.png "Ruutumalli"
+[3]: kuvat/kuva148.png "Ruutumalli"
 [10]: pages/paavalikko.md
 [11]: pages/kassan-lomakkeet.md
 [12]: pages/muut-lomakkeet.md
