@@ -17,7 +17,7 @@ Vastaavasti se häviää pois yleisön näkyvistä etukäteen asetettuna päivä
 
 ## Julkaisuasetukset
 
-Kun artikkelia kirjoitetaan, niin ruudun oikeassa reunassa näkyy muutamia tietoja jotka voi asettaa saman tien päälle.
+Kun artikkelia kirjoitetaan, niin __välilehdellä Julkaisuasetukset__ löytyy kentät jotka voi asettaa saman tien päälle.
 
 Ohessa ruutumali :
 
@@ -39,4 +39,4 @@ Jos sillä ei ole käyttöä niin kannattaa jättää ne pois ja antaa vaan päi
 
 
 
-[1]: kuvat/kuva67.png "Ruutumalli julkaisuasetuksista"
+[1]: kuvat/kuva131.png "Ruutumalli julkaisuasetuksista"
