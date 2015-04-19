@@ -25,7 +25,7 @@ Varsinainen sisältö  (=tekstiosa) tehdään alempana samassa ikkunassa :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
-<figcaption>Kuva31: ruutumalli tekstieditorista</figcaption>
+<figcaption>Kuva135: ruutumalli tekstieditorista</figcaption>
 </figure>
 
 
@@ -36,15 +36,16 @@ Tekstin fontteja on käytössä muutamia, ja ne on niitä joita yleensä www-siv
 eli kaikki erilaiset selaimet löytävät nämä fontit.
 
 Fontteja ei välttämättä tarvitse käyttää ellei ole erityistä syytä; parempi on käyttää
-erityisesti HTML-kieleen sovitettuja muotoiluja ("kappale", "Otsikko1", "Otsikko2", ym.).
+erityisesti HTML-kieleen sovitettuja muotoiluja ("paragraph", "Heading 1", "Heading 2", ym.).
 
 Perusteksti kannattaa laittaa ylärivin "Kappale" -tyylillä. Se tarkoittaa ns. leipätekstiä
 ja auttaa siinä että se käyttää aina sivustolle määriteltyä perusfonttia ja on samanlainen kuin sivujen muutkin tekstit.
 Ja kun muutetaan CSS-asetusten perusfonttia, niin se vaikuttaa heti kaikille sivuille, ja tyylit pysyvät valitussa
 linjassa automaattisesti.
 
-Otsikoille ja väliotsikoille voi ottaa samasta valikosta tyylin "Otsikko 1" tai "Otsikko 2" tai "Otsikko 3" jne.
-Otsikko 1 on suurin kirjasinkoko, ja siitä alaspäin hieman pienemmällä fontilla.
+Otsikoille ja väliotsikoille voi ottaa samasta valikosta tyylin "Heading 1" tai "Heading 2" tai "Heading 3" jne.
+
+Heading 1 on suurin kirjasinkoko, ja siitä alaspäin hieman pienemmällä fontilla.
 Tässäkin on se etu että ne on yleensä etukäteen määritelty sivuston CSS-asetuksissa, ja näkyvät siis kaikilla
 sivuilla samanlaisina eikä nihin tarvitse niin paljon itse kiinnittää huomiota.
 
@@ -94,8 +95,6 @@ Ingressi tehdään ruudun alareunan toiminnolla __"Lue lisää"__.
 ![4][]
 </figure>
 
-Tällä ei tosin ole __ABB:n käytössä paljon merkitystä__, koska sen käyttämistä ei ole hyödynnetty toistaiseksi.
-
 Lähinnä sitä voisi käyttää sellaisessa tapauksessa että esim. etusivulle voitaisiin __"nostaa"__ (tuoda)
 jotain artikkeleita joista näytettäisiin vain lyhyt alkuosa, ja koko artikkeli näkyisi sitten kun avaa
 kyseisen artikkelin linkistä tms. kokonaan.
@@ -131,7 +130,7 @@ Takaisin visuaaliseen editointiin päästään painamalla samaa toimintoa uudell
 
 Kun artikkeli on valmis ja se halutaan tallettaa, niin käytössä on useitakin vaihtoehtoja.
 
-<figure class="fig-n" style="margin:0 0 20px 0">
+<figure class="fig-n" style="margin:20px 0">
 ![7][]
 </figure>
 
@@ -147,26 +146,21 @@ __Tallenna & Uusi__
 
 *   vie artikkelin tietokantaan, ja tyhjentää ruudun jolloin voidaan alkaa kirjoittamaan ihan uutta artikkelia
 
-__Tallenna kopiona__
+__Peru__
 
-*   vie artikkelin tietokantaan toiselle nimelle
-*   voidaan käyttää kopioitaessa artikkelia pohjaksi jollekin toiselle/uudelle artikkelille
-
-__Sulje__
-
-*   Sulje-toiminto sulkee tekstieditorin
+*   Peru-toiminto sulkee tekstieditorin
 *   jos artikkeliin oli tehty muutoksia, niin ne peruuntuvat samalla
-*   mikäli muutokset oli talletettu käyttäen __Tallenna__ -toimintoa, niin tämä vaan sulkee tekstieditorin
+*   mikäli muutokset oli talletettu käyttäen __Tallenna__ -toimintoa, niin niitä ei enää perta vaan sulketaan ikkuna ja vain viimeisimmät (=tallettamattiomat) muutokset hylätään
 
 
 
-[1]: kuvat/kuva31.png "Ruutumalli tekstieditorista"
+[1]: kuvat/kuva135.png "Ruutumalli tekstieditorista"
 [2]: kuvat/kuva32.png "Ruutumalli"
 [3]: kuvat/kuva33.png "Ruutumalli"
 [4]: kuvat/kuva34.png "Ruutumalli"
 [5]: kuvat/kuva35.png "Ruutumalli"
 [6]: kuvat/kuva37.png "Ruutumalli"
-[7]: kuvat/kuva38.png "Ruutumalli"
+[7]: kuvat/kuva117.png "Ruutumalli"
 [21]: pages/tiedotteiden-tekeminen.md
 [22]: pages/sivujen-lisaaminen.md
 [24]: pages/kuvien-kaytto.md
