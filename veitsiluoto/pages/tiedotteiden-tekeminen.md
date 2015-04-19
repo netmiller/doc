@@ -4,6 +4,8 @@ Tiedotteet ovat Joomlan terminologiassa artikkeleita, ja ne tehdään samalla ta
 
 Tässä ohjesivussa keskitytään vain __tiedotteisiin__, ja muiden artikkeleiden/sivujen osalta on olemassa vastaava ohje.
 
+----
+
 ## 1.a Lisääminen ohjauspaneelista
 
 Lisääminen voidaan tehdä ohjauspaneelin painikkeesta: **Lisää uusi artikkeli**.
@@ -24,6 +26,7 @@ Toinen vaihtoehto on mennä ylhäällä olevan valikon kautta (Artikkelit) :
 ![2][]
 </figure>
 
+----
 
 ## 2. Tiedotteen perustiedot
 
@@ -43,10 +46,12 @@ __Alias__
 
  * ei tarvitse antaa (jätetään vaikka tyhjäksi).
  * ei ole meidän tapauksessa paljon käyttöä, koska järjestelmä muodostaa sen automaattisesti mikäli ei anneta erikseen
+ * voi myös antaa itse, mutta täytyy varmistaa ettei millään muulla artikkelilla ole samaa __alias__-tunnusta
 
 __Kategoria__
 
  * jos ollaan tekemässä tiedotetta, niin kategoriaksi valitaan vaihtoehdoista aina __Uutiset__
+ * oletuksena tässä on jotain muuta, __joten tämä täytyy muistaa vaihtaa tiedotteita tehdessä__
 
 __Tila__
 
@@ -57,11 +62,13 @@ __Tila__
 __Nostettu__
 
  * uutisissa tämä laitetaan normaalisti päälle (__=Kyllä__)
+ * oletuksena ei ole päällä, joten __tämäkin täytyy muistaa vaihtaa__
 
 __Muut asetukset__
 
  * muut asetukset (käyttöoikeus/käyttöoikeudet) kannattaa antaa olla oletusarvoina tässä vaiheessa
 
+----
 
 ## 3. Tiedotteen tekstiosa
 
@@ -129,17 +136,18 @@ mutta sillä ei ole vaikutusta eikä merkitystä muualla kuin tulostettaessa. Ei
 sivut on tarkoitettu esitettäväksi näytöllä, ja jos haluaa hyvin tarkasti muotoilla asiansa tulostusta varten,
 niin silloin kannattaa käyttää pdf-liitettä, joka tulostuu juuri samanlaisena kuin se on tehty.
 
+----
 
 ## 4. Tallettaminen
 
-Kun tiedote on kirjoitettu niin ruudun yläosassa (oikealla) on muutamia toimintoja joilla se voidaan tallettaa tai perua.
+Kun tiedote on kirjoitettu niin ruudun yläosassa on muutamia toimintoja joilla se voidaan tallettaa tai perua.
 
 Jos talletuksen jälkeen huomaa vielä jotain korjattavaa, niin tekstiin pääsee toki käsiksi ja
 sen voi korjailla kuntoon kuten tekstinkäsittelyssä muutenkin.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![6][]
-<figcaption>Kuva14: Ruutumalli toiminnoista</figcaption>
+<figcaption>Kuva117: Ruutumalli toiminnoista</figcaption>
 </figure>
 
 __Tallenna__
@@ -156,18 +164,14 @@ __Tallenna & Uusi__
 
 *   vie tiedotteen tietokantaan, ja tyhjentää ruudun jolloin voidaan alkaa kirjoittamaan toista tiedotetta
 
-__Tallenna kopiona__
 
-*   vie tiedotteen tietokantaan toiselle nimelle
-*   voidaan käyttää kopioitaessa tiedotetta pohjaksi jollekin toiselle/uudelle tiedotteelle
+__Peru__
 
-__Sulje__
-
-*   Sulje-toiminto sulkee tekstieditorin
+*   Peru-toiminto sulkee tekstieditorin
 *   jos oli tehty muutoksia, niin ne peruuntuvat samalla
-*   mikäli muutokset oli talletettu käyttäen __Tallenna__ -toimintoa, niin tämä vaan sulkee tekstieditorin
+*   mikäli muutokset oli talletettu käyttäen __Tallenna__ -toimintoa, niin tämä vaan sulkee tekstieditorin, eikä peru enää erikseen talletettuja muutoksia
 
-
+----
 
 ## 5. Tiedotteen julkaisupäivien asettaminen
 
@@ -176,20 +180,20 @@ niin se onnistuu myös.
 
 Siitä on oma ohjeensa, joka löytyy valikosta tai suoraan [tästä linkistä][23].
 
-<figure class="fig-n border" style="margin:0 0 20px 0">
+<figure class="fig-n border" style="margin:20px 0">
 ![7][]
 <figcaption>Kuva15: Ruutumalli julkaisuasetuksista</figcaption>
 </figure>
 
 
 
-[1]: kuvat/kuva10.png "Ruutumalli toiminnosta"
-[2]: kuvat/kuva11.png "Ruutumalli valikoiden kautta"
-[3]: kuvat/kuva12.png "Ruutumalli otsikkotiedoista"
-[5]: kuvat/kuva13.png "Ruutumalli tiedotteen tekstistä"
-[6]: kuvat/kuva14.png "Ruutumalli toiminnoista"
-[7]: kuvat/kuva15.png "Ruutumalli julkaisuasetuksista"
-[8]: kuvat/kuva65.png "Ruutumalli kappale/otsikko -valinnoista"
+[1]: kuvat/kuva112.png "Ruutumalli toiminnosta"
+[2]: kuvat/kuva113.png "Ruutumalli valikoiden kautta"
+[3]: kuvat/kuva114.png "Ruutumalli otsikkotiedoista"
+[5]: kuvat/kuva115.png "Ruutumalli tiedotteen tekstistä"
+[6]: kuvat/kuva117.png "Ruutumalli toiminnoista"
+[7]: kuvat/kuva118.png "Ruutumalli julkaisuasetuksista"
+[8]: kuvat/kuva116.png "Ruutumalli kappale/otsikko -valinnoista"
 [21]: pages/tekstieditorin-kaytto.md
 [22]: pages/kuvien-kaytto.md
 [23]: pages/julkaisupvm.md
