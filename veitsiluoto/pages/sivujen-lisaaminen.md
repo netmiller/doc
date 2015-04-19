@@ -35,7 +35,7 @@ Artikkelin alussa annetaan perustiedot; esimerkin avulla vaikkapa seuraavasti:
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![3][]
-<figcaption>Kuva21: Ruutumalli artikkelin lisäämisestä (otsikkotiedot)</figcaption>
+<figcaption>Kuva120: Ruutumalli artikkelin lisäämisestä (otsikkotiedot)</figcaption>
 </figure>
 
 
@@ -88,27 +88,11 @@ Toiminnoista on tarkempi ohje sivulla [Tekstieditorin käyttäminen][21].
 
 ## 4. Tallettaminen
 
-Kun artikkeli on kirjoitettu niin ruudun yläosassa (oikealla) on muutamia toimintoja joilla se voidaan tallettaa tai perua.
+Kun artikkeli on kirjoitettu niin ruudun yläosassa on muutamia toimintoja joilla se voidaan tallettaa tai perua.
 
 Jos talletuksen jälkeen huomaa vielä jotain korjattavaa, niin artikkeliin pääsee toki käsiksi ja
 sen voi korjailla kuntoon kuten tekstinkäsittelyssä muutenkin.
 
-__Talleta__
-
-*   Talleta-toiminto vie artikkelin tietokantaan
-
-
-__Sulje__
-
-*   Sulje-toiminto peruu kaikki muutokset ja sulkee tekstieditorin
-
-__Käytä__
-
-*   tämä toiminto on myös hyödyllinen, koska se tallettaa tiedot kuten varsinainen "Talleta" -toimintokin,
-    mutta jättää editorin silti auki jatkomuutoksia varten.
-*   silloin voi selaimen toisessa ikkunassa tai välilehdessä käydä katsomassa miltä muutokset näyttävät ulospäin,
-    ja jos jotain vielä pitää korjata niin palaa vaan takaisin tähän samaan ikkunaan ja jatkaa muutoksia ja
-    ottaa vaikka uudelleen "Käytä" -toiminnon ja katsoo joko nyt on OK.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![6][]
@@ -129,16 +113,12 @@ __Tallenna & Uusi__
 
 *   vie artikkelin tietokantaan, ja tyhjentää ruudun jolloin voidaan alkaa kirjoittamaan toista artikkelia
 
-__Tallenna kopiona__
+__Peru__
 
-*   vie artikkelin tietokantaan toiselle nimelle
-*   voidaan käyttää kopioitaessa artikkelia pohjaksi jollekin toiselle/uudelle artikkelille
-
-__Sulje__
-
-*   Sulje-toiminto sulkee tekstieditorin
+*   Peru-toiminto sulkee tekstieditorin
 *   jos oli tehty muutoksia, niin ne peruuntuvat samalla
-*   mikäli muutokset oli talletettu käyttäen __Tallenna__ -toimintoa, niin tämä vaan sulkee tekstieditorin
+*   mikäli muutokset oli talletettu käyttäen __Tallenna__ -toimintoa, niin näitä muutoksia ei enää peruta
+
 
 
 
@@ -149,7 +129,11 @@ niin se onnistuu ruudun oikeassa reunassa olevassa ikkunassa nimeltä __Julkaisu
 
 Siitä on oma ohjeensa, joka löytyy valikosta tai suoraan [tästä linkistä][22].
 
-<figure class="fig-n border" style="margin:0 0 20px 0">
+Jos aloita- ja lopeta julkaisu jätetään tyhjäksi, niin artikkeli on näkyvissä kunnes se kokonaan
+poistetaan tai otetaan __Julkaistu__ ohjaus pois päältä.
+
+
+<figure class="fig-n border" style="margin:20px 0">
 ![7][]
 <figcaption>Kuva15: Ruutumalli julkaisuasetuksista</figcaption>
 </figure>
@@ -157,12 +141,12 @@ Siitä on oma ohjeensa, joka löytyy valikosta tai suoraan [tästä linkistä][2
 
 
 
-[1]: kuvat/kuva10.png "Ruutumalli toiminnosta"
-[2]: kuvat/kuva11.png "Ruutumalli valikoiden kautta"
-[3]: kuvat/kuva21.png "Ruutumalli otsikkotiedoista"
-[4]: kuvat/kuva22.png "Ruutumalli sisällön tekemisestä"
-[6]: kuvat/kuva14.png "Ruutumalli toiminnoista"
-[7]: kuvat/kuva15.png "Ruutumalli julkaisuasetuksista"
+[1]: kuvat/kuva112.png "Ruutumalli toiminnosta"
+[2]: kuvat/kuva113.png "Ruutumalli valikoiden kautta"
+[3]: kuvat/kuva120.png "Ruutumalli otsikkotiedoista"
+[4]: kuvat/kuva121.png "Ruutumalli sisällön tekemisestä"
+[6]: kuvat/kuva117.png "Ruutumalli toiminnoista"
+[7]: kuvat/kuva122.png "Ruutumalli julkaisuasetuksista"
 [21]: pages/tekstieditorin-kaytto.md
 [22]: pages/julkaisupvm.md
 
