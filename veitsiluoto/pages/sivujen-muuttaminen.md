@@ -26,6 +26,7 @@ tai ylävalikosta __Artikkeli__  ->  __Artikkelien hallinta__
 </figure>
 
 
+
 ## 2. Hallintanäkymän käyttö
 
 Hallintanäkymä näyttää kaikki artikkelit ja uutiset luettelona.
@@ -37,24 +38,28 @@ Hallintanäkymä näyttää kaikki artikkelit ja uutiset luettelona.
 Luettelosta voidaan valita haluttu artikkeli ja avataan se tekstieditoriin otsikkoa klikkaamalla.
 
 
+
 ## 3. Valinnat
 
 Hallintanäkymää voidaan lajitella ja järjestää halutulla tavalla, jolloin löydetään tarvittavat
 artikkelit nopeammin ja helpommin.
 
-Yläosassa näkyy yksi tähän tarkoitukseen erinomainen työkalu, jolla saadaan tehtyä valintoja :
+Yläosassa näkyy yksi tähän tarkoitukseen erinomainen työkalu __(Search Tools)__, jolla saadaan tehtyä valintoja :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![4][]
 </figure>
 
-Esimerkissä on valittu näkymään vain Kategoria __Yleistiedot__.
+Hyödyllinen valinta on ainakin __Valitse kategoriat__ -kohta
 
 Tällöin on helpompi löytää haluttu artikkeli muutokseen. Alasvetovalikosta voidaan ottaa mikä
 tahansa __Kategoria__, jota halutaan katsoa tarkemmin; esim. "Uutiset".
 
-Myös __Tila__-koodin avulla voidaan tehdä valintoja, jolloin saadaan näkymään esim. kaikki
+Myös __Valitse tila__-koodin avulla voidaan tehdä valintoja, jolloin saadaan näkymään esim. kaikki
 artikkelit jotka on vielä tilakoodilla __Julkaisematon__.
+
+
+
 
 ## 4. Hallintaruudun järjestäminen
 
@@ -79,7 +84,16 @@ järjestyksen laskevaan järjestykseen.
 Voimassa oleva järjestys näkyy Otsikkotekstin vieressä olevana pienenä kolmiona, joka myös
 näyttää kumpaan suuntaan lajittelu on tehty (nouseva/laskeva).
 
-Muita käyttökelpoisia järjestyksiä voisivat olla esim. __Kategorian mukaan__, tai __Järjestys__-sarake.
+
+Listan järjestämiseen löytyy myös toinen toimintonappula, joka esimerkissä näkyy __ID descending__.
+
+Sen takaa löytyy paljon muitakin valintoja joiden mukaan lista voidaan järjestää.
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![6][]
+</figure>
+
+
 
 
 ## 5. Artikkelin sisällön muuttaminen
@@ -91,11 +105,12 @@ Editoinnnista on tarkempi ohje sivulla [Tekstieditorin käyttäminen][23].
 ----
 
 
-[1]: kuvat/kuva23.png "Ruutumalli toiminnosta"
-[2]: kuvat/kuva24.png "Ruutumalli valikoiden kautta"
-[3]: kuvat/kuva25.png "Ruutumalli hallintaikkunasta"
-[4]: kuvat/kuva26.png "Ruutumalli valinnoista"
-[5]: kuvat/kuva28.png "Ruutumalli sarakeotsikoista"
+[1]: kuvat/kuva125.png "Ruutumalli toiminnosta"
+[2]: kuvat/kuva126.png "Ruutumalli valikoiden kautta"
+[3]: kuvat/kuva127.png "Ruutumalli hallintaikkunasta"
+[4]: kuvat/kuva128.png "Ruutumalli valinnoista"
+[5]: kuvat/kuva129.png "Ruutumalli sarakeotsikoista"
+[6]: kuvat/kuva130.png "Ruutumalli sarakeotsikoista"
 [21]: pages/tiedotteiden-tekeminen.md
 [22]: pages/sivujen-lisaaminen.md
 [23]: pages/tekstieditorin-kaytto.md

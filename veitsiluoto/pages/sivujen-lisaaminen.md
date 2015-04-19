@@ -75,7 +75,7 @@ Varsinainen tekstiosa tehdään alempana samassa ikkunassa, ja siinä on käytö
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![4][]
-<figcaption>Kuva22: Ruutumalli artikkelin tekemisestä</figcaption>
+<figcaption>Kuva121: Ruutumalli artikkelin tekemisestä</figcaption>
 </figure>
 
 Tämä alue on se jossa __varsinainen sisältö__ kirjoitetaan, ja myös korjaillaan jos siihen tulee muutoksia.
@@ -96,7 +96,7 @@ sen voi korjailla kuntoon kuten tekstinkäsittelyssä muutenkin.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![6][]
-<figcaption>Kuva14: Ruutumalli toiminnoista</figcaption>
+<figcaption>Kuva117: Ruutumalli toiminnoista</figcaption>
 </figure>
 
 __Tallenna__
@@ -135,7 +135,7 @@ poistetaan tai otetaan __Julkaistu__ ohjaus pois päältä.
 
 <figure class="fig-n border" style="margin:20px 0">
 ![7][]
-<figcaption>Kuva15: Ruutumalli julkaisuasetuksista</figcaption>
+<figcaption>Kuva122: Ruutumalli julkaisuasetuksista</figcaption>
 </figure>
 
 
