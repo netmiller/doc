@@ -28,10 +28,8 @@ jolloin pitäisi avautua seuraavannäköinen ruutu :
 
 __"Järjestys"__ -sarakkeen avulla valikon sisäistä järjestystä voidaan tarvittaessa muuttaa.
 
-Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
-tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa olevaa talletuskuvaketta.
+Sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin.
 
-Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![2][]
@@ -66,6 +64,7 @@ __(3)__  __Haluttu linkki__ kytketään mukaan kirjoittamalla sen suoraan linkki
 selaimesta talteen, ja liittää se tähän kenttään.
 
 
+
 ## 4. Uudet linkit
 
 Uusia linkkejä voidaan tehdä samalla tavalla kuin mallissa oleva esimerkki.
@@ -73,7 +72,13 @@ Uusia linkkejä voidaan tehdä samalla tavalla kuin mallissa oleva esimerkki.
 Kohdan 1 ruutumallista näkyy yähääällä toiminto __"Uusi"__, joka avaa uuden linkin
 ja sille voi antaa arvot vastaavasti kuin esim. tässä mallissa.
 
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![4][]
+</figure>
+
 Niiden järjestäminen haluttuun järjestykseen voidaan tehdä kohdan 2 mukaisesti.
+
+
 
 ## 5. Tallettaminen
 
@@ -97,8 +102,9 @@ __Sulje__
 
 ----
 
-[1]: kuvat/kuva90.png "Ruutumalli"
-[2]: kuvat/kuva70.png "Ruutumalli"
-[3]: kuvat/kuva91.png "Ruutumalli"
-[5]: kuvat/kuva56.png "Ruutumalli"
+[1]: kuvat/kuva160.png "Ruutumalli"
+[2]: kuvat/kuva151.png "Ruutumalli"
+[3]: kuvat/kuva161.png "Ruutumalli"
+[4]: kuvat/kuva162.png "Ruutumalli"
+[5]: kuvat/kuva154.png "Ruutumalli"
 [10]: pages/valikot.md

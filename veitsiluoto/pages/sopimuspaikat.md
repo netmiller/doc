@@ -13,8 +13,17 @@ Dokumentti löytyy Artikkelien hallinta -näkymän kautta, ja sieltä se voidaan
 <figcaption>Ruutumalli artikkelien hallintaruudusta (sopimuspaikat)</figcaption>
 </figure>
 
+----
+
 Hallintanäkymässä voidaan valita kategoriaksi pelkästään __"Yleistiedot"__ niin
 saadaan vain ao.dokumentit esiin ja löytyy nopeammin.
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![2][]
+</figure>
+
+
+
 
 ## 2. Luettelon ylläpito
 
@@ -25,5 +34,6 @@ Sisällön ylläpito tapahtuu ohjeen [Tekstieditorin käyttö][10] mukaan.
 
 ----
 
-[1]: kuvat/kuva92.png "Ruutumalli"
+[1]: kuvat/kuva163.png "Ruutumalli"
+[2]: kuvat/kuva164.png "Ruutumalli"
 [10]: pages/tekstieditorin-kaytto.md

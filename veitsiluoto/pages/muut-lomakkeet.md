@@ -10,8 +10,7 @@ ero on lähinnä siinä miten __URL-osoite annetaan__.
 
 ## 1. Muut lomakkeet
 
-Avataan lomakkeet valikoiden hallintaikkunassa (klikkaamalla otsikkoa),
-jolloin pitäisi avautua seuraavannäköinen ruutu :
+Kun "Kassan lomakkeet" avataan valikoiden hallintaikkunaan, niin pitäisi avautua seuraavannäköinen ruutu :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
@@ -19,18 +18,18 @@ jolloin pitäisi avautua seuraavannäköinen ruutu :
 </figure>
 
 
-## 2. Valikon järjestys
+
+## 2. Valikon rivien järjestys
 
 __"Järjestys"__ -sarakkeen avulla valikon sisäistä järjestystä voidaan tarvittaessa muuttaa.
 
-Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
-tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa olevaa talletuskuvaketta.
+Sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin.
 
-Järjestystä muutettaessa on tärkeää tallettaa muutokset tuolla pienellä __talletuskuvakkeella__.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![2][]
 </figure>
+
 
 
 ## 3. Valikon rivien ylläpito
@@ -68,6 +67,7 @@ se silti sinne mahtuu vaikka ruutu ei näytäkään kokonaan. Loppuosa jää pii
 ````
 
 
+
 ## 4. Tallettaminen
 
 Tiedot talletetaan oik.ylänurkassa olevilla toiminnoilla.
@@ -90,10 +90,11 @@ __Sulje__
 
 ----
 
-[1]: kuvat/kuva88.png "Ruutumalli"
-[2]: kuvat/kuva70.png "Ruutumalli"
-[3]: kuvat/kuva89.png "Ruutumalli"
-[5]: kuvat/kuva56.png "Ruutumalli"
+
+[1]: kuvat/kuva157.png "Ruutumalli"
+[2]: kuvat/kuva151.png "Ruutumalli"
+[3]: kuvat/kuva158.png "Ruutumalli"
+[5]: kuvat/kuva154.png "Ruutumalli"
 [10]: pages/valikot.md
 [11]: pages/mediatiedostot.md
 [12]: pages/kassan-lomakkeet.md
