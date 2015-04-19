@@ -4,7 +4,6 @@ Tiedotteet ovat Joomlan terminologiassa artikkeleita, ja ne tehdään samalla ta
 
 Tässä ohjesivussa keskitytään vain __tiedotteisiin__, ja muiden artikkeleiden/sivujen osalta on olemassa vastaava ohje.
 
-----
 
 ## 1.a Lisääminen ohjauspaneelista
 
@@ -14,7 +13,6 @@ Lisääminen voidaan tehdä ohjauspaneelin painikkeesta: **Lisää uusi artikkel
 ![1][]
 </figure>
 
-----
 
 ## 1.b Lisääminen ruudun ylävalikosta
 
@@ -26,7 +24,7 @@ Toinen vaihtoehto on mennä ylhäällä olevan valikon kautta (Artikkelit) :
 ![2][]
 </figure>
 
-----
+
 
 ## 2. Tiedotteen perustiedot
 
@@ -68,7 +66,7 @@ __Muut asetukset__
 
  * muut asetukset (käyttöoikeus/käyttöoikeudet) kannattaa antaa olla oletusarvoina tässä vaiheessa
 
-----
+
 
 ## 3. Tiedotteen tekstiosa
 
@@ -136,7 +134,7 @@ mutta sillä ei ole vaikutusta eikä merkitystä muualla kuin tulostettaessa. Ei
 sivut on tarkoitettu esitettäväksi näytöllä, ja jos haluaa hyvin tarkasti muotoilla asiansa tulostusta varten,
 niin silloin kannattaa käyttää pdf-liitettä, joka tulostuu juuri samanlaisena kuin se on tehty.
 
-----
+
 
 ## 4. Tallettaminen
 
@@ -171,7 +169,7 @@ __Peru__
 *   jos oli tehty muutoksia, niin ne peruuntuvat samalla
 *   mikäli muutokset oli talletettu käyttäen __Tallenna__ -toimintoa, niin tämä vaan sulkee tekstieditorin, eikä peru enää erikseen talletettuja muutoksia
 
-----
+
 
 ## 5. Tiedotteen julkaisupäivien asettaminen
 
