@@ -18,7 +18,7 @@ Artikkelin voi myös ymmärtää tekstinkäsittelyn terminä __"dokumentti"__.
 Periaatteessa artikkeli on joko kokonainen oma sivu (esim. __"Toimintapiiri ja hallinto"__ tai __"Sopimuspaikat"__)
 jolloin artikkeli avautuu valikosta omalle sivulleen.
 
-Myös tiedotteet ovat artikkeleita, jotka on sitten tuotu automaattisesti etusivulle näkyviin.
+__Myös tiedotteet ovat artikkeleita__, jotka on sitten tuotu automaattisesti etusivulle näkyviin.
 
 ## 2. Kategoria
 

@@ -32,6 +32,6 @@ Muutenkin salasanaa kannattaa vaihtaa silloin tällöin, vaikka järjestelmä ei
 Salasanan vaihtamisesta löytyy tietoa [tältä sivulta][3].
 
 
-[1]: kuvat/kuva02.png "Ruutukaappaus kirjautumisruudusta"
+[1]: kuvat/kuva102.png "Ruutukaappaus kirjautumisruudusta"
 [2]: http://www.netmiller.fi
 [3]: pages/salasanan-vaihto.md

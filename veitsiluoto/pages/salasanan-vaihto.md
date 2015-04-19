@@ -15,7 +15,7 @@ __(1)__ valitse Ohjauspaneelista kuvake **Käyttäjien hallinta** :
 
 __(2)__ valitse oma tunnuksesi ja klikkaa nimikenttää niin pääset muutosruudulle :
 
-* tässä esimerkissä __Testikäyttäjä 1__
+* tässä esimerkissä __Testikassa 1__
 
 <figure class="fig-n" style="margin:10px 0 30px 0">
 ![2][]
@@ -34,7 +34,7 @@ __(3)__ anna uusi salasana ao.kenttään, ja myös seuraavaan kenttään jossa s
 
 ----
 
-__(4)__ oikeassa yläkulmassa on toimintopainikkeita, joista voit valita **Tallenna**
+__(4)__ vasemmassa yläkulmassa on toimintopainikkeita, joista voit valita **Tallenna**
 tai **Tallenna & sulje** mikäli haluat sulkea ruudun talletuksen jälkeen.
 
 <figure class="fig-n" style="margin:10px 0 30px 0">
@@ -53,8 +53,8 @@ tai **Tallenna & sulje** mikäli haluat sulkea ruudun talletuksen jälkeen.
 
 ----
 
-[1]: kuvat/kuva06.png "Toiminto ohjauspaneelissa"
-[2]: kuvat/kuva07.png "Ruutumalli"
-[3]: kuvat/kuva08.png "Ruutumalli"
-[4]: kuvat/kuva09.png "Ruutumalli toiminnoista"
+[1]: kuvat/kuva103.png "Toiminto ohjauspaneelissa"
+[2]: kuvat/kuva104.png "Ruutumalli"
+[3]: kuvat/kuva105.png "Ruutumalli"
+[4]: kuvat/kuva106.png "Ruutumalli toiminnoista"
 

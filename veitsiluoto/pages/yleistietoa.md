@@ -39,6 +39,8 @@ Esim. CSS-tyylitiedostot vaikuttavat niihin hyvin paljon.
 
 Mutta perustoiminnot sivuston ylläpitämiseen pitäisi sujua ohjeistuksen avulla omin voimin.
 
-____
+---
+
+_Ohjeistus uusittu Joomla versio 3.x käyttöönoton yhteydessä 18.4.2015_
 
 [1]: kuvat/kuva03.png "Joomla-tunnus"

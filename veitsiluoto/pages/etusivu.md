@@ -37,6 +37,6 @@ mutta ne avataan tarpeen mukaan käyttöön.
 
 ----
 
-_Ohjeistus uusittu joulukuu 2013  [Esa.Laitila@netmiller.fi]_
+_Ohjeistus uusittu huhtikuu 2015  [Esa.Laitila@netmiller.fi]_
 
-[1]: kuvat/kuva01c.png "Ruutukaappaus etusivun alusta"
+[1]: kuvat/kuva01.png "Ruutukaappaus etusivun alusta"
