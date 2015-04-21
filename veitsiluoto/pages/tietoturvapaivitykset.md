@@ -1,6 +1,6 @@
 # Tietoturvapäivitysten ajaminen
 
-Ylläpidon ohjauspaneeliin ilmestyy pieni teksti silloin kun __uusi ohjelmaversio on saatavissa__.
+Ylläpidon __Ohjauspaneeliin__ ilmestyy pieni teksti silloin kun __uusi ohjelmaversio on saatavissa__.
 
 Yleensä ohjelmaversioihin liittyy melkein aina myös tietoturvapäivityksiä, joten ne on
 syytä ajaa kohtuullisen pikaisesti voimaan.
@@ -9,9 +9,8 @@ syytä ajaa kohtuullisen pikaisesti voimaan.
 
 Ohjauspaneelissa asia voisi näyttää seuraavanlaiselta :
 
-<figure class="fig-n border" style="margin:10px 0 0 0">
+<figure class="fig-n border" style="margin:10px 0 0 0;">
 ![1][]
-<figcaption>Malli ohjauspaneelin ilmoituksista</figcaption>
 </figure>
 
 
