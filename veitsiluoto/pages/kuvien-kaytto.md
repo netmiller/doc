@@ -29,6 +29,7 @@ Kuvia voi lisätä ruudun alareunassa olevasta __"Kuva"__ -painikkeesta.
 Toiminto avaa ikkunan, jossa näytetään serverillä olevat kuvat, ja niistä voidaan valita tarvittava kuva mukaan.
 
 Aluksi näytetään kaikki mediatiedostoissa olevat kansiot, joista kuvia voi etsiä.
+
 Esimerkissä avataan kansio __kuvat__.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
@@ -85,6 +86,7 @@ Jos kuva halutaan vaihtaa, niin suoraviivaisin tapa on poistaa vanha kuva, ja li
 Vaihtoehto on tehdä se kuvan lisäasetusten kautta.
 
 
+
 ## 6. Kuvan asetusten muokkaaminen
 
 Kuvalle voidaan tehdä myös hieman enemmän muotoilua, ja varsinkin pienentää kokoa tarvittaessa.
@@ -123,6 +125,11 @@ __(b)__ Kuvan kokoa voi muuttaa alkuperöiseen nähden; lähinnä järkevää on
 jolloin se näyttää lopullisella sivulla usein sopivammalta. Jos tietää kuvan alkuperäisen koon (pikseleissä)
 niin tässä voi helposti muuttaa sitä.
 
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![9][]
+<figcaption>Ruutumalli kuvan muokkausikkunasta</figcaption>
+</figure>
+
 __(c)__ Kuvalle voisi myös asettaa reunaviivan (__Kehys__), jolle annetaan numeroarvo.
 Se kuvaa reunaviivan paksuutta. Numero 1 on käytetyin arvo, eli 1 pikselin vahvuinen reunaviiva mustalla värillä,
 joten kuva saattaa erottua paremmin ympäristöstään.
@@ -132,14 +139,16 @@ Kuvan asetusten muut välilehdet määrittävät pidemmälle vietyjä HTML-asetu
 ja HTML-kielen tunteminen on tarpeellista. Ym. asetukset ovat kuitenkin helposti muutettavissa,
 ja kuvan ulkoasun saa yleensä näillä halutunlaiseksi.
 
+----
 
 
 [1]: kuvat/kuva32.png "Ruutumalli"
-[3]: kuvat/kuva76.png "Ruutumalli"
-[4]: kuvat/kuva77.png "Ruutumalli"
-[5]: kuvat/kuva47.png "Ruutumalli"
-[6]: kuvat/kuva48.png "Ruutumalli"
-[7]: kuvat/kuva49.png "Ruutumalli"
-[8]: kuvat/kuva50.png "Ruutumalli"
+[3]: kuvat/kuva175.png "Ruutumalli"
+[4]: kuvat/kuva176.png "Ruutumalli"
+[5]: kuvat/kuva177.png "Ruutumalli"
+[6]: kuvat/kuva178.png "Ruutumalli"
+[7]: kuvat/kuva180.png "Ruutumalli"
+[8]: kuvat/kuva181.png "Ruutumalli"
+[9]: kuvat/kuva182.png "Ruutumalli"
 [21]: pages/mediatiedostot.md
 
