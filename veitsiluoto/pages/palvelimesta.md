@@ -1,8 +1,14 @@
 # Palvelin
 
 
-Sivusto:n palvelimena käytetään __SJR-Host__ www-hotellipalvelua.
+Sivusto:n palvelimena käytetään __Louhen__   www-hotellipalvelua.
 
-<http://sjrhost.fi>
+Käytössä on Webhotelli Basic.
+
+----
 
 Tarkemmat ominaisuudet löytyy toimittajalta tarvittaessa.
+
+<http://www.louhi.fi>
+
+<http://www.louhi.fi/webhotelli>

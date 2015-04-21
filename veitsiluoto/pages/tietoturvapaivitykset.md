@@ -30,5 +30,5 @@ sivuston ulkoasun tai jonkun oleellisen asian.
 
 ----
 
-[1]: kuvat/kuva66.png "Ruutumalli ohjauspaneelin ilmoituksesta"
+[1]: kuvat/kuva185.png "Ruutumalli ohjauspaneelin ilmoituksesta"
 
