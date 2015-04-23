@@ -6,7 +6,7 @@ Oman salasanan vaihto tapahtuu seuraavasti
 
 __(1)__ valitse Ylläpitonäkymän yläriviltä äärimmäisenä oikealla oleva kuvake (kts. ruutumalli esim.) :
 
-<figure class="fig-n" style="margin:10px 0 0 0">
+<figure class="fig-n border" style="margin:10px 0 0 0">
 ![1][]
 <figcaption></figcaption>
 </figure>
@@ -15,7 +15,7 @@ __(1)__ valitse Ylläpitonäkymän yläriviltä äärimmäisenä oikealla oleva 
 
 __(2)__ Vaihtoehtoisesti voidaan käyttää __UserManager__ toimintoa :
 
-<figure class="fig-n" style="margin:10px 0 30px 0">
+<figure class="fig-n border" style="margin:10px 0 30px 0">
 ![2][]
 </figure>
 
