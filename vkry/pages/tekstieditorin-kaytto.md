@@ -164,6 +164,6 @@ __Close__
 [5]: kuvat/kuva132.png "Ruutumalli"
 [6]: kuvat/kuva37.png "Ruutumalli"
 [7]: kuvat/kuva118.png "Ruutumalli"
-[21]: pages/tiedotteiden-tekeminen.md
+[21]: pages/uutisten-lisaaminen.md
 [22]: pages/sivujen-lisaaminen.md
 [24]: pages/kuvien-kaytto.md
