@@ -1,11 +1,11 @@
 # Julkaisemisen alku- ja loppupvm
 
 
-Jos halutaan antaa tietylle sivulle (uutinen tai muu artikkeli)
-__alku- ja loppupäivä jolloin se näkyy yleisölle__, niin se onnistuu artikkelin __Julkaisuasetusten kautta__.
+Jos halutaan antaa tietylle sivulle (artikkelille) __alku- ja loppupäivä jolloin se näkyy ulospäin__,
+niin se onnistuu artikkelin editoinnissa välilehden __Publishing__ avulla.
 
 Oletuksena jokainen artikkeli saa julkaisupäiväkseen sen päivän jolloin se tehdään,
-eli käytännössä se astuu heti voimaan mikäli sen käyttöoikeus on "Julkinen".
+eli käytännössä se astuu heti voimaan mikäli sen tila on "Published".
 
 Samoin oletuksena loppupvm jää puuttumaan jolloin se käytännössä tarkoittaa että se näkyy
 niin kauan kunnes se manuaalisesti poistetaan.
@@ -13,11 +13,13 @@ niin kauan kunnes se manuaalisesti poistetaan.
 Molemmat päivät voidaan kuitenkin asettaa etukäteen siten, että tietty artikkeli/uutinen/tms ilmestyy
 julkiseksi vasta annettuna päivänä (huomenna, ensi maanantaina, vuoden alussa, ihan mikä tahansa kalenterin päivä käy).
 
-Vastaavasti se häviää pois yleisön näkyvistä etukäteen asetettuna päivänä mikäli se asetetaan päälle.
+Vastaavasti se häviää pois näkyvistä etukäteen asetettuna päivänä mikäli se asetetaan päälle.
+
 
 ## Julkaisuasetukset
 
-Kun artikkelia kirjoitetaan, niin ruudun oikeassa reunassa näkyy muutamia tietoja jotka voi asettaa saman tien päälle.
+Kun artikkelia kirjoitetaan, niin välilehti __Publishing__ näyttää voimassaolevat asetukset, ja siitä ne voi myös
+asettaa paikalleen.
 
 Ohessa ruutumali :
 
@@ -27,11 +29,10 @@ Ohessa ruutumali :
 </figure>
 
 
-Aloita julkaisu -kentän vieressä on pieni kalenterin kuvake, josta haluttu päivä voidaan etsiä ja klikata hiirellä voimaan.
+__Start publishing__ ja __Finish publishing__ kenttien vieressä on pieni kalenterin kuvake,
+josta haluttu päivä voidaan etsiä ja klikata hiirellä voimaan.
 
 Tai kentän voi käsin kirjoittaakin muodossa VVVV-KK-PP (eli vuosi neljällä numerollä - kuukausi - päivä).
-
-Saman voi tehdä Lopeta julkaisu -kentälle.
 
 Päivien lisäksi kenttään voi syöttää myös kelloajan, mutta sitä en ole juurikaan testannut
 joten en tiedä toimiiko se luotettavasti.
@@ -40,4 +41,4 @@ Jos sillä ei ole käyttöä niin kannattaa jättää ne pois ja antaa vaan päi
 
 
 
-[1]: kuvat/kuva30.png "Ruutumalli julkaisuasetuksista"
+[1]: kuvat/kuva119.png "Ruutumalli julkaisuasetuksista"

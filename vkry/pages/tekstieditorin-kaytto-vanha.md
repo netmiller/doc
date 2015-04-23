@@ -10,22 +10,24 @@ Teksti kirjoitetaan kuten tekstinkäsittelyssäkin, ja suurin osa muotoiluista o
 Mutta on siinä paljon erojakin, joten sitä kannattaa hieman harjoitella.
 
 
-## 1. Artikkelin perustiedot
+## 1. Sivun (=artikkelin) perustiedot
 
 Perustiedot löytyvät ruudun yläreunasta, ja niille on hieman erilaisia käytäntöjä riippuen mitä
 artikkelia ollaan tekemässä.
+
+Lähinnä erot ovat siinä tehdäänkö uutisia vai jotain muuta artikkelia.
 
 Tarkempaa tietoa sivuilla [Uutisten lisääminen][21] ja [Muiden sivujen lisääminen][22].
 
 
 
-## 2. Artikkelin tekstiosa
+## 2. Artikkelin tekstiosa (=sisältö)
 
-Varsinainen sisältö  (=tekstiosa) tehdään alempana samassa ikkunassa :
+Varsinainen tekstiosa tehdään alempana samassa ikkunassa :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
-<figcaption>Kuva135: ruutumalli tekstieditorista</figcaption>
+<figcaption>Kuva31: ruutumalli tekstieditorista</figcaption>
 </figure>
 
 
@@ -36,16 +38,15 @@ Tekstin fontteja on käytössä muutamia, ja ne on niitä joita yleensä www-siv
 eli kaikki erilaiset selaimet löytävät nämä fontit.
 
 Fontteja ei välttämättä tarvitse käyttää ellei ole erityistä syytä; parempi on käyttää
-erityisesti HTML-kieleen sovitettuja muotoiluja ("paragraph", "Heading 1", "Heading 2", ym.).
+erityisesti HTML-kieleen sovitettuja muotoiluja ("kappale", "Otsikko1", "Otsikko2", ym.).
 
 Perusteksti kannattaa laittaa ylärivin "Kappale" -tyylillä. Se tarkoittaa ns. leipätekstiä
 ja auttaa siinä että se käyttää aina sivustolle määriteltyä perusfonttia ja on samanlainen kuin sivujen muutkin tekstit.
 Ja kun muutetaan CSS-asetusten perusfonttia, niin se vaikuttaa heti kaikille sivuille, ja tyylit pysyvät valitussa
 linjassa automaattisesti.
 
-Otsikoille ja väliotsikoille voi ottaa samasta valikosta tyylin "Heading 1" tai "Heading 2" tai "Heading 3" jne.
-
-Heading 1 on suurin kirjasinkoko, ja siitä alaspäin hieman pienemmällä fontilla.
+Otsikoille ja väliotsikoille voi ottaa samasta valikosta tyylin "Otsikko 1" tai "Otsikko 2" tai "Otsikko 3" jne.
+Otsikko 1 on suurin kirjasinkoko, ja siitä alaspäin hieman pienemmällä fontilla.
 Tässäkin on se etu että ne on yleensä etukäteen määritelty sivuston CSS-asetuksissa, ja näkyvät siis kaikilla
 sivuilla samanlaisina eikä nihin tarvitse niin paljon itse kiinnittää huomiota.
 
@@ -61,7 +62,7 @@ Myös vastaavat listamerkinnät kuin tekstinkäsittelyohjelmistakin (numerot tai
 
 ## 3. Kuvien lisääminen
 
-Kuvia voi lisätä ruudun alareunassa olevasta "Image"-toiminnosta.
+Kuvia voi lisätä ruudun alareunassa olevasta "Kuva" -nappulasta.
 
 <figure class="fig-n" style="margin:0 0 20px 0">
 ![2][]
@@ -70,10 +71,10 @@ Kuvia voi lisätä ruudun alareunassa olevasta "Image"-toiminnosta.
 Kuvien käsittelystä on tarkemmin sivulla [Kuvien käyttö artikkeleissa][24].
 
 
-## 4. Sivukatko (Page Break)
+## 4. Sivukatko
 
 <figure class="fig-n" style="margin:0 0 20px 0">
-![2][]
+![3][]
 </figure>
 
 
@@ -84,33 +85,34 @@ PDF-tulosteet on eri asia, siinä tällä nappulalla ei ole mitään merkitystä
 koska PDF itse määrittää miten tulostus menee ja missä sivukatkot tehdään.
 
 
-## 5. "Read More" -toiminto
+## 5. "Lue lisää" -toiminto
 
-Mille tahansa artikkelille voidaan antaa tekstiosassa ns. johdanto tai ingressi.
+Uutiselle voidaan antaa tekstiosassa ns. johdanto tai ingressi.
 Se on lyhyt tiivistelmä kuten sanomalehden ingressi, ja myös se näytetään etusivulla (vihreällä värillä).
 
-Ingressi tehdään ruudun alareunan toiminnolla __"Read More"__.
+Ingressi tehdään ruudun alareunan toiminnolla __"Lue lisää"__.
 
 <figure class="fig-n" style="margin:0 0 20px 0">
-![2][]
+![4][]
 </figure>
 
-Lähinnä sitä käytetään etusivun uutisissa, jossa näytetään vain uutisen lyhyt alkuosa, ja koko
-artikkeli näkyy sitten kun avaa linkin.
+Tätä kannattaa käyttää vain **Uutisissa**, koska muualla sitä ei ole hyödynnetty eikä se näy muualla millään tavalla.
+
+Asiasta tarkemmin sivulla [Uutisten otsikointi ja sisältö][23].
 
 
 
-## 6. Editorin tila (Toggle editor)
+## 6. Editorin tila -toiminto (HTML-muoto)
 
-Hieman harvemmin käytetty toiminto on __"Toggle editor"__.
+Hieman harvemmin käytetty toiminto on __"Vaihda editorin tilaa"__.
+
+Se näyttää koko sisällön puhtaassa HTML-muodossa.
 
 <figure class="fig-n" style="margin:0 0 20px 0">
 ![5][]
 </figure>
 
-Se näyttää koko sisällön puhtaassa HTML-muodossa (esimerkki alla)
-
-<figure class="fig-n border" style="margin:0 0 20px 0">
+<figure class="fig-n" style="margin:0 0 20px 0">
 ![6][]
 </figure>
 
@@ -119,9 +121,6 @@ mutta muuten ei kannata käyttää.
 
 HTML-muodossa voi myös tehdä muutoksia, mikäli tuntee hallitsevansa merkinnät riittävän hyvin.
 
-Joskus on myös hyvä tarkistaa HTML-muodosta jos joku asia ei näytä toimivan halutulla tavalla
-visuaalisessa editorissa.
-
 Takaisin visuaaliseen editointiin päästään painamalla samaa toimintoa uudelleen.
 
 
@@ -129,41 +128,43 @@ Takaisin visuaaliseen editointiin päästään painamalla samaa toimintoa uudell
 
 Kun artikkeli on valmis ja se halutaan tallettaa, niin käytössä on useitakin vaihtoehtoja.
 
-<figure class="fig-n" style="margin:20px 0">
+<figure class="fig-n" style="margin:0 0 20px 0">
 ![7][]
 </figure>
 
-__Save__
+__Tallenna__
 
-*   vie artikkelin tietokantaan, mutta ei sulje ikkunaa vielä
+*   Tallenna-toiminto vie artikkelin tietokantaan, mutta ei sulje ikkunaa vielä
 
-__Save & Close__
+__Tallenna & Sulje__
 
 *   vie artikkelin tietokantaan, ja sulkee ikkunan jolloin päästään palaamaan edelliselle ruudulle
 
-__Save & New__
+__Tallenna & Uusi__
 
 *   vie artikkelin tietokantaan, ja tyhjentää ruudun jolloin voidaan alkaa kirjoittamaan ihan uutta artikkelia
 
-__Save as Copy__
+__Tallenna kopiona__
 
-*  vie artikkelin tietokantaan uudella nimellä, jolloin siitä syntyy kopio
-*  voi käyttää jos haluaa ottaa pohjaksi jonkun olemassaolevan artikkelin ja tehdä sitä apuna käyttäen kokonaan uuden
+*   vie artikkelin tietokantaan toiselle nimelle
+*   voidaan käyttää kopioitaessa artikkelia pohjaksi jollekin toiselle/uudelle artikkelille
 
-__Close__
+__Sulje__
 
-*   sulkee tekstieditorin
+*   Sulje-toiminto sulkee tekstieditorin
 *   jos artikkeliin oli tehty muutoksia, niin ne peruuntuvat samalla
-*   mikäli muutokset oli talletettu käyttäen __Save__ -toimintoa, niin niitä ei enää perua vaan suljetaan ikkuna ja vain viimeisimmät muutokset hylätään
+*   mikäli muutokset oli talletettu käyttäen __Tallenna__ -toimintoa, niin tämä vaan sulkee tekstieditorin
 
 
 
-[1]: kuvat/kuva135.png "Ruutumalli tekstieditorista"
-[2]: kuvat/kuva131.png "Ruutumalli"
+[1]: kuvat/kuva31.png "Ruutumalli tekstieditorista"
+[2]: kuvat/kuva32.png "Ruutumalli"
 [3]: kuvat/kuva33.png "Ruutumalli"
-[5]: kuvat/kuva132.png "Ruutumalli"
+[4]: kuvat/kuva34.png "Ruutumalli"
+[5]: kuvat/kuva35.png "Ruutumalli"
 [6]: kuvat/kuva37.png "Ruutumalli"
-[7]: kuvat/kuva118.png "Ruutumalli"
-[21]: pages/tiedotteiden-tekeminen.md
+[7]: kuvat/kuva38.png "Ruutumalli"
+[21]: pages/uutisten-lisaaminen.md
 [22]: pages/sivujen-lisaaminen.md
+[23]: pages/uutisten-otsikointi.md
 [24]: pages/kuvien-kaytto.md
