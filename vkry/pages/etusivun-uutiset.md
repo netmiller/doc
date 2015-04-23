@@ -1,13 +1,13 @@
 # Etusivun uutiset
 
-Etusivun uutiset ovat artikkeleita, jotka on Joomlassa määritetty termillä __Nostetut artikkelit__.
+Etusivun uutiset ovat artikkeleita, jotka on Joomlassa määritetty termillä __Featured Articles__.
 
-Asiasta lisää sivulla [Termistö][10] (kts. "Nostetut artikkelit").
+Asiasta lisää sivulla [Termistö][10] (kts. "Featured Articles").
 
 Niiden hallintaan on oma osionsa, jossa voidaan nopeasti muuttaa ja järjestää niitä uutisia
 joita halutaan etusivulla näyttää.
 
-Näkymä avautuu ohjauspaneelista __Artikkelien hallinta__ -> välilehti __Nostetut artikkelit__
+Näkymä avautuu nopeimmin ylävalikon toiminnosta __Content__ -> __Featured Articles__
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
@@ -15,21 +15,15 @@ Näkymä avautuu ohjauspaneelista __Artikkelien hallinta__ -> välilehti __Noste
 </figure>
 
 
-tai vaihtoehtoisesti ylävalikosta __Artikkeli__ -> __Nostetut artikkelit__
 
-<figure class="fig-n border" style="margin:0 0 20px 0">
-![2][]
-<figcaption></figcaption>
-</figure>
-
-
-## 2. Nostetut artikkelit
+## 2. Featured Articles ruutu
 
 Tätä ruutua ei välttämättä tarvitse useinkaan käyttää, koska "Uutisten lisääminen" kohdassa
 olevan ohjeen mukaan etusivun uutiset menevät yleensä oikein (tuorein uutinen ylimmäisenä)
 ja tätä sivua ei siinä tapauksessa tarvita.
 
 Mutta jos halutaan vaihtaa uutisten järjestystä erilaiseksi, niin siihen tämä on nopein tapa.
+Myös uutisten ylläpitäminen/editointi onnistuu ehkä nopeimmin tätä kautta.
 
 Ruutu on seuraavannäköinen:
 
@@ -38,55 +32,73 @@ Ruutu on seuraavannäköinen:
 <figcaption></figcaption>
 </figure>
 
-Ruudulla näkyy vain ne uutiset, jotka on merkattu näkymään etusivulle eli tila on __Nostettu__.
+Ruudulla näkyy vain ne uutiset, jotka on merkattu näkymään etusivulle eli tila on __Featured__
+(esimerkissä tila näkyy keltaisena tähti-merkkinä __Status__ sarakkeessa).
 
-## 3. Järjestys
 
-Sarake __Järjestys__ on hyödyllinen, koska sen avulla voidaan määrätä missä järjestyksessä uutiset
+
+## 3. Ordering
+
+Sarake __Ordering__ on hyödyllinen, koska sen avulla voidaan määrätä missä järjestyksessä uutiset
 etusivulla ovat (ylimmästä alimpaan eli numero 1 on ylimpänä ja muut seuraavat numerojärjestyksessä).
 
 Oletuksena ne kyllä menevät siten että kirjoitushetki määrää sen että uusin tulee ensimmäiseksi,
 joten normaalitapauksessa se pitäisi oletuksena mennä oikein.
 
-Mutta jos uutiset halutaan järjestellä jotenkin muuten, niin "Järjestys" -sarakkeen sinisten
+Mutta jos uutiset halutaan järjestellä jotenkin muuten, niin "Ordering" -sarakkeen 
 pikkunuolien avulla artikkelia voidaan siirtää alaspäin tai ylöspäin.
 
-Kun ne on saatu oikeaan/haluttuun järjestykseen, niin täytyy vielä painaa "talleta" -kuvaketta,
-joka on "Järjestys" otsikon oikealla puolella tai alapuolella (=pieni levykkeen näköinen kuvake).
+Kun ne on saatu oikeaan/haluttuun järjestykseen, niin täytyy vielä painaa "Save Order" -kuvaketta,
+joka näkyy alla olevassa ruutumallissa.
 
-## 4. Tila
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![4][]
+<figcaption></figcaption>
+</figure>
 
-__Tila__ -sarakkeen avulla voi myös nopeasti ottaa pois näkyvistä uutisia tekemällä ne EI_JULKAISTUKSI.
 
-Painetaan vain halutun artikkelin kohdalla olevaa pikkukuvaketta (Tila-sarakkeessa),
-jolloin se pitäisi muuttua EI-JULKAISTUKSI ja samalla poistuu etusivulta.
 
-Painamalla uudelleen niin se muuttuu takaisin JULKISEKSI.
+## 4. Status
 
-EI-JULKAISTUN kohdalla on pieni punainen kuvake, muuten toisenlainen vihreä kuvake.
+__Status__-asetuksen  avulla voi myös nopeasti ottaa pois näkyvistä uutisia laittamalla asetuksen __Unpublished__ tilaan.
+
+Sen voi tehdä monellakin eri tavalla, mutta selkein on ottaa artikkeli editointitilaan ja muuttamalla oikean
+reunan asetuksista __Status__ arvon halutuksi ja tallettamalla artikkelin.
+
+Tällöin ko.artikkeli samalla poistuu etusivulta (varsinaisella sivustolla)
+
+<figure class="fig-n border" style="margin:0 0 20px 0">
+![5][]
+<figcaption></figcaption>
+</figure>
+
 
 ## 5. Muutokset
 
 Tältä sivulta pääsee myös nopeasti muuttamaan uutista, jos huomaa että sinne jäi kirjoitusvirhe
 tai jotain puuttuu tms.
 
-Napautetaan uutisen __Otsikko__ -kenttää, jolloin saadaan se auki [tekstieditoriin][11].
+Napautetaan uutisen __Title__ -kenttää, jolloin saadaan se auki [tekstieditoriin][11].
 
 
 ## 6. Muut tiedot
 
-__Pääsy__ -sarake kertoo kenelle ko.artikkeli näytetään, mutta koska tässä vaiheessa sivustoa pidetään
-kaikille avoimena, niin kannattaa varmistaa että sarakkeessa on tieto "Public" eli näytetään kaikille.
+__Access__ -sarake kertoo kenelle ko.artikkeli näytetään, mutta koska etusivun uutiset ovat kaikille julkisia,
+niin varsinkin __Featured Articles__ on oltava tilassa __Public__.
+
+Jäsentiedotteet tehdään sitten eri kautta, joten Featured Articles -ryhmään ei saa laittaa 
+__vain jäsenistölle suunnattuja__ tiedotteita.
 
 
-Muita kuin Järjestä-sarakkeen muutoksia ei tarvitse erikseen tallettaa
+Muita kuin Ordering-sarakkeen muutoksia ei tarvitse erikseen tallettaa
 vaan ne astuvat heti voimaan kun muutos on tehty.
 
 
 
 
-[1]: kuvat/kuva18.png "Ruutumalli"
-[2]: kuvat/kuva19.png "Ruutumalli"
-[3]: kuvat/kuva20.png "Ruutumalli "Nostetut artikkelit"
+[1]: kuvat/kuva110.png "Ruutumalli"
+[3]: kuvat/kuva112.png "Ruutumalli "Nostetut artikkelit"
+[4]: kuvat/kuva113.png 
+[5]: kuvat/kuva114.png 
 [10]: pages/termit.md
 [11]: pages/tekstieditorin-kaytto.md
