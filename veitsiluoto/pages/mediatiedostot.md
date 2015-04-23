@@ -41,7 +41,7 @@ Lisää kansiota voidaan tarvittaessa avata uusia mikäli tulee tarvetta järjes
 
 ## 3. Tiedostojen lisääminen
 
-Valitaan ensio alikansio jonne tiedostoja halutaan laittaa mukaan.
+Valitaan ensin alikansio jonne tiedostoja halutaan laittaa mukaan.
 
 Yläreunan toiminnoista löytyy painike __Vie__ joka avaa ruudulle toiminnot joilla haluttu kuva voidaan siirtää palvelimelle.
 
@@ -66,7 +66,7 @@ joka lataa tiedoston mukaan valittuun kansioon.
 
 ## 4. Tiedostojen poistaminen serveriltä
 
-Tiedostot voidaan poistaa hallintaikkusta helposti.
+Tiedostot voidaan poistaa hallintaikkunasta helposti.
 
 Jokaisen tiedoston yläpuolella on pieni rastilta näyttävä ikoni. Sitä painamalla tiedosto poistuu.
 
