@@ -6,6 +6,14 @@ parannusta ja uutta graafista ilmettä.
 Samalla sivut siirrettiin alustalle, jossa sivujen omatoiminen ylläpito ja sisällön päivittäminen
 on pyritty tekemään helpommaksi ja niin että se voisi vastata muuttuvia ja uusia tarpeita helposti.
 
+----
+
+Toinen isompi uudistus tehtiin maaliskuussa 2015 jolloin ulkoasua kehitettiin nykyaikaisempaan suuntaan, ja samalla 
+avattiin suljettu osio (= vain __jäsenille tarkoitettu osio sisällöstä__).
+
+
+----
+
 <figure class="fig-r" style="margin:10px">
 ![1][]
 </figure>

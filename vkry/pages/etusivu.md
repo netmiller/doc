@@ -9,6 +9,8 @@ Tämä sivusto on tarkoitettu __Vakuutuskassat ry:n www-sivujen ylläpidon ohjei
 <figcaption>Kuva01: ruutumalli sivuston alusta</figcaption>
 </figure>
 
+----
+
 Nämä ohjeet on tehty omatoimista www-sivujen ylläpitoa varten, jolloin voidaan itse tehdä kaikki
 sisältöön vaikuttavat muutokset; esim. uudet tiedotteet ja vanhojen sivujen muutokset tms.
 
@@ -16,9 +18,10 @@ Myös kokonaan uusia sivuja voidaan tehdä näiden ohjeiden mukaan.
 
 ## Sivuston URL-osoitteet
 
-Kaikille avoinna oleva osio, ts. varsinaiset www-sivut) :
+Varsinaiset www-sivut sekä kaikille avoin osio että jäsenille suunnattu sisältö :
 
 * <http://www.vakuutuskassat.fi>
+* jäsenkassoille tarkoitettu sisältö löytyy kirjautumalla sisään __Kirjautuminen__-toiminnon kautta (annetuilla tunnuksilla)
 
 VAIN YLLÄPITOON tarkoitettu osio :
 
@@ -42,4 +45,4 @@ mutta ne avataan tarpeen mukaan käyttöön.
 
 ----
 
-[1]: kuvat/kuva01.png "Ruutukaappaus etusivun alusta"
+[1]: kuvat/kuva101.png "Ruutukaappaus etusivun alusta"
