@@ -26,19 +26,17 @@ Joomlan omien toimintojen takia.
 
 Varsinaiset sivustolla näkyvät valikot on nimetty :
 
-* Sivuston ylävalikko 
-* Jäsentoiminnot
-
-__Sivuston ylävalikko__ sisältää ruudun yläreunan toiminnot, jotka näkyvät kaikille.
-
-__Jäsentoiminnot__ sisältää kaikki kirjautuneille käyttäjille (jäsenkassat) näkyvät valikkorivit
-
+* __Sivuston ylävalikko__
+* __Jäsentoiminnot__
 
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![3][]
 </figure>
 
+__Sivuston ylävalikko__ sisältää ruudun yläreunan toiminnot, jotka näkyvät kaikille.
+
+__Jäsentoiminnot__ sisältää kaikki kirjautuneille käyttäjille (jäsenkassat) näkyvät valikkorivit
 
 
 
