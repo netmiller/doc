@@ -2,44 +2,54 @@
 
 Sivuston yläreunassa näkyvä valikko on myös muutettavissa.
 
-Sen rakenne ja toiminnot vaikuttavat kuitenkin oleellisesti kaikkeen muuhun,
-joten sen kanssa on oltava tarkempana, ja mielellään kokeiltava ensin yhteistyössä Netmillerin kanssa.
+Sen rakenne ja toiminnot vaikuttavat kuitenkin oleellisesti moneen muhunkin, joten sen kanssa
+on oltava tarkempana, ja mielellään kokeiltava ensin yhteistyössä Netmillerin kanssa.
 
 Tekstien vaihtaminen on kuitenkin helppoa tätä kautta, joten sen ohjeistukseen keskitytään tällä sivulla.
 
 
 ## 1. Valikoiden hallintanäkymä
 
-Avataan ensin __Valikoiden hallintanäkymä__.
+Hallintanäkymä avataan joko ControlPanel:n kautta tai ylävalikon Content toimintojen kautta.
 
-Hallintanäkymä löytyy joko ohjauspaneelista:
+Molemmissa varsinainen toiminto on nimetty __Menu Manager__.
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
 </figure>
 
-tai ylävalikosta Valikot ->  Valikoiden hallinta
-
-<figure class="fig-n border" style="margin:0 0 20px 0">
-![2][]
-</figure>
 
 ## 2. Valikot
 
-Seuraavassa näkymässä on kaksi valikkoa (tällä hetkellä), ja niistä oleellisin on nimetty __" Vakuutuskassat, sivuston ylävalikko"__.
+Tällä hetkellä käytössä pitäisi olla kolme valikoa, joista yksi (__Main Menu__) on enemmän tekninen, ja tarvitaan
+Joomlan omien toimintojen takia.
 
-Alussa oleva valikko __"Main Menu"__ ei ole merkityksellinen muuta kuin teknisessa mielessa (Joomla).
+Varsinaiset sivustolla näkyvät valikot on nimetty :
+
+* Sivuston ylävalikko 
+* Jäsentoiminnot
+
+__Sivuston ylävalikko__ sisältää ruudun yläreunan toiminnot, jotka näkyvät kaikille.
+
+__Jäsentoiminnot__ sisältää kaikki kirjautuneille käyttäjille (jäsenkassat) näkyvät valikkorivit
+
+
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![3][]
 </figure>
 
-Klikkaamalla Hallintanäkyn otsikko-kenttää päästään ruudulle jossa voidaan ylläpitää jokaista ylävalikon kohtaa.
 
 
-## 3. Ylävalikko ja sen ylläpito
 
-Tämä näkymä sisältää kaikki valikon eri toiminnot, ja jokaista päästään käsittelemään yksitellen.
+## 3. Valikkojen ylläpito
+
+Valikon yksittäiset rivit (__Menu Items__) sisältävät tarvittavat toiminnot joilla avataan haluttu
+toiminto, ja samalla se tuo esiin ko.toimintoon liittyvän ruudun tai lisävalikon tms.
+
+Valikkojen tarkempi toiminnallisuus liittyy kiinteästi Joomlan sisäiseen rakenteeseen, ja muutokset 
+valikoihin kannattaa sopia Netmillerin kanssa, niin samalla ne voidaan testata esim. testiympäristössä.
+
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![4][]
@@ -47,54 +57,24 @@ Tämä näkymä sisältää kaikki valikon eri toiminnot, ja jokaista päästä�
 </figure>
 
 
-"Järjestys" -sarakkeen avulla valikon sisäistä järjestystä voidaan tarvittaessa muuttaa.
+Valikon tekstejä ja järjestystä voidaan kuitenkin muuttaa turvallisesti; se ei vaikuta muuhun toiminnallisuuteen.
 
-Ko.sarakkeessa olevien pienten nuolten avulla niitä voidaa siirtää alas tai ylöspäin,
-tai kirjoittamalla numerojärjestys uudestaan ja painamalla sarakkeen otsikossa olevaa talletuskuvaketta.
+Esimerkkikuvassa (__Jäsentoiminnot__) saadaan jokainen kohta auki ylläpitoon klikkaamalla riviä __Title__ sarakkeessa,
+ja avautuvassa ruudussa voidaan vaikkapa __Title__ vaihtaa halutuksi, jolloin ulospäin näkyvät tekstit saadaan
+muutettua.
 
+Myös __järjestystä__ voidaan vaihtaa tarvittaessa muuttaa.
 
-## 4. Valikon perustiedot
-
-Valikon kaikki tiedot ja toiminnallisuus aukeaa painamalla Otsikko-kentän nimeä.
-
-Käytännössä ainoa turvallinen asia jota voidaan muuttaa, on "Otsikko".
-
-Kaikki muut vaikuttavat sivujen toiminnallisuuteen, ja ne täytyy ainakin tässä vaiheessa sopia erikseen,
-ja myös kokeiltava ja testattava jossain. Jos tuntee Joomlan teknisen toteutuksen perusteet,
-niin tätä kautta kaikki oleellinen toiminnallisuus on muutettavissa.
-
-<figure class="fig-n border" style="margin:0 0 20px 0">
-![5][]
-<figcaption>Kuva55: ruutumalli valikon muokkausikkunasta</figcaption>
-</figure>
-
-
-## 5. Tallettaminen
-
-Tiedot talletetaan oik.ylänurkassa olevilla toiminnoilla.
-
-<figure class="fig-n border" style="margin:0 0 20px 0">
-![6][]
-</figure>
-
-__Tallenna__
-
-*   vie muutokset tietokantaan (ei sulje ruutua)
-
-__Tallenna ja Sulje__
-
-*   vie muutokset tietokantaan ja sulkee ruudun.
-
-__Sulje__
-
-*   sulkee ruudun ja jos ei ole erikseen tallennettu, niin hylkää muutokset
+Vas.oleva pieni sarake (nuolet) antaa vaihtaa keskinäistä järjestystä pienten nuolten avulla,
+ts. rivejä voidaan siirtää alas tai ylöspäin hiirellä raahaamalla.
 
 
 
-[1]: kuvat/kuva51.png "Ruutumalli"
-[2]: kuvat/kuva52.png "Ruutumalli"
-[3]: kuvat/kuva53.png "Ruutumalli"
-[4]: kuvat/kuva54.png "Ruutumalli"
+
+
+[1]: kuvat/kuva151.png "Ruutumalli"
+[3]: kuvat/kuva153.png "Ruutumalli"
+[4]: kuvat/kuva154.png "Ruutumalli"
 [5]: kuvat/kuva55.png "Ruutumalli"
 [6]: kuvat/kuva56.png "Ruutumalli"
 [21]: pages/mediatiedostot.md
