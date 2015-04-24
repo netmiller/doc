@@ -21,9 +21,9 @@ Tiedot talletetaan MySQL -tietokantaan, jossa ne säilytetään, ja josta sivust
 
 ## Joomla-versiot
 
-Tällä hetkellä käytössä oleva __Joomlan versio on 2.5.x__
+Tällä hetkellä käytössä oleva Joomlan versio on 3.4.x
 
-Joomla 2.5  on ns. LTS-versio (Long Term Support).
+Ohjelmisto pyritään pitämään ajan tasalla päivittämällä se säännöllisesti uusimpaan saatavilla olevaan.
 
 
 <figure class="fig-n" style="margin:10px">

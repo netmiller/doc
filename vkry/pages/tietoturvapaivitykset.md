@@ -1,17 +1,18 @@
 # Tietoturvapäivitysten ajaminen
 
-Ylläpidon ohjauspaneeliin ilmestyy pieni teksti silloin kun __uusi ohjelmaversio on saatavissa__.
+Ohjelmiston päivitystilanteen näkee __Control Panel:n__ alareunasta (__Maintenance__).
+
+Sinne ilmestyy pieni teksti silloin kun __uusia ohjelmaversioita on saatavissa__.
 
 Yleensä ohjelmaversioihin liittyy melkein aina myös tietoturvapäivityksiä, joten ne on
 syytä ajaa kohtuullisen pikaisesti voimaan.
 
 ----
 
-Ohjauspaneelissa asia voisi näyttää seuraavanlaiselta :
+Control Panel:ssa asia voisi näyttää seuraavanlaiselta :
 
 <figure class="fig-n border" style="margin:10px 0 0 0">
 ![1][]
-<figcaption>Kuva66: malli ohjauspaneelista</figcaption>
 </figure>
 
 
@@ -30,5 +31,5 @@ sivuston ulkoasun tai jonkun oleellisen asian.
 
 ----
 
-[1]: kuvat/kuva66.png "Ruutumalli ohjauspaneelin ilmoituksesta"
+[1]: kuvat/kuva166.png "Ruutumalli ControlPanel ilmoituksesta"
 
