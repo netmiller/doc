@@ -51,7 +51,7 @@ valikoihin kannattaa sopia Netmillerin kanssa, niin samalla ne voidaan testata e
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![4][]
-<figcaption>Kuva54: ruutumalli valikon riveistä</figcaption>
+<figcaption>Ruutumalli valikon riveistä</figcaption>
 </figure>
 
 

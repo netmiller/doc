@@ -45,7 +45,7 @@
         {
             "key": "Valikoiden ylläpito",
             "menu2": [
-                { "key": "Päävalikon ylläpito", "href": "pages/paavalikko.md" }
+                { "key": "Valikoista yleisesti", "href": "pages/paavalikko.md" }
             ]
         },
         {
