@@ -1,8 +1,8 @@
-# Päävalikon (=ylävalikko) ylläpitäminen
+# Valikoiden ylläpitäminen
 
-Sivuston yläreunassa näkyvä valikko on myös muutettavissa.
+Sivustolla olevat valikot on myös muutettavissa.
 
-Sen rakenne ja toiminnot vaikuttavat kuitenkin oleellisesti moneen muhunkin, joten sen kanssa
+Valikoiden rakenne ja toiminnot vaikuttavat kuitenkin oleellisesti moneen muhunkin, joten sen kanssa
 on oltava tarkempana, ja mielellään kokeiltava ensin yhteistyössä Netmillerin kanssa.
 
 Tekstien vaihtaminen on kuitenkin helppoa tätä kautta, joten sen ohjeistukseen keskitytään tällä sivulla.
