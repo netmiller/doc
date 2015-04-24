@@ -6,11 +6,11 @@ Etusivulla on muutama tekstilaatikko, joiden sisältöä voidaan ylläpitää ku
 Niiden muutos tapahtuu kuitenkin hieman eri paikasta, joten tässä hieman ohjeistusta siihen.
 
 
-## 1. Moduulien hallinta
+## 1. Moduulien hallinta (Module Manager)
 
-Tietojen ylläpitäminen tehdään ylläpitonäkymän ylävalikosta. Se avataan seuraavasti :
+Näiden tietojen ylläpitäminen tehdään __Module Manager::n__ avulla.
 
-__"Lisäosat" --> "Moduulien hallinta"__
+Se avataan joko Control Panel:n kautta tai ylävalikosta __Extensions -> ModuleManager__ :
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
@@ -20,6 +20,8 @@ Toiminto avaan näkymän jossa on paljon erilaisia Joomlan moduuleita,
 ja osa niistä on vain teknisessä toteutuksessa tarvittavia, eikä niiden ylläpitoon ole tarvetta.
 
 Seuraavat kohdat kuitenkin liittyvät sisältöön, ja ovat ylläpidettävissä.
+
+
 
 ## 2. Muutettavat moduulit
 
@@ -37,44 +39,46 @@ __(2) vakuutuskassat-yleista__
 
 *   tämä moduuli näyttää etusivun alussa kuvan oik.puolella olevan tekstilaatikon.
 
-__(3) vakuutuskassat-video__
+__(3) organisaatio_ja_sijainti__
 
-*   tämä moduuli näyttää etusivulla olevan linkin esittelyvideoon
+*	sisältää tekstit joka muodostaa etusivun alhaalla vasemmalla olevat laatikot
+*	organisaatio + sijainti
+*	tämä moduuli näyttää etusivulla olevan linkin esittelyvideoon
 
-__(4) etusivun-katko-1__
+__(4) 03_etusivun-katko__
 
 *   tekee pienen varjostetun väliviivan etusivulle (kuvan ja alkutekstin jälkeen)
 
-__(5) organisaatio__
+__(5) yhteystiedot-01__
 
-*   sisältää tekstin joka muodostaa etusivun vaaleansinisen tekstilaatikon "ORGANISAATIO"
+*   sisältää tekstin joka tulee kaikkien sivujen alareunaan (sarake 1 - OSOITETIEDOT)
 
-__(6) sijainti__
+__(6) yhteystiedot-02__
 
-*   sisältää tekstin ja kuvan, josta muodostuu etusivun pieni laatikko "SIJAINTI"
+*   sisältää tekstin joka tulee kaikkien sivujen alareunaan (sarake 2 - HALLITUKSEN PUHEENJOHTAJA)
 
-__(7) footer__
+__(7) yhteystiedot-03__
 
-*   sisältää tekstin joka näytetään jokaisen sivun alareunassa (musta laatikko)
+*	sisältää tekstin joka tulee kaikkien sivujen alareunaan (sarake 3 - TOIMINNANJOHTAJA)
+
+__(8) Ajankohtaista__
+
+*   moduli joka hakee __etusivulle__ 10 uusinta tiedotetta (public)
+
+__(9) Jäsenen toiminnot__
+
+*   moduli joka tekee __jäsensivuston valikon__ 
+*   näkyy jäsensivustolla ruudun oik.reunassa
+
+__(10) Uusimmat__
+
+*   moduli joka hakee __jäsensivustolla__ ruudun oik.reunassa näkyvän laatikon __Uusimmat__
+*   sisältää tuoreimmat muuttuneet sivut jäsensivustolla
+
+__(11) footer__
+
+*   sisältää tekstin joka näytetään jokaisen sivun alareunassa
 *   sis. jonkun lauseen tekijänoikeuksien suojaamisesta tai muuta yleistä
-
-__(8) alareuna-valiviiva__
-
-*   tekee taas pienen varjostetun väliviivan erottaman Sijainti-laatikon alapuolella olevat osiot ylemmistä
-
-__(9) alareuna-osoitetiedot__
-
-*   sisältää tekstin joka näytetään etusivun alareunassa vas.puolella
-*   tällä hetkellä siellä on Vakuutuskassat ry:n osoitetiedot
-
-__(10) alareuna-kuva__
-
-*   sisältää pienen kuvan joka näytettän etusivun alareunassa keskellä
-
-__(11) alareuna-toiminnanjohtaja__
-
-*   sisältää tekstin joka näytetään etusivun alareunassa oik.puolella
-*   tällä hetkellä siellä on toiminnanjohtajan yhteystiedot
 
 
 
@@ -82,17 +86,16 @@ __(11) alareuna-toiminnanjohtaja__
 
 Kaikki moduulit avataan valitsemalla nimi-tieto.
 
-Jokaisessa on myös muutamia perustietoja, joihin ei kannata tehdä muutoksia.
-
-Sensijaan alareunassa näkyy tekstieditori, jolla sisältöä voidaan tarvittaessa muuttaa.
-
 Muutosten tekeminen noudattaa samoja ohjeita jotka löytyy sivulta [Tekstieditorin käyttäminen][10].
 
+Osa näistä moduleista on sellaisia jotka kannattaa sopia Netmillerin kanssa yhdessä, ja mahdollisesti testata
+ennen käyttöönottoa.
 
 
 
-[1]: kuvat/kuva57.png "Ruutumalli"
-[2]: kuvat/kuva58.png "Ruutumalli"
+
+[1]: kuvat/kuva157.png "Ruutumalli"
+[2]: kuvat/kuva158.png "Ruutumalli"
 [10]: pages/tekstieditorin-kaytto.md
 
 
