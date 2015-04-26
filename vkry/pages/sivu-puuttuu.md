@@ -1,6 +1,6 @@
 # Sivu puuttuu
 
-<figure class="fig-r" style="margin:50px 0 0 15px">
+<figure class="fig-r" style="margin:0 0 0 15px">
 ![1][]
 </figure>
 
