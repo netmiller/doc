@@ -68,7 +68,9 @@ Esimerkissä se voisi olla __/images/pdf-tiedostot/testidokumentti2.pdf__
 </figure>
 
 
-Eli URL-osoite: vakioalku __/tiedostot__  + kansion nimi (__pdf-tiedostot__) + tiedoston nimi (__testidokumentti2.pdf__).
+Eli URL-osoitteen muoto:
+
+* vakioalku __/images__  + kansion nimi (__pdf-tiedostot__) + tiedoston nimi (__testidokumentti2.pdf__).
 
 Ja kauttaviivat alkuun ja osien väliin (=ovat tärkeitä ja täytyy olla oikein, muuten serveri ei löydä tiedostoa).
 
@@ -76,10 +78,10 @@ Ja kauttaviivat alkuun ja osien väliin (=ovat tärkeitä ja täytyy olla oikein
 
 Linkin osoitteessa muut kentät ovat :
 
-* Text to display: valittu teksti johon linkki muodostuu
-* Title: avaa tämän tekstin pieneen ikkunaan jos kursori viedään linkin päälle ja pidetään hetken paikallaan
-* Rel: ei juurikaan käyttöä
-* Target: None=pdf avautuu samaan selaimen välilehteen; New Window=avataan uuteen välilehteen
+* __Text to display__: valittu teksti johon linkki muodostuu
+* __Title__: avaa tämän tekstin pieneen ikkunaan jos kursori viedään linkin päälle ja pidetään hetken paikallaan
+* __Rel__: ei juurikaan käyttöä
+* __Target__: None=pdf avautuu samaan selaimen välilehteen; New Window=avataan uuteen välilehteen
 
 
 ----
