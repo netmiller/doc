@@ -5,7 +5,7 @@ kun muistaa määritellä sille __Category__ arvoksi oikean ryhmän.
 
 Jäsensivustolle on määritelty (tällä hetkellä) seuraavat valikkokohdat :
 
-<figure class="fig-n border" style="margin:0 0 20px 0">
+<figure class="fig-n" style="margin:0 0 20px 0">
 ![1][]
 <figcaption></figcaption>
 </figure>
@@ -21,7 +21,7 @@ Jos lisätään sisältöä muihin ryhmiin, niin niille valitaan artikkelia teht
 * Mallisäännöt
 * Oppaat ja mallit
 
-<figure class="fig-n border" style="margin:0 0 20px 0">
+<figure class="fig-n" style="margin:0 0 20px 0">
 ![2][]
 <figcaption></figcaption>
 </figure>
