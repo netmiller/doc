@@ -44,7 +44,7 @@ Sitten etsitään yläpalkista pieni ketjun kuvake  (esimerkissä toiminto __Ins
 
 Nyt jos haluttu sana on edelleen valittuna/valaistuna niin linkki muodostuu ko.sanasta tai tekstistä, eli linkki on siellä takana mutta teksti pysyy ennallaan.
 
-Seuraavassa vielä miten linkki määritellään.
+Seuraavassa vielä miten linkin osoite määritetään.
 
 
 ## 4. Linkin osoite
@@ -57,10 +57,10 @@ Linkin lisäys (Insert tai edit) avaa pienen ikkunan joka näyttää seuraavanla
 
 Kenttä __Url__ on tässä tapauksessa se tärkein, ja täytyy antaa oikeassa muodossa että varsinainen sivu (HTML) löytää sen serveriltä.
 
-Toistaiseksi URL-osoite menee niin että osoite alkaa aina __/images/__  osalla, ja jatkuu sen kansion nimellä jonne
+Toistaiseksi URL-osoite menee niin että osoite alkaa aina __images/__  osalla, ja jatkuu sen kansion nimellä jonne
 pdf-tiedosto on aiemmin viety.
 
-Esimerkissä se voisi olla __/images/pdf-tiedostot/testidokumentti2.pdf__
+Esimerkissä se voisi olla __images/PDF/testidokumentti2.pdf__
 
 
 <figure class="fig-n border" style="margin:0 0 20px 0">
@@ -70,13 +70,19 @@ Esimerkissä se voisi olla __/images/pdf-tiedostot/testidokumentti2.pdf__
 
 Eli URL-osoitteen muoto:
 
-* vakioalku __/images__  + kansion nimi (__pdf-tiedostot__) + tiedoston nimi (__testidokumentti2.pdf__).
+* vakioalku __images__  + kansion nimi (__PDF__) + tiedoston nimi (__testidokumentti2.pdf__).
 
-Ja kauttaviivat alkuun ja osien väliin (=ovat tärkeitä ja täytyy olla oikein, muuten serveri ei löydä tiedostoa).
+Ja kauttaviivat osien väliin (=ovat tärkeitä ja täytyy olla oikein, muuten serveri ei löydä tiedostoa).
+Kuvaruutumallissa näkyy ehkä syntaksi selvemmin.
+
+__Kansion nimi__ josta tiedostoa haetaan, voi olla joku muukin. Pääasia että se on sama kuin minne pdf-tiedosto on ladattu MediaManager:n avulla.
+
+Myös pienet/isot kirjaimet on tärkeä olla oikein. __Huom!__ esimerkissä on kansion nimi (PDF) isoilla kirjaimilla, muut osat pienillä. Pääasia että ne ovat samoin kuin serverille on ne luotu/perustettu; jos kansion nimi näkyy MediaManager:ssa pienillä niin tähänkin kirjoitetaan samoin pienillä kirjaimilla.
+
 
 ----
 
-Linkin osoitteessa muut kentät ovat :
+Linkin määrityksessä muut kentät ovat :
 
 * __Text to display__: valittu teksti johon linkki muodostuu
 * __Title__: avaa tämän tekstin pieneen ikkunaan jos kursori viedään linkin päälle ja pidetään hetken paikallaan
@@ -84,7 +90,7 @@ Linkin osoitteessa muut kentät ovat :
 * __Target__: None=pdf avautuu samaan selaimen välilehteen; New Window=avataan uuteen välilehteen
 
 
-----
+
 
 [1]: kuvat/kuva170.png "Ruutumalli"
 [2]: kuvat/kuva171.png "Ruutumalli"
