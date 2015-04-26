@@ -36,6 +36,14 @@
 			]
 		},
 		{
+			"key": "Jäsensivusto",
+			"menu2": [
+					{ "key": "Jäsentiedotteet", "href": "pages/sivu-puuttuu.md" },
+					{ "key": "Yhdistyskokoukset", "href": "pages/sivu-puuttuu.md" },
+					{ "key": "Muut jäsensivut", "href": "pages/sivu-puuttuu.md" }
+			]
+		},
+		{
 			"key": "Mediatiedostot",
 			"menu2": [
                 { "key": "Mediatiedostojen lisääminen", "href": "pages/mediatiedostot.md" },
