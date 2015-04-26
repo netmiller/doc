@@ -8,5 +8,4 @@ __Tämä sivu on vielä keskeneräinen/työn alla.__
 
 ----
 
-[1]: kuvat/dancing.png 
-
+[1]: kuvat/dancing.jpg
