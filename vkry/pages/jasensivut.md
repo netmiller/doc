@@ -14,16 +14,19 @@ em. kategoria-asetusten perusteella
 <figcaption></figcaption>
 </figure>
 
-Näistä löytyy oma ohjeensa __Jäsentiedotteet__ ja __Yhdistyskokoukset__ kohdille.
 
 
 ## 1. Artikkelin kategoria
 
 Jos lisätään sisältöä Jäsensivustoon, niin artikkelia tehtäessä valitaan joku seuraavista kategoria-arvoista :
 
-* Koulutusmateriaalit
-* Mallisäännöt
-* Oppaat ja mallit
+* __Koulutusmateriaalit__
+* __Mallisäännöt__
+* __Oppaat ja mallit__
+* Jäsentiedotteet (tälle oma ohje)
+* Yhdistyskokoukset (tälle oma ohje)
+
+
 
 <figure class="fig-n" style="margin:0 0 20px 0">
 ![2][]
