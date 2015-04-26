@@ -9,7 +9,7 @@ Artikkelia (Content) laadittaessa sille määritellään kategoriaksi haluttu ry
 Jäsensivustolle on määritelty (tällä hetkellä) seuraavat valikkokohdat, ja niille haetaan siis sisältöä
 em. kategoria-asetusten perusteella
 
-<figure class="fig-n" style="margin:0 0 20px 0">
+<figure class="fig-n border" style="margin:0 0 20px 0">
 ![1][]
 <figcaption></figcaption>
 </figure>
