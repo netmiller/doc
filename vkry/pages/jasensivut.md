@@ -52,10 +52,9 @@ Aiheeseen liittyviä ohjeita :
 
 - [Muiden sivujen lisääminen][12]
 - [Sivujen muuttaminen][13]
-- [Tekstiediorin käyttö][14]
+- [Tekstieditorin käyttö][14]
 
  
-
 
 [1]: kuvat/kuva180.png "Ruutumalli"
 [2]: kuvat/kuva181.png "Ruutumalli"
