@@ -32,7 +32,8 @@
 				{ "key": "Muiden sivujen lisääminen", "href": "pages/sivujen-lisaaminen.md" },
 				{ "key": "Sivujen muuttaminen", "href": "pages/sivujen-muuttaminen.md" },
 				{ "key": "Julkaisupäivämäärät", "href": "pages/julkaisupvm.md" },
-				{ "key": "Tekstieditorin käyttäminen", "href": "pages/tekstieditorin-kaytto.md" }
+				{ "key": "Tekstieditorin käyttäminen", "href": "pages/tekstieditorin-kaytto.md" },
+				{ "key": "PDF-tiedoston linkittäminen", "href": "pages/pdf-linkit-sivulle.md" }
 			]
 		},
 		{

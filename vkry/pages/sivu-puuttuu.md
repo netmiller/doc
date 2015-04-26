@@ -1,10 +1,10 @@
 # Sivu puuttuu
 
-__Tämä sivu on vielä keskeneräinen/työn alla.__
-
-<figure class="fig-n border" style="margin:10px 0 0 0">
+<figure class="fig-r" style="margin:50px 0 0 15px">
 ![1][]
 </figure>
+
+__Tämä sivu on vielä keskeneräinen/työn alla.__
 
 ----
 
