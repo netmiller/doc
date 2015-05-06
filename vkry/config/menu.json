@@ -40,7 +40,7 @@
 			"key": "Jäsensivusto",
 			"menu2": [
 					{ "key": "Jäsentiedotteet", "href": "pages/jasentiedotteet.md" },
-					{ "key": "Yhdistyskokoukset", "href": "pages/sivu-puuttuu.md" },
+					{ "key": "Yhdistyskokoukset", "href": "pages/yhdistyskokoukset.md" },
 					{ "key": "Muut jäsensivut", "href": "pages/jasensivut.md" }
 			]
 		},
