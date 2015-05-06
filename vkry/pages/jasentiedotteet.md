@@ -7,7 +7,7 @@ Ohjeita löytyy seuraavista :
 - [Muiden sivujen lisääminen][12]
 - [Sivujen muuttaminen][13].
 
- 
+
 ## 1. Kategoria ja käyttöoikeus
 
 Oikeastaan ainoa muistettava asia jäsentiedotteissa on se, että ne määritellään oikeaan kategoriaan.
@@ -28,7 +28,7 @@ Ja Access-määritys kannattaa varmuuden vuoksi laittaa __Registered__.
 
 ## 2. Jäsentoimintojen valikko
 
-Jos em.asiat ovat ok ja sivu tehdään näillä määrityksillä, niin se ilmestyy automaattisesti __Jäsentoimintojen valikkoon__.
+Jos ym. määritykset ovat paikoillaan, niin jäsentiedote ilmestyy automaattisesti __Jäsentoimintojen valikkoon__.
 
 Muuta ei tarvita, ja normaaliasetuksilla uusin tiedote ilmestyy listan ensimmäiseksi.
 Tiedotteiden järjestystä voidaan halutessa muuttaa järjestämällä se manuaalisesti toisella tavalla.
@@ -50,8 +50,8 @@ Esimerkki yhdestä jäsentiedotteesta :
 
 ----
 
-Tässä mallissa sivun sisältö on pelkästään teksti __Jäsentiedote maaliskuu 2015__, mutta tekstin taakse on määritetty
-__pdf-linkki__ joka avaa pdf-tiedotteen .
+Tässä mallissa sivun sisältö on pelkästään teksti __Jäsentiedote maaliskuu 2015__,
+mutta tekstin taakse on määritetty __pdf-linkki__ joka avaa pdf-tiedotteen .
 
 Linkki on tehty seuraavilla määrityksillä :
 
@@ -63,6 +63,7 @@ Varsinainen tiedote (pdf) on tehty etukäteen, ja nostettu MediaManagerilla muka
 
 Tästä enemmän ohjeita sivulla [PDF-tiedoston linkittäminen][15].
 
+----
 
 
 [1]: kuvat/kuva175.png "Ruutumalli"
