@@ -41,7 +41,8 @@
 			"menu2": [
 					{ "key": "Jäsentiedotteet", "href": "pages/jasentiedotteet.md" },
 					{ "key": "Yhdistyskokoukset", "href": "pages/yhdistyskokoukset.md" },
-					{ "key": "Muut jäsensivut", "href": "pages/jasensivut.md" }
+					{ "key": "Muut jäsensivut", "href": "pages/jasensivut.md" },
+					{ "key": "Kuvagalleriat", "href": "pages/kuvagalleriat.md" }
 			]
 		},
 		{

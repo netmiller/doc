@@ -5,7 +5,7 @@ Jäsentiedotteiden tekeminen menee samoilla periaatteilla kuin muidenkin artikke
 Ohjeita löytyy seuraavista :
 
 - [Muiden sivujen lisääminen][12]
-- [Sivujen muuttaminen][13].
+- [Sivujen muuttaminen][13]
 
 
 ## 1. Kategoria ja käyttöoikeus
