@@ -1,14 +1,38 @@
-# Sivu puuttuu
+# Lomakkeista yleistä
+
+Lomakkeiden tekemisessä ja ylläpidossa on käytössä Joomlaan asennettu ylimääräinen
+moduli nimeltä __Creative Contact Form__.
+
+<http://creative-solutions.net/joomla/creative-contact-form>
 
 
-<figure class="fig-r" style="margin:0 0 0 15px">
+
+## Tärkeimmät osat
+
+Modulin tärkeimmät osat, joiden avulla ylläpito/muutokset voidaan tehdä, ovat __Forms__ ja __Fields__ osiot.
+(kts. kuvakaappaus)
+
+<figure class="fig-n" style="margin:10px">
 ![1][]
 </figure>
 
-__Tämä sivu on vielä keskeneräinen/työn alla.__
+____
 
-__(lomake01.md)__
+## Käytetty versio
+
+Modulista on hankittu käyttöön __Creative Contact Form Professional__ versio, joka mahdollistaa mm :
+
+* rajoittamaton määrä lomakkeita
+* rajoittamaton määrä kenttiä (Fields)
+* File Upload -ominaisuuden
+* ym.
 
 ----
 
-[1]: kuvat/dancing.jpg
+## Ohjeistus
+
+Tässä ohjeistossa on tärkeimät asiat ohjeistettu, mutta lisää tietoa voi hakea modulin kotisivulta __(Documentation)__.
+
+
+
+[1]: kuvat/kuva201.png
