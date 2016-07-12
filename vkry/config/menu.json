@@ -46,6 +46,14 @@
 			]
 		},
 		{
+			"key": "Lomakkeet",
+			"menu2": [
+					{ "key": "Lomakkeista yleistä", "href": "pages/lomake01.md" },
+					{ "key": "Lomakkeiden ylläpito", "href": "pages/lomake02.md" },
+					{ "key": "Uudet lomakkeet", "href": "pages/lomake03.md" }
+			]
+		},
+		{
 			"key": "Mediatiedostot",
 			"menu2": [
                 { "key": "Mediatiedostojen lisääminen", "href": "pages/mediatiedostot.md" },
