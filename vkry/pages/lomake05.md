@@ -10,12 +10,16 @@ Siihen löytyy __Forms__ näkymästä oma toiminto __New__ :
 ![1][]
 </figure>
 
+* toiminto avaa kokonaan uuden lomakkeen oletusarvoilla, ja sitä voidaan täydentää ja lisätä sinne uudet tarvittavat kentät.
+
+
 ----
 
-Varsin usein on kuitenkin hyvä ottaa joku olemassaoleva lomake pohjaksi, ja tehdä siihen tarvittavat muutokset.
+Usein on kuitenkin hyvä ottaa joku __olemassaoleva lomake pohjaksi__, ja tehdä siihen tarvittavat muutokset.
 
 Kopiointi onnistuu avaamalla haluttu lomake ylläpitoon, ja käyttämällä ko.ruudulla toimintoa __Save as Copy__
 
+(ruutumalli)
 
 <figure class="fig-n border" style="margin:0 0 0 20px">
 ![2][]
