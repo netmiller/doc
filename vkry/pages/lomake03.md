@@ -8,7 +8,7 @@ mutta varsinaisten kenttien ylläpidolle on oma kohtansa.
 __Ensimmäisenä__ on tärkeimmät lomakkeeseen liittyvät ohjaustiedot, ja sen ruutumalli on seuraavanlainen :
 
 
-<figure class="fig" style="margin:0 0 0 20px">
+<figure class="fig-n border" style="margin:0 0 0 20px">
 ![1][]
 </figure>
 
@@ -27,7 +27,7 @@ __Ensimmäisenä__ on tärkeimmät lomakkeeseen liittyvät ohjaustiedot, ja sen 
 
 __Toinen osio__ tällä ruudulla ohjaa mihin sähköpostiin lomake lähetetään :
 
-<figure class="fig" style="margin:0 0 0 20px">
+<figure class="fig-n" style="margin:0 0 0 20px">
 ![2][]
 </figure>
 
@@ -42,7 +42,7 @@ __Toinen osio__ tällä ruudulla ohjaa mihin sähköpostiin lomake lähetetään
 
 __Kolmannessa osiossa__ ohjataan mitä tapahtuu kun jäsenkassa on lähettänyt lomakkeen onnistuneesti.
 
-<figure class="fig" style="margin:0 0 0 20px">
+<figure class="fig-n" style="margin:0 0 0 20px">
 ![3][]
 </figure>
 
@@ -59,7 +59,7 @@ __Kolmannessa osiossa__ ohjataan mitä tapahtuu kun jäsenkassa on lähettänyt 
 
 __Neljäs osio__ antaa lähettäjälle mahdollisuuden saada kopio omaan sähköpostiinsa.
 
-<figure class="fig" style="margin:0 0 0 20px">
+<figure class="fig-n" style="margin:0 0 0 20px">
 ![4][]
 </figure>
 
@@ -72,7 +72,7 @@ __Neljäs osio__ antaa lähettäjälle mahdollisuuden saada kopio omaan sähköp
 
 __Viimeiset osiot pidetään yleensä oletusarvoissa.__
 
-<figure class="fig" style="margin:0 0 0 20px">
+<figure class="fig-n" style="margin:0 0 0 20px">
 ![5][]
 </figure>
 
