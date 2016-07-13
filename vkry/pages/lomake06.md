@@ -1,11 +1,20 @@
-# Valikoiden ylläpitäminen
+# Lomakkeen liittäminen valikkoon
 
-Sivustolla olevat valikot on myös muutettavissa.
+Tarvittavat lomakkeet täytyy vielä liittää johonkin valikkoon, että ne saadaan mukaan sivustolle.
+
+Normaalisti ne tulevat mukaan __Jäsentoimintojen__ alla olevaan __LOmakkeet
 
 Valikoiden rakenne ja toiminnot vaikuttavat kuitenkin oleellisesti moneen muhunkin, joten sen kanssa
 on oltava tarkempana, ja mielellään kokeiltava ensin yhteistyössä Netmillerin kanssa.
 
 Tekstien vaihtaminen on kuitenkin helppoa tätä kautta, joten sen ohjeistukseen keskitytään tällä sivulla.
+
+
+````
+Laajemmat muutokset valikoihin kannattaa tehdä yhteistyössä Netmillerin kanssa,
+koska valikkoihin vaikuttaa hyvin moni asia, myös sellaiset joita ei aina
+Joomlan admin-näkymässä ole mahdollista ylläpitää (esim. CSS-asetukset ym)
+````
 
 ----
 
@@ -76,12 +85,11 @@ Vas.oleva pieni sarake (nuolet) antaa vaihtaa keskinäistä järjestystä piente
 ts. rivejä voidaan siirtää alas tai ylöspäin hiirellä raahaamalla.
 
 
-
+----
 
 
 [1]: kuvat/kuva151.png "Ruutumalli"
 [3]: kuvat/kuva153.png "Ruutumalli"
 [4]: kuvat/kuva154.png "Ruutumalli"
-[5]: kuvat/kuva55.png "Ruutumalli"
-[6]: kuvat/kuva56.png "Ruutumalli"
 [21]: pages/mediatiedostot.md
+
