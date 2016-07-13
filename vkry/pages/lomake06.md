@@ -1,8 +1,10 @@
 # Lomakkeen liittäminen valikkoon
 
 Tarvittavat lomakkeet täytyy vielä liittää johonkin valikkoon, että ne saadaan mukaan sivustolle.
+Automaattisesti ne eivät tule mukaan mihinkään valikkoon, vaan vaativat vielä tässä selostetut
+toimenpiteet.
 
-Normaalisti ne tulevat mukaan __Jäsentoimintojen__ alla olevaan __Lomakkeet__ valikkoon/laatikkoon
+Normaalitilanteessa ne määritellään __Jäsentoimintojen__ alla olevaan __Lomakkeet__ valikkoon/laatikkoon.
 
 
 <div class='msg msg-warn'>
@@ -22,21 +24,23 @@ Ylävalikon kautta toiminnot avautuvat __Menus -> Manage__ .
 </figure>
 
 
-Tästä voidaan valita käsittelyyn __Lomakkeet__ valikko, jonka sisältö avautuu ylläpitoon 
-klikkaamalla __Title__ sarakkeen nimeä.
+Tästä voidaan valita käsittelyyn __Lomakkeet__ valikko.
+
+Teoriassa lomakkeet voi liittää mihin tahansa muuhunkin valikkoon, mutta varsinkin
+jäsenkassoille tarkoitetut lomakkeet on hyvä koota yhteen paikkaan, joka on toistaiseksi 
+__Lomakkeet__ laatikko Jäsensivujen oik.reunassa.
+
+<figure class="fig-n" style="margin:0 0 20px 20px">
+![2][]
+</figure>
+
 
 
 ----
 
-## 2. Lomakkeet valikko
+## 2. Valikon rivit
 
-???? keskeneräinen ???
-
-Valikon yksittäiset rivit (__Menu Items__) sisältävät tarvittavat toiminnot joilla avataan haluttu
-toiminto, ja samalla se tuo esiin ko.toimintoon liittyvän ruudun tai lisävalikon tms.
-
-Valikkojen tarkempi toiminnallisuus liittyy kiinteästi Joomlan sisäiseen rakenteeseen, ja muutokset 
-valikoihin kannattaa sopia Netmillerin kanssa, niin samalla ne voidaan testata esim. testiympäristössä.
+Olemassaolevia lomakkeita voi ylläpitää klikkaamalla ao.rivin otsikkoa (esim. __Lähetä kassan säännöt__)
 
 
 <figure class="fig-n border" style="margin:0 0 20px 20px">
@@ -44,24 +48,50 @@ valikoihin kannattaa sopia Netmillerin kanssa, niin samalla ne voidaan testata e
 <figcaption>Ruutumalli valikon riveistä</figcaption>
 </figure>
 
+Valikkoon voidaan tehdä myös uusia rivejä/lomakkeita __New__ toiminnolla.
 
-Valikon tekstejä ja järjestystä voidaan kuitenkin muuttaa turvallisesti; se ei vaikuta muuhun toiminnallisuuteen.
+__Rivien järjestystä__ voidaan myös tarvittaessa muuttaa.
 
-Esimerkkikuvassa (__Jäsentoiminnot__) saadaan jokainen kohta auki ylläpitoon klikkaamalla riviä __Title__ sarakkeessa,
-ja avautuvassa ruudussa voidaan vaikkapa __Title__ vaihtaa halutuksi, jolloin ulospäin näkyvät tekstit saadaan
-muutettua.
+* jokaisen rivin vas.reunassa näkyy pieni sarake (nuolet)
+* tarttumalla rivin edessä olevaan merkkiin voidaan _"vetää"_  haluttu rivi ylös/alaspäin, jolloin se määrää myös sen missä järjestyksessä ne näkyvät Lomakkeet-laatikossa
+* ts. rivejä voidaan siirtää alas tai ylöspäin hiirellä raahaamalla.
 
-Myös __järjestystä__ voidaan vaihtaa tarvittaessa muuttaa.
+Tässä näkymässä voidaan myös __Status__ kentän avulla määritellä jotkut rivit __Unpublished__ tilaan, joka näkyy punaisena ruksina.
 
-Vas.oleva pieni sarake (nuolet) antaa vaihtaa keskinäistä järjestystä pienten nuolten avulla,
-ts. rivejä voidaan siirtää alas tai ylöspäin hiirellä raahaamalla.
+* sen etuna on että jos lomake ei ole juuri nyt aktiivinen, niin se saadaan piilotettua
+* tarvittaessa ko.lomake voidaan muuttaa tarkoitukseen sopivaksi, ja ottaa käyttöön vaihtamalla __Status__ arvoa
+
+
+
+----
+
+## 3. Varsinaisen lomakkeen kytkeminen
+
+Ylläpitoon avautuvassa ikkunassa voidaan valita varsinaisista __Lomakkeista__ joku joka halutaan liittään
+tähän valikon riviin.
+
+__Form__ alasvetovalikosta saadaan esiin kaikki määritellyt lomakkeet.
+
+<figure class="fig-n border" style="margin:0 0 20px 20px">
+![5][]
+</figure>
+
+
+## 4. Kokonaan uusi lomake
+
+<div class='msg msg-warn'>
+Kokonaan uudet lomakkeet voidaan tehdä Netmilerin kanssa yhdessä, jolloin sen määritykset on helpompi
+sopia tapauskohtaisesti. Ja samalla testata testiympäristössä ensin kuntoon.
+</div>
+
 
 
 ----
 
 
 [1]: kuvat/kuva151.png "Ruutumalli"
-[3]: kuvat/kuva153.png "Ruutumalli"
-[4]: kuvat/kuva154.png "Ruutumalli"
-[21]: pages/mediatiedostot.md
+[2]: kuvat/kuva216.png "Ruutumalli"
+[4]: kuvat/kuva217.png "Ruutumalli"
+[5]: kuvat/kuva218.png "Ruutumalli"
+[99]: pages/mediatiedostot.md
 
