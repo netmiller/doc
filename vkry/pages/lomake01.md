@@ -12,7 +12,7 @@ moduli nimeltä __Creative Contact Form__.
 Modulin tärkeimmät osat, joiden avulla ylläpito/muutokset voidaan tehdä, ovat __Forms__ ja __Fields__ osiot.
 (kts. kuvakaappaus)
 
-<figure class="fig-n" style="margin:10px">
+<figure class="fig-n border" style="margin:10px">
 ![1][]
 </figure>
 

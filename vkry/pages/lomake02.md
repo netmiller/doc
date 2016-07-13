@@ -5,7 +5,7 @@ Lomakkeiden ylläpitoon pääse hallintanäkymän (ControlPanel) yläreunan vali
 * Components -> Creative Contact Form Professional
 
 
-<figure class="fig" style="margin:0 0 0 20px">
+<figure class="fig-n border" style="margin:0 0 0 20px">
 ![1][]
 </figure>
 
