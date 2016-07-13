@@ -76,6 +76,11 @@ Yksittäisen kentän ylläpito : ruutumalli
 
 __Ylävalikon toiminnoilla__ voidaan tallettaa kentän tiedot 
 
+<figure class="fig-n" style="margin:0 0 0 20px">
+![4][]
+</figure>
+
+
 * __Save__ tallettaa muutokset mutta jättää ruudun auki/ennalleen
 * __Save & Close__ tallettaa ja sulkee ruudun ja palaa kenttien yleisnäkymään (lista)
 * __Save & New__ tallettaa tiedot ja avaa tyhjän ruudun jolla voidaan syöttää kokonaan uusi kenttä
@@ -89,4 +94,4 @@ __Ylävalikon toiminnoilla__ voidaan tallettaa kentän tiedot
 [2]: kuvat/kuva211.png
 [3]: kuvat/kuva212.png
 [4]: kuvat/kuva213.png
-[5]: kuvat/kuva214.png
+
