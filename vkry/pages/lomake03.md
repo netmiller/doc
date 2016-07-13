@@ -5,7 +5,7 @@ mutta varsinaisten kenttien ylläpidolle on oma kohtansa.
 
 ----
 
-Ensimmäisenä on tärkeimmät lomakkeeseen liittyvät ohjaustiedot, ja sen ruutumalli on seuraavanlainen :
+__Ensimmäisenä__ on tärkeimmät lomakkeeseen liittyvät ohjaustiedot, ja sen ruutumalli on seuraavanlainen :
 
 
 <figure class="fig" style="margin:0 0 0 20px">
@@ -25,7 +25,7 @@ Ensimmäisenä on tärkeimmät lomakkeeseen liittyvät ohjaustiedot, ja sen ruut
 
 ----
 
-Toinen osio tällä ruudulla ohjaa mihin sähköpostiin lomake lähetetään :
+__Toinen osio__ tällä ruudulla ohjaa mihin sähköpostiin lomake lähetetään :
 
 <figure class="fig" style="margin:0 0 0 20px">
 ![2][]
@@ -40,7 +40,7 @@ Toinen osio tällä ruudulla ohjaa mihin sähköpostiin lomake lähetetään :
 
 ----
 
-Kolmannessa osiossa ohjataan mitä tapahtuu kun jäsenkassa on lähettänyt lomakkeen onnistuneesti.
+__Kolmannessa osiossa__ ohjataan mitä tapahtuu kun jäsenkassa on lähettänyt lomakkeen onnistuneesti.
 
 <figure class="fig" style="margin:0 0 0 20px">
 ![3][]
@@ -57,8 +57,29 @@ Kolmannessa osiossa ohjataan mitä tapahtuu kun jäsenkassa on lähettänyt loma
 
 ----
 
+__Neljäs osio__ antaa lähettäjälle mahdollisuuden saada kopio omaan sähköpostiinsa.
 
-????? jatko puuttuu vielä ?????
+<figure class="fig" style="margin:0 0 0 20px">
+![4][]
+</figure>
+
+* __Show send me copy__ valinnalla __Yes__ ottaa lomakkeelle mukaan tämän toiminnon
+* muuten valintaa ei näy lomakkeella 
+
+* __teksti__ voidaan valita sopivaksi; esimerkissä yleisn malli
+
+----
+
+__Viimeiset osiot pidetään yleensä oletusarvoissa.__
+
+<figure class="fig" style="margin:0 0 0 20px">
+![5][]
+</figure>
+
+* näille ei ole juurikaan käytännön tarvetta, mutta voidaan käyttää jos on joku erityistarve
+ 
+
+----
 
 
 
@@ -68,3 +89,4 @@ Kolmannessa osiossa ohjataan mitä tapahtuu kun jäsenkassa on lähettänyt loma
 [2]: kuvat/kuva204.png
 [3]: kuvat/kuva205.png
 [4]: kuvat/kuva206.png
+[5]: kuvat/kuva207.png

@@ -51,8 +51,9 @@
 					{ "key": "Lomakkeista yleistä", "href": "pages/lomake01.md" },
 					{ "key": "Ylläpito, aloitusvalikko ", "href": "pages/lomake02.md" },
 					{ "key": "Lomakkeen yleistiedot (Forms)", "href": "pages/lomake03.md" },
-					{ "key": "Lomakkeen kentät (Fields)", "href": "pages/lomake03.md" },
-					{ "key": "Uudet lomakkeet", "href": "pages/lomake03.md" }
+					{ "key": "Lomakkeen kentät (Fields)", "href": "pages/lomake04.md" },
+					{ "key": "Uudet lomakkeet", "href": "pages/lomake05.md" },
+					{ "key": "Lomakkeen liittäminen valikkoon", "href": "pages/lomake05.md" }
 			]
 		},
 		{
