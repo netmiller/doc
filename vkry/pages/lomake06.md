@@ -10,11 +10,11 @@ on oltava tarkempana, ja mielellään kokeiltava ensin yhteistyössä Netmilleri
 Tekstien vaihtaminen on kuitenkin helppoa tätä kautta, joten sen ohjeistukseen keskitytään tällä sivulla.
 
 
-````
+<div class='msg msg-warn'>
 Laajemmat muutokset valikoihin kannattaa tehdä yhteistyössä Netmillerin kanssa,
 koska valikkoihin vaikuttaa hyvin moni asia, myös sellaiset joita ei aina
 Joomlan admin-näkymässä ole mahdollista ylläpitää (esim. CSS-asetukset ym)
-````
+</div>
 
 ----
 
