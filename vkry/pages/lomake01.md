@@ -16,7 +16,7 @@ Modulin tärkeimmät osat, joiden avulla ylläpito/muutokset voidaan tehdä, ova
 ![1][]
 </figure>
 
-____
+
 
 ## Käytetty versio
 
@@ -27,7 +27,7 @@ Modulista on hankittu käyttöön __Creative Contact Form Professional__ versio,
 * File Upload -ominaisuuden
 * ym.
 
-----
+
 
 ## Ohjeistus
 
